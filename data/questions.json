@@ -232,5 +232,167 @@
     "options": ["Nozdormu", "Malygos", "Alexstrasza", "Ysera"],
     "answer": 0,
     "fact": "Nozdormu, the Timeless One, leads the bronze dragonflight and guards the timeways of Azeroth."
+  },
+  {
+    "id": "forever-release",
+    "category": "forever",
+    "difficulty": "easy",
+    "question": "When did World of Warcraft: Forever launch?",
+    "options": ["November 4, 2026", "November 23, 2004", "August 27, 2019", "May 15, 2025"],
+    "answer": 0,
+    "fact": "Forever launched on November 4, 2026, after being announced at BlizzCon 2026."
+  },
+  {
+    "id": "forever-classic-plus",
+    "category": "forever",
+    "difficulty": "easy",
+    "question": "What nickname does the community use for World of Warcraft: Forever?",
+    "options": ["Classic+", "Vanilla 2", "Classic Reborn", "WoW Remastered"],
+    "answer": 0,
+    "fact": "Fans call it Classic+, the long-requested idea of new content built on the Classic foundation."
+  },
+  {
+    "id": "forever-codename",
+    "category": "forever",
+    "difficulty": "hard",
+    "question": "What was Forever's internal codename during development?",
+    "options": ["Camelot", "Avalon", "Titan", "Excalibur"],
+    "answer": 0,
+    "fact": "Internally the project was known as Camelot before it was revealed as World of Warcraft: Forever."
+  },
+  {
+    "id": "forever-skyborne",
+    "category": "forever",
+    "difficulty": "easy",
+    "question": "What brand new playable race debuts in Forever?",
+    "options": ["Skyborne", "Vulpera", "Worgen", "Pandaren"],
+    "answer": 0,
+    "fact": "The Skyborne are the new playable race; races added in Burning Crusade onward are not in Forever."
+  },
+  {
+    "id": "forever-level-cap",
+    "category": "forever",
+    "difficulty": "easy",
+    "question": "What is the level cap in Forever?",
+    "options": ["60", "70", "80", "There is no cap"],
+    "answer": 0,
+    "fact": "The cap stays at 60 indefinitely, keeping the focus on the year one journey."
+  },
+  {
+    "id": "forever-timeline",
+    "category": "forever",
+    "difficulty": "medium",
+    "question": "Forever is set in which period of WoW's history?",
+    "options": ["The first year of World of Warcraft", "The Wrath of the Lich King era", "After Cataclysm", "The War Within"],
+    "answer": 0,
+    "fact": "Forever occupies year one of WoW, after Forsaken Kingdom but before The Burning Crusade, and expands on it indefinitely."
+  },
+  {
+    "id": "forever-timebubble",
+    "category": "forever",
+    "difficulty": "hard",
+    "question": "What does Chris Metzen nickname Forever's separate continuity?",
+    "options": ["A time bubble", "A dark mirror", "The split path", "The second thread"],
+    "answer": 0,
+    "fact": "Forever does not share continuity with retail WoW; Metzen calls it a little time bubble."
+  },
+  {
+    "id": "forever-camping",
+    "category": "forever",
+    "difficulty": "easy",
+    "question": "Which new Forever system has players set up a campfire to hang out and share tradeskill buffs?",
+    "options": ["Camping", "Garrisons", "Guild Halls", "Barracks"],
+    "answer": 0,
+    "fact": "Camping builds on the Cooking Fire and is meant to help players make connections out in the world."
+  },
+  {
+    "id": "forever-legacy",
+    "category": "forever",
+    "difficulty": "medium",
+    "question": "What is Forever's version of achievements called?",
+    "options": ["The Legacy System", "Renown", "The Codex", "Honor Ranks"],
+    "answer": 0,
+    "fact": "Completing Legacy Challenges awards Legacy Points you spend on trees that smooth out leveling and tradeskills."
+  },
+  {
+    "id": "forever-dualspec",
+    "category": "forever",
+    "difficulty": "medium",
+    "question": "At what level can players unlock Dual Talent Specialization in Forever?",
+    "options": ["40", "30", "50", "60"],
+    "answer": 0,
+    "fact": "Dual spec is bought from class trainers at level 40 for 50 gold."
+  },
+  {
+    "id": "forever-quests",
+    "category": "forever",
+    "difficulty": "medium",
+    "question": "Forever launches with over how many new quests?",
+    "options": ["1,000", "100", "500", "10,000"],
+    "answer": 0,
+    "fact": "Over 1,000 new quests ship with Forever across all level ranges."
+  },
+  {
+    "id": "forever-hardcore-later",
+    "category": "forever",
+    "difficulty": "medium",
+    "question": "Which ruleset was NOT available at Forever's launch and arrives later?",
+    "options": ["Hardcore", "PvP", "Roleplay", "Normal"],
+    "answer": 0,
+    "fact": "Players are split onto mega-realms by ruleset; Hardcore is coming at a later date."
+  },
+  {
+    "id": "forever-battleground",
+    "category": "forever",
+    "difficulty": "medium",
+    "question": "What new battleground debuts in Forever?",
+    "options": ["Darkspear Islands", "Warsong Gulch", "Arathi Basin", "Alterac Valley"],
+    "answer": 0,
+    "fact": "Darkspear Islands is the new battleground introduced in Forever."
+  },
+  {
+    "id": "forever-dalaran",
+    "category": "forever",
+    "difficulty": "hard",
+    "question": "In Forever, the city of Dalaran sits in which region?",
+    "options": ["The Alterac Mountains", "Crystalsong Forest", "Hillsbrad Foothills", "Winterspring"],
+    "answer": 0,
+    "fact": "Forever places Dalaran in the Alterac Mountains, and it doubles as a new dungeon."
+  },
+  {
+    "id": "forever-hall-of-thanes",
+    "category": "forever",
+    "difficulty": "hard",
+    "question": "Which new Forever dungeon is found in Ironforge?",
+    "options": ["The Hall of Thanes", "Gnomeregan", "Blackrock Depths", "The Deadmines"],
+    "answer": 0,
+    "fact": "The Hall of Thanes is a new low level dungeon set within Ironforge."
+  },
+  {
+    "id": "forever-hyjal-raid",
+    "category": "forever",
+    "difficulty": "medium",
+    "question": "Which new Forever zone is home to the Barrow Deeps and Hyjal Summit raids?",
+    "options": ["Mount Hyjal", "Zephras Isle", "Shen'dralas", "Riverglades"],
+    "answer": 0,
+    "fact": "Mount Hyjal hosts two new raids; Onyxia's Lair rounds out the launch raid lineup."
+  },
+  {
+    "id": "forever-names",
+    "category": "forever",
+    "difficulty": "easy",
+    "question": "What character naming feature is new to Forever?",
+    "options": ["First and last names", "Account wide nicknames", "Guild surnames", "Clan tags"],
+    "answer": 0,
+    "fact": "Forever lets characters have both a first and a last name."
+  },
+  {
+    "id": "forever-sleeping-bag",
+    "category": "forever",
+    "difficulty": "hard",
+    "question": "Which Season of Discovery item carried into Forever grants rested experience even while logged out?",
+    "options": ["Cozy Sleeping Bag", "Chronoboon Displacer", "Hearthstone", "Comprehension Charm"],
+    "answer": 0,
+    "fact": "The Cozy Sleeping Bag gives a stacking XP buff and acts as a portable rest area."
   }
 ]

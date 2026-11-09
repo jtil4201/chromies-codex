@@ -2,7 +2,7 @@ import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
-export type Category = 'lore' | 'quests' | 'zones' | 'items' | 'general';
+export type Category = 'lore' | 'quests' | 'zones' | 'items' | 'general' | 'forever';
 export type Difficulty = 'easy' | 'medium' | 'hard';
 
 export interface Question {
@@ -15,7 +15,7 @@ export interface Question {
   fact?: string;
 }
 
-export const categories: Category[] = ['lore', 'quests', 'zones', 'items', 'general'];
+export const categories: Category[] = ['lore', 'quests', 'zones', 'items', 'general', 'forever'];
 
 export const pointsByDifficulty: Record<Difficulty, number> = {
   easy: 1,
