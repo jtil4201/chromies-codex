@@ -1,0 +1,15 @@
+services:
+  chromies-codex:
+    image: ghcr.io/jtil4201/chromies-codex:latest
+    container_name: chromies-codex
+    restart: unless-stopped
+    environment:
+      DISCORD_TOKEN: "your-bot-token"
+      DISCORD_CLIENT_ID: "your-application-id"
+      DISCORD_GUILD_ID: "your-server-id"
+      QUESTION_SECONDS: "20"
+    volumes:
+      - chromie-data:/data
+
+volumes:
+  chromie-data:

@@ -1,0 +1,236 @@
+[
+  {
+    "id": "lore-horde-warchief",
+    "category": "lore",
+    "difficulty": "easy",
+    "question": "Who leads the Horde as Warchief during Classic WoW?",
+    "options": ["Thrall", "Garrosh Hellscream", "Sylvanas Windrunner", "Vol'jin"],
+    "answer": 0,
+    "fact": "Thrall, son of Durotan, founded the city of Orgrimmar and led the Horde through the Third War and into Kalimdor."
+  },
+  {
+    "id": "lore-forsaken-leader",
+    "category": "lore",
+    "difficulty": "easy",
+    "question": "Who rules the Forsaken from the Undercity?",
+    "options": ["Lady Vashj", "Sylvanas Windrunner", "Tyrande Whisperwind", "Jaina Proudmoore"],
+    "answer": 1,
+    "fact": "Sylvanas was the Ranger-General of Silvermoon before Arthas raised her; she broke free and led the Forsaken."
+  },
+  {
+    "id": "lore-onyxia-father",
+    "category": "lore",
+    "difficulty": "medium",
+    "question": "Onyxia is the daughter of which black dragon aspect?",
+    "options": ["Nefarian", "Malygos", "Deathwing", "Nozdormu"],
+    "answer": 2,
+    "fact": "Onyxia and Nefarian are both children of Deathwing the Destroyer, aspect of the black dragonflight."
+  },
+  {
+    "id": "lore-chromie-flight",
+    "category": "lore",
+    "difficulty": "medium",
+    "question": "Chromie belongs to which dragonflight?",
+    "options": ["Bronze", "Red", "Blue", "Green"],
+    "answer": 0,
+    "fact": "Chromie, short for Chronormu, serves the bronze dragonflight and the Aspect of Time, Nozdormu."
+  },
+  {
+    "id": "lore-lich-king-classic",
+    "category": "lore",
+    "difficulty": "hard",
+    "question": "Who is the Lich King during the Classic era, before Arthas claims the throne?",
+    "options": ["Kel'Thuzad", "Ner'zhul", "Anub'arak", "Bolvar Fordragon"],
+    "answer": 1,
+    "fact": "Ner'zhul's spirit was bound inside the Frozen Throne and ruled the Scourge as the Lich King until Arthas merged with him."
+  },
+  {
+    "id": "zone-tauren-start",
+    "category": "zones",
+    "difficulty": "easy",
+    "question": "Which zone do Tauren characters start in?",
+    "options": ["Durotar", "Mulgore", "Tirisfal Glades", "The Barrens"],
+    "answer": 1,
+    "fact": "Tauren begin in Mulgore, home to the rising pillar city of Thunder Bluff."
+  },
+  {
+    "id": "zone-crossroads",
+    "category": "zones",
+    "difficulty": "easy",
+    "question": "The Crossroads is a Horde hub located in which zone?",
+    "options": ["The Barrens", "Durotar", "Stonetalon Mountains", "Ashenvale"],
+    "answer": 0,
+    "fact": "The Crossroads sits in the heart of the Barrens and was a favorite target of Alliance raids."
+  },
+  {
+    "id": "zone-ironforge",
+    "category": "zones",
+    "difficulty": "easy",
+    "question": "The dwarven city of Ironforge is found in which zone?",
+    "options": ["Loch Modan", "Elwynn Forest", "Dun Morogh", "Wetlands"],
+    "answer": 2,
+    "fact": "Ironforge is carved into Ironforge Mountain in the snowy region of Dun Morogh."
+  },
+  {
+    "id": "zone-dark-portal",
+    "category": "zones",
+    "difficulty": "medium",
+    "question": "Where does the Dark Portal stand in Classic WoW?",
+    "options": ["Burning Steppes", "Blasted Lands", "Searing Gorge", "Swamp of Sorrows"],
+    "answer": 1,
+    "fact": "The dormant Dark Portal sits in the Blasted Lands long before it reopens to the Outland invasion."
+  },
+  {
+    "id": "zone-gadgetzan",
+    "category": "zones",
+    "difficulty": "medium",
+    "question": "The goblin town of Gadgetzan is located in which desert zone?",
+    "options": ["Tanaris", "Silithus", "Thousand Needles", "Desolace"],
+    "answer": 0,
+    "fact": "Gadgetzan sits in the sands of Tanaris, near the entrance to the Caverns of Time."
+  },
+  {
+    "id": "quest-mankrik-wife",
+    "category": "quests",
+    "difficulty": "easy",
+    "question": "In the Barrens, players are endlessly asked to help find whose wife?",
+    "options": ["Kreenig's", "Mankrik's", "Regthar's", "Gazlowe's"],
+    "answer": 1,
+    "fact": "Mankrik's Wife became the most repeated question in Barrens chat, a running joke across all of Classic."
+  },
+  {
+    "id": "quest-green-hills",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "Players collect pages for which infamous Barrens book quest?",
+    "options": ["The Green Hills of Stranglethorn", "Tales of the Tauren", "A History of the Horde", "The Emerald Dream"],
+    "answer": 0,
+    "fact": "The Green Hills of Stranglethorn sends players hunting scattered chapter pages, often traded in Barrens chat."
+  },
+  {
+    "id": "quest-sulfuras",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "The legendary Sulfuras is forged using the Eye of Sulfuras, dropped by which boss?",
+    "options": ["Onyxia", "Ragnaros", "Nefarian", "Lucifron"],
+    "answer": 1,
+    "fact": "Ragnaros the Firelord drops the Eye of Sulfuras in Molten Core, used to craft Sulfuras, Hand of Ragnaros."
+  },
+  {
+    "id": "item-thunderfury",
+    "category": "items",
+    "difficulty": "medium",
+    "question": "Complete the legendary name: Thunderfury, Blessed Blade of the ___.",
+    "options": ["Windseeker", "Firelord", "Stormrage", "Highlord"],
+    "answer": 0,
+    "fact": "Thunderfury, Blessed Blade of the Windseeker is assembled from bindings dropped in Molten Core."
+  },
+  {
+    "id": "item-max-level",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "What is the maximum character level in Classic WoW?",
+    "options": ["50", "60", "70", "80"],
+    "answer": 1,
+    "fact": "Level 60 was the cap in the original game, reached after a long and deliberate grind."
+  },
+  {
+    "id": "item-hearthstone",
+    "category": "items",
+    "difficulty": "easy",
+    "question": "Which item lets a player teleport back to their set inn?",
+    "options": ["Scroll of Recall", "Hearthstone", "Ring of Teleport", "Astral Recall"],
+    "answer": 1,
+    "fact": "The Hearthstone binds to an inn and returns you there on a cooldown, a staple of every adventurer's bag."
+  },
+  {
+    "id": "raid-molten-core",
+    "category": "general",
+    "difficulty": "medium",
+    "question": "Which 40 player raid is home to Ragnaros the Firelord?",
+    "options": ["Blackwing Lair", "Molten Core", "Onyxia's Lair", "Zul'Gurub"],
+    "answer": 1,
+    "fact": "Molten Core, found deep in Blackrock Mountain, was the first 40 player raid most guilds cleared."
+  },
+  {
+    "id": "raid-nefarian",
+    "category": "general",
+    "difficulty": "medium",
+    "question": "Nefarian is the final boss of which raid?",
+    "options": ["Blackwing Lair", "Ahn'Qiraj", "Naxxramas", "Molten Core"],
+    "answer": 0,
+    "fact": "Nefarian, son of Deathwing, rules Blackwing Lair atop Blackrock Spire."
+  },
+  {
+    "id": "general-races-count",
+    "category": "general",
+    "difficulty": "medium",
+    "question": "How many playable races were in the original Classic WoW?",
+    "options": ["6", "8", "10", "12"],
+    "answer": 1,
+    "fact": "Alliance had Human, Dwarf, Night Elf, and Gnome; Horde had Orc, Undead, Tauren, and Troll."
+  },
+  {
+    "id": "general-alchemy",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Which profession brews potions and elixirs?",
+    "options": ["Enchanting", "Alchemy", "Leatherworking", "Engineering"],
+    "answer": 1,
+    "fact": "Alchemy turns herbs gathered through Herbalism into potions, elixirs, and transmutes."
+  },
+  {
+    "id": "general-factions",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "The two opposing factions in WoW are the Alliance and the ___.",
+    "options": ["Horde", "Scourge", "Legion", "Scarlet Crusade"],
+    "answer": 0,
+    "fact": "The Alliance and the Horde have defined the conflict of Azeroth since the Warcraft wars."
+  },
+  {
+    "id": "lore-stormwind-king",
+    "category": "lore",
+    "difficulty": "medium",
+    "question": "Who sits as the boy king of Stormwind during Classic?",
+    "options": ["Varian Wrynn", "Anduin Wrynn", "Bolvar Fordragon", "Highlord Bolvar"],
+    "answer": 0,
+    "fact": "Varian Wrynn is missing for much of Classic, and Highlord Bolvar Fordragon rules as regent in his absence."
+  },
+  {
+    "id": "zone-undercity",
+    "category": "zones",
+    "difficulty": "medium",
+    "question": "The Undercity lies beneath the ruins of which former human capital?",
+    "options": ["Stratholme", "Lordaeron", "Dalaran", "Andorhal"],
+    "answer": 1,
+    "fact": "The Forsaken built the Undercity in the catacombs below the fallen capital of Lordaeron."
+  },
+  {
+    "id": "raid-aq-war",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "Opening which raid requires a server wide war effort and ringing a gong?",
+    "options": ["Ahn'Qiraj", "Naxxramas", "Blackwing Lair", "Zul'Gurub"],
+    "answer": 0,
+    "fact": "The Gates of Ahn'Qiraj open only after players gather massive supplies and the Scarab Gong is struck."
+  },
+  {
+    "id": "general-pvp-ranks",
+    "category": "general",
+    "difficulty": "hard",
+    "question": "The grueling Classic PvP system rewards players with what kind of titled ranks?",
+    "options": ["Honor ranks", "Arena ratings", "Conquest tiers", "Glory badges"],
+    "answer": 0,
+    "fact": "The original Honor system handed out ranks like Knight and Grand Marshal for relentless battleground play."
+  },
+  {
+    "id": "lore-bronze-aspect",
+    "category": "lore",
+    "difficulty": "hard",
+    "question": "Who is the Aspect of Time that Chromie answers to?",
+    "options": ["Nozdormu", "Malygos", "Alexstrasza", "Ysera"],
+    "answer": 0,
+    "fact": "Nozdormu, the Timeless One, leads the bronze dragonflight and guards the timeways of Azeroth."
+  }
+]
