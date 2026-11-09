@@ -49,6 +49,11 @@ export function recordAnswer(guildId: string, userId: string, name: string, corr
   return player;
 }
 
+export function resetGuild(guildId: string): void {
+  delete cache[guildId];
+  save(cache);
+}
+
 export function topPlayers(guildId: string, limit = 10): PlayerScore[] {
   const guild = cache[guildId] ?? {};
   return Object.values(guild)

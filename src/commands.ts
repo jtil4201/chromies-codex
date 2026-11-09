@@ -1,8 +1,8 @@
-import { ChatInputCommandInteraction, EmbedBuilder, MessageFlags, SlashCommandBuilder } from 'discord.js';
+import { ChatInputCommandInteraction, EmbedBuilder, MessageFlags, PermissionFlagsBits, SlashCommandBuilder } from 'discord.js';
 import { theme } from './config.js';
 import { Category, categories, questionCount } from './questions.js';
 import { startTrivia } from './trivia.js';
-import { topPlayers } from './store.js';
+import { resetGuild, topPlayers } from './store.js';
 
 export const commands = [
   new SlashCommandBuilder()
@@ -20,6 +20,10 @@ export const commands = [
   new SlashCommandBuilder()
     .setName('codex')
     .setDescription('About Chromie’s Codex'),
+  new SlashCommandBuilder()
+    .setName('reset')
+    .setDescription('Clear this server’s trivia leaderboard')
+    .setDefaultMemberPermissions(PermissionFlagsBits.ManageGuild),
 ].map((command) => command.toJSON());
 
 export async function handleCommand(interaction: ChatInputCommandInteraction): Promise<void> {
@@ -39,7 +43,27 @@ export async function handleCommand(interaction: ChatInputCommandInteraction): P
       content: `Chromie’s Codex keeps ${questionCount()} questions on WoW Forever lore, quests, zones, items, and more. Run /trivia to play.`,
       flags: MessageFlags.Ephemeral,
     });
+    return;
   }
+
+  if (interaction.commandName === 'reset') {
+    await resetLeaderboard(interaction);
+  }
+}
+
+async function resetLeaderboard(interaction: ChatInputCommandInteraction): Promise<void> {
+  if (!interaction.guildId) {
+    await interaction.reply({ content: 'Leaderboards only exist inside a server.', flags: MessageFlags.Ephemeral });
+    return;
+  }
+
+  if (!interaction.memberPermissions?.has(PermissionFlagsBits.ManageGuild)) {
+    await interaction.reply({ content: 'You need the Manage Server permission to reset the leaderboard.', flags: MessageFlags.Ephemeral });
+    return;
+  }
+
+  resetGuild(interaction.guildId);
+  await interaction.reply('Leaderboard cleared. The Codex starts a fresh tally.');
 }
 
 async function showLeaderboard(interaction: ChatInputCommandInteraction): Promise<void> {
