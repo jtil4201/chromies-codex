@@ -394,5 +394,275 @@
     "options": ["Cozy Sleeping Bag", "Chronoboon Displacer", "Hearthstone", "Comprehension Charm"],
     "answer": 0,
     "fact": "The Cozy Sleeping Bag gives a stacking XP buff and acts as a portable rest area."
+  },
+  {
+    "id": "lore-tyrande",
+    "category": "lore",
+    "difficulty": "medium",
+    "question": "Who leads the night elves as High Priestess of Elune?",
+    "options": ["Tyrande Whisperwind", "Jaina Proudmoore", "Maiev Shadowsong", "Vashj"],
+    "answer": 0,
+    "fact": "Tyrande Whisperwind commands the Sentinels and serves Elune from the temple in Darnassus."
+  },
+  {
+    "id": "lore-cairne",
+    "category": "lore",
+    "difficulty": "medium",
+    "question": "Who is the chieftain of the tauren at Thunder Bluff?",
+    "options": ["Cairne Bloodhoof", "Baine Bloodhoof", "Magatha Grimtotem", "Hamuul Runetotem"],
+    "answer": 0,
+    "fact": "Cairne Bloodhoof, a close ally of Thrall, leads the tauren from Thunder Bluff."
+  },
+  {
+    "id": "lore-magni",
+    "category": "lore",
+    "difficulty": "medium",
+    "question": "Who is the dwarven king of Ironforge in Classic?",
+    "options": ["Magni Bronzebeard", "Muradin Bronzebeard", "Brann Bronzebeard", "Moira Thaurissan"],
+    "answer": 0,
+    "fact": "King Magni Bronzebeard rules Ironforge and the dwarves of Khaz Modan."
+  },
+  {
+    "id": "lore-mekkatorque",
+    "category": "lore",
+    "difficulty": "hard",
+    "question": "Who is the High Tinker and leader of the gnomes?",
+    "options": ["Gelbin Mekkatorque", "Sicco Thermaplugg", "Millhouse Manastorm", "Gnomus"],
+    "answer": 0,
+    "fact": "High Tinker Gelbin Mekkatorque leads the gnomes in exile after Gnomeregan fell."
+  },
+  {
+    "id": "lore-voljin",
+    "category": "lore",
+    "difficulty": "medium",
+    "question": "Who leads the Darkspear trolls of the Horde?",
+    "options": ["Vol'jin", "Zul'jin", "Sen'jin", "Rokhan"],
+    "answer": 0,
+    "fact": "Vol'jin leads the Darkspear tribe, allied with Thrall's Horde in Durotar."
+  },
+  {
+    "id": "lore-cthun",
+    "category": "lore",
+    "difficulty": "hard",
+    "question": "Which Old God lurks at the heart of Ahn'Qiraj?",
+    "options": ["C'Thun", "Yogg-Saron", "N'Zoth", "Y'Shaarj"],
+    "answer": 0,
+    "fact": "C'Thun, the eye of terror, is the final boss of the Temple of Ahn'Qiraj."
+  },
+  {
+    "id": "lore-doomhammer",
+    "category": "lore",
+    "difficulty": "hard",
+    "question": "Orgrimmar is named after which former orc Warchief?",
+    "options": ["Orgrim Doomhammer", "Grommash Hellscream", "Blackhand", "Ner'zhul"],
+    "answer": 0,
+    "fact": "Thrall named the Horde capital Orgrimmar in honor of Orgrim Doomhammer, his mentor."
+  },
+  {
+    "id": "lore-thaurissan",
+    "category": "lore",
+    "difficulty": "hard",
+    "question": "Which Dark Iron emperor rules Blackrock Depths?",
+    "options": ["Emperor Dagran Thaurissan", "Ragnaros", "Nefarian", "General Angerforge"],
+    "answer": 0,
+    "fact": "Emperor Dagran Thaurissan commands the Dark Iron dwarves deep within Blackrock Depths."
+  },
+  {
+    "id": "zone-elwynn",
+    "category": "zones",
+    "difficulty": "easy",
+    "question": "Humans begin their adventures in which zone?",
+    "options": ["Elwynn Forest", "Westfall", "Dun Morogh", "Tirisfal Glades"],
+    "answer": 0,
+    "fact": "New humans start in Elwynn Forest, just outside Stormwind City."
+  },
+  {
+    "id": "zone-durotar",
+    "category": "zones",
+    "difficulty": "easy",
+    "question": "Orcs and trolls start their journey in which zone?",
+    "options": ["Durotar", "Mulgore", "The Barrens", "Tirisfal Glades"],
+    "answer": 0,
+    "fact": "Durotar, home to Orgrimmar, is the starting zone for orcs and trolls."
+  },
+  {
+    "id": "zone-tirisfal",
+    "category": "zones",
+    "difficulty": "easy",
+    "question": "The undead begin in which zone?",
+    "options": ["Tirisfal Glades", "Silverpine Forest", "Western Plaguelands", "Durotar"],
+    "answer": 0,
+    "fact": "The Forsaken rise in Tirisfal Glades, above their capital of Undercity."
+  },
+  {
+    "id": "zone-teldrassil",
+    "category": "zones",
+    "difficulty": "medium",
+    "question": "Night elves start on which great world tree?",
+    "options": ["Teldrassil", "Nordrassil", "Vordrassil", "Shaladrassil"],
+    "answer": 0,
+    "fact": "Night elves begin in Shadowglen atop Teldrassil, home to the city of Darnassus."
+  },
+  {
+    "id": "zone-westfall-dm",
+    "category": "zones",
+    "difficulty": "medium",
+    "question": "The Deadmines dungeon is located in which zone?",
+    "options": ["Westfall", "Elwynn Forest", "Duskwood", "Redridge Mountains"],
+    "answer": 0,
+    "fact": "The Defias dig the Deadmines beneath the town of Moonbrook in Westfall."
+  },
+  {
+    "id": "zone-booty-bay",
+    "category": "zones",
+    "difficulty": "medium",
+    "question": "The goblin port of Booty Bay sits in which zone?",
+    "options": ["Stranglethorn Vale", "Tanaris", "The Cape of Stranglethorn", "Dustwallow Marsh"],
+    "answer": 0,
+    "fact": "Booty Bay is the bustling neutral port at the southern tip of Stranglethorn Vale."
+  },
+  {
+    "id": "zone-ungoro",
+    "category": "zones",
+    "difficulty": "medium",
+    "question": "Which zone is a prehistoric crater full of dinosaurs?",
+    "options": ["Un'Goro Crater", "Sholazar Basin", "The Barrens", "Feralas"],
+    "answer": 0,
+    "fact": "Un'Goro Crater teems with devilsaurs, pterrordax, and rare power crystals."
+  },
+  {
+    "id": "quest-dreadsteed",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "Warlocks complete a lengthy quest in Dire Maul to summon which mount?",
+    "options": ["The Dreadsteed", "The Charger", "The Felsteed", "The Deathcharger"],
+    "answer": 0,
+    "fact": "The Dreadsteed of Xoroth is the warlock epic mount, earned through a Dire Maul ritual."
+  },
+  {
+    "id": "quest-rhokdelar",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "Rhok'delar is a legendary quest reward for which class?",
+    "options": ["Hunter", "Warrior", "Rogue", "Mage"],
+    "answer": 0,
+    "fact": "Rhok'delar, Longbow of the Ancient Keepers, is the hunter legendary from a solo trial."
+  },
+  {
+    "id": "quest-benediction",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "The priest staff Benediction comes from the Eye of Divinity, which drops in which raid?",
+    "options": ["Molten Core", "Blackwing Lair", "Naxxramas", "Onyxia's Lair"],
+    "answer": 0,
+    "fact": "The Eye of Divinity drops from Majordomo Executus in Molten Core for the priest quest."
+  },
+  {
+    "id": "quest-quelserrar",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "The sword Quel'Serrar is tempered in whose fiery breath?",
+    "options": ["Onyxia", "Ragnaros", "Nefarian", "Deathwing"],
+    "answer": 0,
+    "fact": "Players heat the unfired blade in Onyxia's breath to forge Quel'Serrar."
+  },
+  {
+    "id": "item-runecloth",
+    "category": "items",
+    "difficulty": "medium",
+    "question": "What is the highest level common cloth that drops in Classic?",
+    "options": ["Runecloth", "Mageweave", "Silk", "Wool"],
+    "answer": 0,
+    "fact": "Runecloth drops from high level humanoids and feeds endgame tailoring and First Aid."
+  },
+  {
+    "id": "item-deathcharger",
+    "category": "items",
+    "difficulty": "hard",
+    "question": "The rare Deathcharger's Reins mount drops from which Stratholme boss?",
+    "options": ["Baron Rivendare", "Balnazzar", "Ramstein the Gorger", "Nerub'enkan"],
+    "answer": 0,
+    "fact": "Baron Rivendare has a tiny chance to drop his skeletal Deathcharger's Reins."
+  },
+  {
+    "id": "item-ashkandi",
+    "category": "items",
+    "difficulty": "hard",
+    "question": "Ashkandi, Greatsword of the Brotherhood, drops in which raid?",
+    "options": ["Blackwing Lair", "Molten Core", "Ahn'Qiraj", "Zul'Gurub"],
+    "answer": 0,
+    "fact": "The coveted two hander Ashkandi drops from Nefarian in Blackwing Lair."
+  },
+  {
+    "id": "item-biggest-bag",
+    "category": "items",
+    "difficulty": "medium",
+    "question": "What is the largest bag size available in Classic?",
+    "options": ["18 slots", "16 slots", "20 slots", "14 slots"],
+    "answer": 0,
+    "fact": "The 18 slot Bottomless Bag, crafted with Ahn'Qiraj materials, is the biggest bag in Classic."
+  },
+  {
+    "id": "item-legendary-color",
+    "category": "items",
+    "difficulty": "easy",
+    "question": "What color is the name of a legendary quality item?",
+    "options": ["Orange", "Purple", "Blue", "Gold"],
+    "answer": 0,
+    "fact": "Legendary items like Thunderfury show their names in orange text."
+  },
+  {
+    "id": "item-epic-color",
+    "category": "items",
+    "difficulty": "easy",
+    "question": "Epic quality items display their name in which color?",
+    "options": ["Purple", "Blue", "Orange", "Green"],
+    "answer": 0,
+    "fact": "Epic gear shows in purple, a tier below the orange of legendaries."
+  },
+  {
+    "id": "general-raid-size",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "How many players fit in an endgame raid like Molten Core?",
+    "options": ["40", "25", "20", "10"],
+    "answer": 0,
+    "fact": "Classic endgame raids such as Molten Core and Blackwing Lair are built for 40 players."
+  },
+  {
+    "id": "general-engineering",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Which profession crafts goggles, bombs, and gadgets?",
+    "options": ["Engineering", "Blacksmithing", "Alchemy", "Enchanting"],
+    "answer": 0,
+    "fact": "Engineering builds explosives, trinkets, and devices, pairing well with Mining."
+  },
+  {
+    "id": "general-skinning",
+    "category": "general",
+    "difficulty": "easy",
+    "question": "Which gathering profession harvests leather from beasts?",
+    "options": ["Skinning", "Herbalism", "Mining", "Fishing"],
+    "answer": 0,
+    "fact": "Skinning gathers leather and hides, feeding Leatherworking."
+  },
+  {
+    "id": "general-high-warlord",
+    "category": "general",
+    "difficulty": "hard",
+    "question": "What is the top Horde PvP rank in the Classic honor system?",
+    "options": ["High Warlord", "Grand Marshal", "Warlord", "General"],
+    "answer": 0,
+    "fact": "High Warlord is rank 14 for the Horde; the Alliance equivalent is Grand Marshal."
+  },
+  {
+    "id": "general-neutral-ah",
+    "category": "general",
+    "difficulty": "hard",
+    "question": "Besides Gadgetzan and Everlook, which town has a neutral auction house?",
+    "options": ["Booty Bay", "Ratchet", "Theramore", "Nighthaven"],
+    "answer": 0,
+    "fact": "Classic's three neutral auction houses are in Gadgetzan, Everlook, and Booty Bay."
   }
 ]
