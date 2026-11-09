@@ -11,7 +11,8 @@
       "Vol'jin"
     ],
     "answer": 0,
-    "fact": "Thrall, son of Durotan, founded the city of Orgrimmar and led the Horde through the Third War and into Kalimdor."
+    "fact": "Thrall, son of Durotan, founded the city of Orgrimmar and led the Horde through the Third War and into Kalimdor.",
+    "version": "forever"
   },
   {
     "id": "lore-forsaken-leader",
@@ -25,7 +26,8 @@
       "Jaina Proudmoore"
     ],
     "answer": 1,
-    "fact": "Sylvanas was the Ranger-General of Silvermoon before Arthas raised her; she broke free and led the Forsaken."
+    "fact": "Sylvanas was the Ranger-General of Silvermoon before Arthas raised her; she broke free and led the Forsaken.",
+    "version": "forever"
   },
   {
     "id": "lore-onyxia-father",
@@ -39,7 +41,8 @@
       "Nozdormu"
     ],
     "answer": 2,
-    "fact": "Onyxia and Nefarian are both children of Deathwing the Destroyer, aspect of the black dragonflight."
+    "fact": "Onyxia and Nefarian are both children of Deathwing the Destroyer, aspect of the black dragonflight.",
+    "version": "forever"
   },
   {
     "id": "lore-chromie-flight",
@@ -53,7 +56,8 @@
       "Green"
     ],
     "answer": 0,
-    "fact": "Chromie, short for Chronormu, serves the bronze dragonflight and the Aspect of Time, Nozdormu."
+    "fact": "Chromie, short for Chronormu, serves the bronze dragonflight and the Aspect of Time, Nozdormu.",
+    "version": "forever"
   },
   {
     "id": "lore-lich-king-classic",
@@ -67,7 +71,8 @@
       "Bolvar Fordragon"
     ],
     "answer": 1,
-    "fact": "Ner'zhul's spirit was bound inside the Frozen Throne and ruled the Scourge as the Lich King until Arthas merged with him."
+    "fact": "Ner'zhul's spirit was bound inside the Frozen Throne and ruled the Scourge as the Lich King until Arthas merged with him.",
+    "version": "forever"
   },
   {
     "id": "zone-tauren-start",
@@ -81,7 +86,8 @@
       "The Barrens"
     ],
     "answer": 1,
-    "fact": "Tauren begin in Mulgore, home to the rising pillar city of Thunder Bluff."
+    "fact": "Tauren begin in Mulgore, home to the rising pillar city of Thunder Bluff.",
+    "version": "forever"
   },
   {
     "id": "zone-crossroads",
@@ -95,7 +101,8 @@
       "Ashenvale"
     ],
     "answer": 0,
-    "fact": "The Crossroads sits in the heart of the Barrens and was a favorite target of Alliance raids."
+    "fact": "The Crossroads sits in the heart of the Barrens and was a favorite target of Alliance raids.",
+    "version": "forever"
   },
   {
     "id": "zone-ironforge",
@@ -109,7 +116,8 @@
       "Wetlands"
     ],
     "answer": 2,
-    "fact": "Ironforge is carved into Ironforge Mountain in the snowy region of Dun Morogh."
+    "fact": "Ironforge is carved into Ironforge Mountain in the snowy region of Dun Morogh.",
+    "version": "forever"
   },
   {
     "id": "zone-dark-portal",
@@ -123,7 +131,8 @@
       "Swamp of Sorrows"
     ],
     "answer": 1,
-    "fact": "The dormant Dark Portal sits in the Blasted Lands long before it reopens to the Outland invasion."
+    "fact": "The dormant Dark Portal sits in the Blasted Lands long before it reopens to the Outland invasion.",
+    "version": "forever"
   },
   {
     "id": "zone-gadgetzan",
@@ -137,7 +146,8 @@
       "Desolace"
     ],
     "answer": 0,
-    "fact": "Gadgetzan sits in the sands of Tanaris, near the entrance to the Caverns of Time."
+    "fact": "Gadgetzan sits in the sands of Tanaris, near the entrance to the Caverns of Time.",
+    "version": "forever"
   },
   {
     "id": "quest-mankrik-wife",
@@ -151,7 +161,8 @@
       "Gazlowe's"
     ],
     "answer": 1,
-    "fact": "Mankrik's Wife became the most repeated question in Barrens chat, a running joke across all of Classic."
+    "fact": "Mankrik's Wife became the most repeated question in Barrens chat, a running joke across all of Classic.",
+    "version": "forever"
   },
   {
     "id": "quest-green-hills",
@@ -165,7 +176,8 @@
       "The Emerald Dream"
     ],
     "answer": 0,
-    "fact": "The Green Hills of Stranglethorn sends players hunting scattered chapter pages, often traded in Barrens chat."
+    "fact": "The Green Hills of Stranglethorn sends players hunting scattered chapter pages, often traded in Barrens chat.",
+    "version": "forever"
   },
   {
     "id": "quest-sulfuras",
@@ -179,7 +191,8 @@
       "Lucifron"
     ],
     "answer": 1,
-    "fact": "Ragnaros the Firelord drops the Eye of Sulfuras in Molten Core, used to craft Sulfuras, Hand of Ragnaros."
+    "fact": "Ragnaros the Firelord drops the Eye of Sulfuras in Molten Core, used to craft Sulfuras, Hand of Ragnaros.",
+    "version": "forever"
   },
   {
     "id": "item-thunderfury",
@@ -193,7 +206,8 @@
       "Highlord"
     ],
     "answer": 0,
-    "fact": "Thunderfury, Blessed Blade of the Windseeker is assembled from bindings dropped in Molten Core."
+    "fact": "Thunderfury, Blessed Blade of the Windseeker is assembled from bindings dropped in Molten Core.",
+    "version": "forever"
   },
   {
     "id": "item-max-level",
@@ -207,7 +221,8 @@
       "80"
     ],
     "answer": 1,
-    "fact": "Level 60 was the cap in the original game, reached after a long and deliberate grind."
+    "fact": "Level 60 was the cap in the original game, reached after a long and deliberate grind.",
+    "version": "forever"
   },
   {
     "id": "item-hearthstone",
@@ -221,7 +236,8 @@
       "Astral Recall"
     ],
     "answer": 1,
-    "fact": "The Hearthstone binds to an inn and returns you there on a cooldown, a staple of every adventurer's bag."
+    "fact": "The Hearthstone binds to an inn and returns you there on a cooldown, a staple of every adventurer's bag.",
+    "version": "forever"
   },
   {
     "id": "raid-molten-core",
@@ -235,7 +251,8 @@
       "Zul'Gurub"
     ],
     "answer": 1,
-    "fact": "Molten Core, found deep in Blackrock Mountain, was the first 40 player raid most guilds cleared."
+    "fact": "Molten Core, found deep in Blackrock Mountain, was the first 40 player raid most guilds cleared.",
+    "version": "forever"
   },
   {
     "id": "raid-nefarian",
@@ -249,7 +266,8 @@
       "Molten Core"
     ],
     "answer": 0,
-    "fact": "Nefarian, son of Deathwing, rules Blackwing Lair atop Blackrock Spire."
+    "fact": "Nefarian, son of Deathwing, rules Blackwing Lair atop Blackrock Spire.",
+    "version": "forever"
   },
   {
     "id": "general-races-count",
@@ -263,7 +281,8 @@
       "12"
     ],
     "answer": 1,
-    "fact": "Alliance had Human, Dwarf, Night Elf, and Gnome; Horde had Orc, Undead, Tauren, and Troll."
+    "fact": "Alliance had Human, Dwarf, Night Elf, and Gnome; Horde had Orc, Undead, Tauren, and Troll.",
+    "version": "forever"
   },
   {
     "id": "general-alchemy",
@@ -277,7 +296,8 @@
       "Engineering"
     ],
     "answer": 1,
-    "fact": "Alchemy turns herbs gathered through Herbalism into potions, elixirs, and transmutes."
+    "fact": "Alchemy turns herbs gathered through Herbalism into potions, elixirs, and transmutes.",
+    "version": "forever"
   },
   {
     "id": "general-factions",
@@ -291,7 +311,8 @@
       "Scarlet Crusade"
     ],
     "answer": 0,
-    "fact": "The Alliance and the Horde have defined the conflict of Azeroth since the Warcraft wars."
+    "fact": "The Alliance and the Horde have defined the conflict of Azeroth since the Warcraft wars.",
+    "version": "forever"
   },
   {
     "id": "lore-stormwind-king",
@@ -305,7 +326,8 @@
       "Highlord Bolvar"
     ],
     "answer": 0,
-    "fact": "Varian Wrynn is missing for much of Classic, and Highlord Bolvar Fordragon rules as regent in his absence."
+    "fact": "Varian Wrynn is missing for much of Classic, and Highlord Bolvar Fordragon rules as regent in his absence.",
+    "version": "forever"
   },
   {
     "id": "zone-undercity",
@@ -319,7 +341,8 @@
       "Andorhal"
     ],
     "answer": 1,
-    "fact": "The Forsaken built the Undercity in the catacombs below the fallen capital of Lordaeron."
+    "fact": "The Forsaken built the Undercity in the catacombs below the fallen capital of Lordaeron.",
+    "version": "forever"
   },
   {
     "id": "raid-aq-war",
@@ -333,7 +356,8 @@
       "Zul'Gurub"
     ],
     "answer": 0,
-    "fact": "The Gates of Ahn'Qiraj open only after players gather massive supplies and the Scarab Gong is struck."
+    "fact": "The Gates of Ahn'Qiraj open only after players gather massive supplies and the Scarab Gong is struck.",
+    "version": "forever"
   },
   {
     "id": "general-pvp-ranks",
@@ -347,7 +371,8 @@
       "Glory badges"
     ],
     "answer": 0,
-    "fact": "The original Honor system handed out ranks like Knight and Grand Marshal for relentless battleground play."
+    "fact": "The original Honor system handed out ranks like Knight and Grand Marshal for relentless battleground play.",
+    "version": "forever"
   },
   {
     "id": "lore-bronze-aspect",
@@ -361,7 +386,8 @@
       "Ysera"
     ],
     "answer": 0,
-    "fact": "Nozdormu, the Timeless One, leads the bronze dragonflight and guards the timeways of Azeroth."
+    "fact": "Nozdormu, the Timeless One, leads the bronze dragonflight and guards the timeways of Azeroth.",
+    "version": "forever"
   },
   {
     "id": "forever-release",
@@ -375,7 +401,8 @@
       "May 15, 2025"
     ],
     "answer": 0,
-    "fact": "Forever launched on November 4, 2026, after being announced at BlizzCon 2026."
+    "fact": "Forever launched on November 4, 2026, after being announced at BlizzCon 2026.",
+    "version": "forever"
   },
   {
     "id": "forever-classic-plus",
@@ -389,7 +416,8 @@
       "WoW Remastered"
     ],
     "answer": 0,
-    "fact": "Fans call it Classic+, the long-requested idea of new content built on the Classic foundation."
+    "fact": "Fans call it Classic+, the long-requested idea of new content built on the Classic foundation.",
+    "version": "forever"
   },
   {
     "id": "forever-codename",
@@ -403,7 +431,8 @@
       "Excalibur"
     ],
     "answer": 0,
-    "fact": "Internally the project was known as Camelot before it was revealed as World of Warcraft: Forever."
+    "fact": "Internally the project was known as Camelot before it was revealed as World of Warcraft: Forever.",
+    "version": "forever"
   },
   {
     "id": "forever-skyborne",
@@ -417,7 +446,8 @@
       "Pandaren"
     ],
     "answer": 0,
-    "fact": "The Skyborne are the new playable race; races added in Burning Crusade onward are not in Forever."
+    "fact": "The Skyborne are the new playable race; races added in Burning Crusade onward are not in Forever.",
+    "version": "forever"
   },
   {
     "id": "forever-level-cap",
@@ -431,7 +461,8 @@
       "There is no cap"
     ],
     "answer": 0,
-    "fact": "The cap stays at 60 indefinitely, keeping the focus on the year one journey."
+    "fact": "The cap stays at 60 indefinitely, keeping the focus on the year one journey.",
+    "version": "forever"
   },
   {
     "id": "forever-timeline",
@@ -445,7 +476,8 @@
       "The War Within"
     ],
     "answer": 0,
-    "fact": "Forever occupies year one of WoW, after Forsaken Kingdom but before The Burning Crusade, and expands on it indefinitely."
+    "fact": "Forever occupies year one of WoW, after Forsaken Kingdom but before The Burning Crusade, and expands on it indefinitely.",
+    "version": "forever"
   },
   {
     "id": "forever-timebubble",
@@ -459,7 +491,8 @@
       "The second thread"
     ],
     "answer": 0,
-    "fact": "Forever does not share continuity with retail WoW; Metzen calls it a little time bubble."
+    "fact": "Forever does not share continuity with retail WoW; Metzen calls it a little time bubble.",
+    "version": "forever"
   },
   {
     "id": "forever-camping",
@@ -473,7 +506,8 @@
       "Barracks"
     ],
     "answer": 0,
-    "fact": "Camping builds on the Cooking Fire and is meant to help players make connections out in the world."
+    "fact": "Camping builds on the Cooking Fire and is meant to help players make connections out in the world.",
+    "version": "forever"
   },
   {
     "id": "forever-legacy",
@@ -487,7 +521,8 @@
       "Honor Ranks"
     ],
     "answer": 0,
-    "fact": "Completing Legacy Challenges awards Legacy Points you spend on trees that smooth out leveling and tradeskills."
+    "fact": "Completing Legacy Challenges awards Legacy Points you spend on trees that smooth out leveling and tradeskills.",
+    "version": "forever"
   },
   {
     "id": "forever-dualspec",
@@ -501,7 +536,8 @@
       "60"
     ],
     "answer": 0,
-    "fact": "Dual spec is bought from class trainers at level 40 for 50 gold."
+    "fact": "Dual spec is bought from class trainers at level 40 for 50 gold.",
+    "version": "forever"
   },
   {
     "id": "forever-quests",
@@ -515,7 +551,8 @@
       "10,000"
     ],
     "answer": 0,
-    "fact": "Over 1,000 new quests ship with Forever across all level ranges."
+    "fact": "Over 1,000 new quests ship with Forever across all level ranges.",
+    "version": "forever"
   },
   {
     "id": "forever-hardcore-later",
@@ -529,7 +566,8 @@
       "Normal"
     ],
     "answer": 0,
-    "fact": "Players are split onto mega-realms by ruleset; Hardcore is coming at a later date."
+    "fact": "Players are split onto mega-realms by ruleset; Hardcore is coming at a later date.",
+    "version": "forever"
   },
   {
     "id": "forever-battleground",
@@ -543,7 +581,8 @@
       "Alterac Valley"
     ],
     "answer": 0,
-    "fact": "Darkspear Islands is the new battleground introduced in Forever."
+    "fact": "Darkspear Islands is the new battleground introduced in Forever.",
+    "version": "forever"
   },
   {
     "id": "forever-dalaran",
@@ -557,7 +596,8 @@
       "Winterspring"
     ],
     "answer": 0,
-    "fact": "Forever places Dalaran in the Alterac Mountains, and it doubles as a new dungeon."
+    "fact": "Forever places Dalaran in the Alterac Mountains, and it doubles as a new dungeon.",
+    "version": "forever"
   },
   {
     "id": "forever-hall-of-thanes",
@@ -571,7 +611,8 @@
       "The Deadmines"
     ],
     "answer": 0,
-    "fact": "The Hall of Thanes is a new low level dungeon set within Ironforge."
+    "fact": "The Hall of Thanes is a new low level dungeon set within Ironforge.",
+    "version": "forever"
   },
   {
     "id": "forever-hyjal-raid",
@@ -585,7 +626,8 @@
       "Riverglades"
     ],
     "answer": 0,
-    "fact": "Mount Hyjal hosts two new raids; Onyxia's Lair rounds out the launch raid lineup."
+    "fact": "Mount Hyjal hosts two new raids; Onyxia's Lair rounds out the launch raid lineup.",
+    "version": "forever"
   },
   {
     "id": "forever-names",
@@ -599,7 +641,8 @@
       "Clan tags"
     ],
     "answer": 0,
-    "fact": "Forever lets characters have both a first and a last name."
+    "fact": "Forever lets characters have both a first and a last name.",
+    "version": "forever"
   },
   {
     "id": "forever-sleeping-bag",
@@ -613,7 +656,8 @@
       "Comprehension Charm"
     ],
     "answer": 0,
-    "fact": "The Cozy Sleeping Bag gives a stacking XP buff and acts as a portable rest area."
+    "fact": "The Cozy Sleeping Bag gives a stacking XP buff and acts as a portable rest area.",
+    "version": "forever"
   },
   {
     "id": "lore-tyrande",
@@ -627,7 +671,8 @@
       "Vashj"
     ],
     "answer": 0,
-    "fact": "Tyrande Whisperwind commands the Sentinels and serves Elune from the temple in Darnassus."
+    "fact": "Tyrande Whisperwind commands the Sentinels and serves Elune from the temple in Darnassus.",
+    "version": "forever"
   },
   {
     "id": "lore-cairne",
@@ -641,7 +686,8 @@
       "Hamuul Runetotem"
     ],
     "answer": 0,
-    "fact": "Cairne Bloodhoof, a close ally of Thrall, leads the tauren from Thunder Bluff."
+    "fact": "Cairne Bloodhoof, a close ally of Thrall, leads the tauren from Thunder Bluff.",
+    "version": "forever"
   },
   {
     "id": "lore-magni",
@@ -655,7 +701,8 @@
       "Moira Thaurissan"
     ],
     "answer": 0,
-    "fact": "King Magni Bronzebeard rules Ironforge and the dwarves of Khaz Modan."
+    "fact": "King Magni Bronzebeard rules Ironforge and the dwarves of Khaz Modan.",
+    "version": "forever"
   },
   {
     "id": "lore-mekkatorque",
@@ -669,7 +716,8 @@
       "Gnomus"
     ],
     "answer": 0,
-    "fact": "High Tinker Gelbin Mekkatorque leads the gnomes in exile after Gnomeregan fell."
+    "fact": "High Tinker Gelbin Mekkatorque leads the gnomes in exile after Gnomeregan fell.",
+    "version": "forever"
   },
   {
     "id": "lore-voljin",
@@ -683,7 +731,8 @@
       "Rokhan"
     ],
     "answer": 0,
-    "fact": "Vol'jin leads the Darkspear tribe, allied with Thrall's Horde in Durotar."
+    "fact": "Vol'jin leads the Darkspear tribe, allied with Thrall's Horde in Durotar.",
+    "version": "forever"
   },
   {
     "id": "lore-cthun",
@@ -697,7 +746,8 @@
       "Y'Shaarj"
     ],
     "answer": 0,
-    "fact": "C'Thun, the eye of terror, is the final boss of the Temple of Ahn'Qiraj."
+    "fact": "C'Thun, the eye of terror, is the final boss of the Temple of Ahn'Qiraj.",
+    "version": "forever"
   },
   {
     "id": "lore-doomhammer",
@@ -711,7 +761,8 @@
       "Ner'zhul"
     ],
     "answer": 0,
-    "fact": "Thrall named the Horde capital Orgrimmar in honor of Orgrim Doomhammer, his mentor."
+    "fact": "Thrall named the Horde capital Orgrimmar in honor of Orgrim Doomhammer, his mentor.",
+    "version": "forever"
   },
   {
     "id": "lore-thaurissan",
@@ -725,7 +776,8 @@
       "General Angerforge"
     ],
     "answer": 0,
-    "fact": "Emperor Dagran Thaurissan commands the Dark Iron dwarves deep within Blackrock Depths."
+    "fact": "Emperor Dagran Thaurissan commands the Dark Iron dwarves deep within Blackrock Depths.",
+    "version": "forever"
   },
   {
     "id": "zone-elwynn",
@@ -739,7 +791,8 @@
       "Tirisfal Glades"
     ],
     "answer": 0,
-    "fact": "New humans start in Elwynn Forest, just outside Stormwind City."
+    "fact": "New humans start in Elwynn Forest, just outside Stormwind City.",
+    "version": "forever"
   },
   {
     "id": "zone-durotar",
@@ -753,7 +806,8 @@
       "Tirisfal Glades"
     ],
     "answer": 0,
-    "fact": "Durotar, home to Orgrimmar, is the starting zone for orcs and trolls."
+    "fact": "Durotar, home to Orgrimmar, is the starting zone for orcs and trolls.",
+    "version": "forever"
   },
   {
     "id": "zone-tirisfal",
@@ -767,7 +821,8 @@
       "Durotar"
     ],
     "answer": 0,
-    "fact": "The Forsaken rise in Tirisfal Glades, above their capital of Undercity."
+    "fact": "The Forsaken rise in Tirisfal Glades, above their capital of Undercity.",
+    "version": "forever"
   },
   {
     "id": "zone-teldrassil",
@@ -781,7 +836,8 @@
       "Shaladrassil"
     ],
     "answer": 0,
-    "fact": "Night elves begin in Shadowglen atop Teldrassil, home to the city of Darnassus."
+    "fact": "Night elves begin in Shadowglen atop Teldrassil, home to the city of Darnassus.",
+    "version": "forever"
   },
   {
     "id": "zone-westfall-dm",
@@ -795,7 +851,8 @@
       "Redridge Mountains"
     ],
     "answer": 0,
-    "fact": "The Defias dig the Deadmines beneath the town of Moonbrook in Westfall."
+    "fact": "The Defias dig the Deadmines beneath the town of Moonbrook in Westfall.",
+    "version": "forever"
   },
   {
     "id": "zone-booty-bay",
@@ -809,7 +866,8 @@
       "Dustwallow Marsh"
     ],
     "answer": 0,
-    "fact": "Booty Bay is the bustling neutral port at the southern tip of Stranglethorn Vale."
+    "fact": "Booty Bay is the bustling neutral port at the southern tip of Stranglethorn Vale.",
+    "version": "forever"
   },
   {
     "id": "zone-ungoro",
@@ -823,7 +881,8 @@
       "Feralas"
     ],
     "answer": 0,
-    "fact": "Un'Goro Crater teems with devilsaurs, pterrordax, and rare power crystals."
+    "fact": "Un'Goro Crater teems with devilsaurs, pterrordax, and rare power crystals.",
+    "version": "forever"
   },
   {
     "id": "quest-dreadsteed",
@@ -837,7 +896,8 @@
       "The Deathcharger"
     ],
     "answer": 0,
-    "fact": "The Dreadsteed of Xoroth is the warlock epic mount, earned through a Dire Maul ritual."
+    "fact": "The Dreadsteed of Xoroth is the warlock epic mount, earned through a Dire Maul ritual.",
+    "version": "forever"
   },
   {
     "id": "quest-rhokdelar",
@@ -851,7 +911,8 @@
       "Mage"
     ],
     "answer": 0,
-    "fact": "Rhok'delar, Longbow of the Ancient Keepers, is the hunter legendary from a solo trial."
+    "fact": "Rhok'delar, Longbow of the Ancient Keepers, is the hunter legendary from a solo trial.",
+    "version": "forever"
   },
   {
     "id": "quest-benediction",
@@ -865,7 +926,8 @@
       "Onyxia's Lair"
     ],
     "answer": 0,
-    "fact": "The Eye of Divinity drops from Majordomo Executus in Molten Core for the priest quest."
+    "fact": "The Eye of Divinity drops from Majordomo Executus in Molten Core for the priest quest.",
+    "version": "forever"
   },
   {
     "id": "quest-quelserrar",
@@ -879,7 +941,8 @@
       "Deathwing"
     ],
     "answer": 0,
-    "fact": "Players heat the unfired blade in Onyxia's breath to forge Quel'Serrar."
+    "fact": "Players heat the unfired blade in Onyxia's breath to forge Quel'Serrar.",
+    "version": "forever"
   },
   {
     "id": "item-runecloth",
@@ -893,7 +956,8 @@
       "Wool"
     ],
     "answer": 0,
-    "fact": "Runecloth drops from high level humanoids and feeds endgame tailoring and First Aid."
+    "fact": "Runecloth drops from high level humanoids and feeds endgame tailoring and First Aid.",
+    "version": "forever"
   },
   {
     "id": "item-deathcharger",
@@ -907,7 +971,8 @@
       "Nerub'enkan"
     ],
     "answer": 0,
-    "fact": "Baron Rivendare has a tiny chance to drop his skeletal Deathcharger's Reins."
+    "fact": "Baron Rivendare has a tiny chance to drop his skeletal Deathcharger's Reins.",
+    "version": "forever"
   },
   {
     "id": "item-ashkandi",
@@ -921,7 +986,8 @@
       "Zul'Gurub"
     ],
     "answer": 0,
-    "fact": "The coveted two hander Ashkandi drops from Nefarian in Blackwing Lair."
+    "fact": "The coveted two hander Ashkandi drops from Nefarian in Blackwing Lair.",
+    "version": "forever"
   },
   {
     "id": "item-biggest-bag",
@@ -935,7 +1001,8 @@
       "14 slots"
     ],
     "answer": 0,
-    "fact": "The 18 slot Bottomless Bag, crafted with Ahn'Qiraj materials, is the biggest bag in Classic."
+    "fact": "The 18 slot Bottomless Bag, crafted with Ahn'Qiraj materials, is the biggest bag in Classic.",
+    "version": "forever"
   },
   {
     "id": "item-legendary-color",
@@ -949,7 +1016,8 @@
       "Gold"
     ],
     "answer": 0,
-    "fact": "Legendary items like Thunderfury show their names in orange text."
+    "fact": "Legendary items like Thunderfury show their names in orange text.",
+    "version": "forever"
   },
   {
     "id": "item-epic-color",
@@ -963,7 +1031,8 @@
       "Green"
     ],
     "answer": 0,
-    "fact": "Epic gear shows in purple, a tier below the orange of legendaries."
+    "fact": "Epic gear shows in purple, a tier below the orange of legendaries.",
+    "version": "forever"
   },
   {
     "id": "general-raid-size",
@@ -977,7 +1046,8 @@
       "10"
     ],
     "answer": 0,
-    "fact": "Classic endgame raids such as Molten Core and Blackwing Lair are built for 40 players."
+    "fact": "Classic endgame raids such as Molten Core and Blackwing Lair are built for 40 players.",
+    "version": "forever"
   },
   {
     "id": "general-engineering",
@@ -991,7 +1061,8 @@
       "Enchanting"
     ],
     "answer": 0,
-    "fact": "Engineering builds explosives, trinkets, and devices, pairing well with Mining."
+    "fact": "Engineering builds explosives, trinkets, and devices, pairing well with Mining.",
+    "version": "forever"
   },
   {
     "id": "general-skinning",
@@ -1005,7 +1076,8 @@
       "Fishing"
     ],
     "answer": 0,
-    "fact": "Skinning gathers leather and hides, feeding Leatherworking."
+    "fact": "Skinning gathers leather and hides, feeding Leatherworking.",
+    "version": "forever"
   },
   {
     "id": "general-high-warlord",
@@ -1019,7 +1091,8 @@
       "General"
     ],
     "answer": 0,
-    "fact": "High Warlord is rank 14 for the Horde; the Alliance equivalent is Grand Marshal."
+    "fact": "High Warlord is rank 14 for the Horde; the Alliance equivalent is Grand Marshal.",
+    "version": "forever"
   },
   {
     "id": "general-neutral-ah",
@@ -1033,7 +1106,8 @@
       "Nighthaven"
     ],
     "answer": 0,
-    "fact": "Classic's three neutral auction houses are in Gadgetzan, Everlook, and Booty Bay."
+    "fact": "Classic's three neutral auction houses are in Gadgetzan, Everlook, and Booty Bay.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q1787-line",
@@ -1047,7 +1121,8 @@
       "Underground Assault"
     ],
     "answer": 0,
-    "fact": "This is dialogue from the quest \"The Tome of Divinity\", spoken by Gazin Tenorm."
+    "fact": "This is dialogue from the quest \"The Tome of Divinity\", spoken by Gazin Tenorm.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q11-line",
@@ -1061,7 +1136,8 @@
       "WANTED: Incinerator Gar'im"
     ],
     "answer": 0,
-    "fact": "This is dialogue from the quest \"Riverpaw Gnoll Bounty\", spoken by Deputy Rainer."
+    "fact": "This is dialogue from the quest \"Riverpaw Gnoll Bounty\", spoken by Deputy Rainer.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q151-line",
@@ -1075,7 +1151,8 @@
       "A Free Lunch"
     ],
     "answer": 1,
-    "fact": "This is dialogue from the quest \"Poor Old Blanchy\", spoken by Verna Furlbrow."
+    "fact": "This is dialogue from the quest \"Poor Old Blanchy\", spoken by Verna Furlbrow.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q36-line",
@@ -1089,7 +1166,8 @@
       "Westfall Stew"
     ],
     "answer": 3,
-    "fact": "This is dialogue from the quest \"Westfall Stew\", spoken by Salma Saldean."
+    "fact": "This is dialogue from the quest \"Westfall Stew\", spoken by Salma Saldean.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q6181-line",
@@ -1103,7 +1181,8 @@
       "A Swift Message"
     ],
     "answer": 3,
-    "fact": "This is dialogue from the quest \"A Swift Message\", spoken by Thor."
+    "fact": "This is dialogue from the quest \"A Swift Message\", spoken by Thor.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q22-line",
@@ -1117,7 +1196,8 @@
       "Dry Times"
     ],
     "answer": 1,
-    "fact": "This is dialogue from the quest \"Goretusk Liver Pie\", spoken by Salma Saldean."
+    "fact": "This is dialogue from the quest \"Goretusk Liver Pie\", spoken by Salma Saldean.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q6281-line",
@@ -1131,7 +1211,8 @@
       "The Unsent Letter"
     ],
     "answer": 2,
-    "fact": "This is dialogue from the quest \"Continue to Stormwind\", spoken by Osric Strang."
+    "fact": "This is dialogue from the quest \"Continue to Stormwind\", spoken by Osric Strang.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q6261-line",
@@ -1145,7 +1226,8 @@
       "The Restless Dead"
     ],
     "answer": 0,
-    "fact": "This is dialogue from the quest \"Dungar Longdrink\", spoken by Dungar Longdrink."
+    "fact": "This is dialogue from the quest \"Dungar Longdrink\", spoken by Dungar Longdrink.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q6285-line",
@@ -1159,7 +1241,8 @@
       "Return to Lewis"
     ],
     "answer": 3,
-    "fact": "This is dialogue from the quest \"Return to Lewis\", spoken by Quartermaster Lewis."
+    "fact": "This is dialogue from the quest \"Return to Lewis\", spoken by Quartermaster Lewis.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q12-line",
@@ -1173,7 +1256,8 @@
       "Return to Lewis"
     ],
     "answer": 2,
-    "fact": "This is dialogue from the quest \"The People's Militia\", spoken by Gryan Stoutmantle."
+    "fact": "This is dialogue from the quest \"The People's Militia\", spoken by Gryan Stoutmantle.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q96395-line",
@@ -1187,7 +1271,8 @@
       "An Ancient Grudge"
     ],
     "answer": 3,
-    "fact": "This is dialogue from the quest \"An Ancient Grudge\"."
+    "fact": "This is dialogue from the quest \"An Ancient Grudge\".",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q96403-line",
@@ -1201,7 +1286,8 @@
       "Stolen Enchanting Supplies"
     ],
     "answer": 0,
-    "fact": "This is dialogue from the quest \"Important Heirlooms\", spoken by Thom Filch."
+    "fact": "This is dialogue from the quest \"Important Heirlooms\", spoken by Thom Filch.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q96394-line",
@@ -1215,7 +1301,8 @@
       "Red Linen Goods"
     ],
     "answer": 1,
-    "fact": "This is dialogue from the quest \"The Restless Dead\", spoken by Afadra Dunwall."
+    "fact": "This is dialogue from the quest \"The Restless Dead\", spoken by Afadra Dunwall.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q98423-line",
@@ -1229,7 +1316,8 @@
       "The Treaty of Understanding"
     ],
     "answer": 3,
-    "fact": "This is dialogue from the quest \"The Treaty of Understanding\", spoken by King Magni Bronzebeard."
+    "fact": "This is dialogue from the quest \"The Treaty of Understanding\", spoken by King Magni Bronzebeard.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q62-line",
@@ -1243,7 +1331,8 @@
       "A Free Lunch"
     ],
     "answer": 1,
-    "fact": "This is dialogue from the quest \"The Fargodeep Mine\", spoken by Marshal Dughan."
+    "fact": "This is dialogue from the quest \"The Fargodeep Mine\", spoken by Marshal Dughan.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q102-line",
@@ -1257,7 +1346,8 @@
       "Pie for Billy"
     ],
     "answer": 0,
-    "fact": "This is dialogue from the quest \"Patrolling Westfall\", spoken by Captain Danuvin."
+    "fact": "This is dialogue from the quest \"Patrolling Westfall\", spoken by Captain Danuvin.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q92744-line",
@@ -1271,7 +1361,8 @@
       "An Enticing Offer"
     ],
     "answer": 1,
-    "fact": "This is dialogue from the quest \"Murloc Gills\", spoken by Alba Fairmoon."
+    "fact": "This is dialogue from the quest \"Murloc Gills\", spoken by Alba Fairmoon.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q153-line",
@@ -1285,7 +1376,8 @@
       "Red Leather Bandanas"
     ],
     "answer": 3,
-    "fact": "This is dialogue from the quest \"Red Leather Bandanas\", spoken by Scout Galiaan."
+    "fact": "This is dialogue from the quest \"Red Leather Bandanas\", spoken by Scout Galiaan.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q92745-line",
@@ -1299,7 +1391,8 @@
       "Report to Thomas"
     ],
     "answer": 1,
-    "fact": "This is dialogue from the quest \"The State of the Mines\", spoken by Alba Fairmoon."
+    "fact": "This is dialogue from the quest \"The State of the Mines\", spoken by Alba Fairmoon.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q117-line",
@@ -1313,7 +1406,8 @@
       "Explosive Consultation"
     ],
     "answer": 2,
-    "fact": "This is dialogue from the quest \"Thunderbrew\", spoken by Grimbooze Thunderbrew."
+    "fact": "This is dialogue from the quest \"Thunderbrew\", spoken by Grimbooze Thunderbrew.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q34-line",
@@ -1327,7 +1421,8 @@
       "An Ancient Grudge"
     ],
     "answer": 0,
-    "fact": "This is dialogue from the quest \"An Unwelcome Guest\", spoken by Martie Jainrose."
+    "fact": "This is dialogue from the quest \"An Unwelcome Guest\", spoken by Martie Jainrose.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q132-line",
@@ -1341,7 +1436,8 @@
       "Downstream"
     ],
     "answer": 2,
-    "fact": "This is dialogue from the quest \"The Defias Brotherhood\", spoken by Gryan Stoutmantle."
+    "fact": "This is dialogue from the quest \"The Defias Brotherhood\", spoken by Gryan Stoutmantle.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q92819-line",
@@ -1355,7 +1451,8 @@
       "The People's Militia"
     ],
     "answer": 1,
-    "fact": "This is dialogue from the quest \"Destruction in Deadmines\", spoken by Alba Fairmoon."
+    "fact": "This is dialogue from the quest \"Destruction in Deadmines\", spoken by Alba Fairmoon.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q168-line",
@@ -1369,7 +1466,8 @@
       "The People's Militia"
     ],
     "answer": 1,
-    "fact": "This is dialogue from the quest \"Collecting Memories\", spoken by Wilder Thistlenettle."
+    "fact": "This is dialogue from the quest \"Collecting Memories\", spoken by Wilder Thistlenettle.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q167-line",
@@ -1383,7 +1481,8 @@
       "Destruction in Deadmines"
     ],
     "answer": 1,
-    "fact": "This is dialogue from the quest \"Oh Brother...\", spoken by Wilder Thistlenettle."
+    "fact": "This is dialogue from the quest \"Oh Brother...\", spoken by Wilder Thistlenettle.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q2040-line",
@@ -1397,7 +1496,8 @@
       "A Net Disaster"
     ],
     "answer": 0,
-    "fact": "This is dialogue from the quest \"Underground Assault\", spoken by Shoni the Shilent."
+    "fact": "This is dialogue from the quest \"Underground Assault\", spoken by Shoni the Shilent.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q86-line",
@@ -1411,7 +1511,8 @@
       "The Defias Brotherhood"
     ],
     "answer": 1,
-    "fact": "This is dialogue from the quest \"Pie for Billy\", spoken by \"Auntie\" Bernice Stonefield."
+    "fact": "This is dialogue from the quest \"Pie for Billy\", spoken by \"Auntie\" Bernice Stonefield.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q84-line",
@@ -1425,7 +1526,8 @@
       "Pie for Billy"
     ],
     "answer": 2,
-    "fact": "This is dialogue from the quest \"Back to Billy\", spoken by Billy Maclure."
+    "fact": "This is dialogue from the quest \"Back to Billy\", spoken by Billy Maclure.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q47-line",
@@ -1439,7 +1541,8 @@
       "The People's Militia"
     ],
     "answer": 0,
-    "fact": "This is dialogue from the quest \"Gold Dust Exchange\", spoken by Remy \"Two Times\"."
+    "fact": "This is dialogue from the quest \"Gold Dust Exchange\", spoken by Remy \"Two Times\".",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q87-line",
@@ -1453,7 +1556,8 @@
       "Underground Map"
     ],
     "answer": 2,
-    "fact": "This is dialogue from the quest \"Goldtooth\", spoken by \"Auntie\" Bernice Stonefield."
+    "fact": "This is dialogue from the quest \"Goldtooth\", spoken by \"Auntie\" Bernice Stonefield.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q6-line",
@@ -1467,7 +1571,8 @@
       "Murloc Gills"
     ],
     "answer": 1,
-    "fact": "This is dialogue from the quest \"Bounty on Garrick Padfoot\", spoken by Deputy Willem."
+    "fact": "This is dialogue from the quest \"Bounty on Garrick Padfoot\", spoken by Deputy Willem.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q61-line",
@@ -1481,7 +1586,8 @@
       "Bounty on Garrick Padfoot"
     ],
     "answer": 0,
-    "fact": "This is dialogue from the quest \"Shipment to Stormwind\", spoken by Morgan Pestle."
+    "fact": "This is dialogue from the quest \"Shipment to Stormwind\", spoken by Morgan Pestle.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q5545-line",
@@ -1495,7 +1601,8 @@
       "Blackrock Blockade"
     ],
     "answer": 0,
-    "fact": "This is dialogue from the quest \"A Bundle of Trouble\", spoken by Supervisor Raelen."
+    "fact": "This is dialogue from the quest \"A Bundle of Trouble\", spoken by Supervisor Raelen.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q83-line",
@@ -1509,7 +1616,8 @@
       "Red Linen Goods"
     ],
     "answer": 3,
-    "fact": "This is dialogue from the quest \"Red Linen Goods\", spoken by Sara Timberlain."
+    "fact": "This is dialogue from the quest \"Red Linen Goods\", spoken by Sara Timberlain.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q3741-line",
@@ -1523,7 +1631,8 @@
       "Important Heirlooms"
     ],
     "answer": 1,
-    "fact": "This is dialogue from the quest \"Hilary's Necklace\", spoken by Hilary."
+    "fact": "This is dialogue from the quest \"Hilary's Necklace\", spoken by Hilary.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q20-line",
@@ -1537,7 +1646,8 @@
       "Poor Old Blanchy"
     ],
     "answer": 0,
-    "fact": "This is dialogue from the quest \"Blackrock Menace\", spoken by Marshal Marris."
+    "fact": "This is dialogue from the quest \"Blackrock Menace\", spoken by Marshal Marris.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q95999-line",
@@ -1551,7 +1661,8 @@
       "WANTED: Incinerator Gar'im"
     ],
     "answer": 3,
-    "fact": "This is dialogue from the quest \"WANTED: Incinerator Gar'im\", spoken by Magistrate Solomon."
+    "fact": "This is dialogue from the quest \"WANTED: Incinerator Gar'im\", spoken by Magistrate Solomon.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q71-line",
@@ -1565,7 +1676,8 @@
       "Murloc Gills"
     ],
     "answer": 2,
-    "fact": "This is dialogue from the quest \"Report to Thomas\", spoken by Guard Thomas."
+    "fact": "This is dialogue from the quest \"Report to Thomas\", spoken by Guard Thomas.",
+    "version": "forever"
   },
   {
     "id": "quests-spoken-q91753-line",
@@ -1579,6 +1691,2257 @@
       "Oh Brother..."
     ],
     "answer": 1,
-    "fact": "This is dialogue from the quest \"An Enchanting Lesson\", spoken by Kitta Firewind."
+    "fact": "This is dialogue from the quest \"An Enchanting Lesson\", spoken by Kitta Firewind.",
+    "version": "forever"
+  },
+  {
+    "id": "fqt-8557",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"I'm glad to hear you're aiding us in our attack on Ahn'Qiraj, adventurer.\"",
+    "options": [
+      "Ring of Infinite Wisdom",
+      "Stormcaller's Footguards",
+      "Scythe of the Unseen Path",
+      "Drape of Unyielding Strength"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"Drape of Unyielding Strength\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-8700",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"The rings worn by the Qiraji lieutenants are rumored to grant them formidable abilities.\"",
+    "options": [
+      "Striker's Footguards",
+      "Band of Unending Life",
+      "Enigma Robes",
+      "Avenger's Greaves"
+    ],
+    "answer": 1,
+    "fact": "From the quest \"Band of Unending Life\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-5241",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"If you find him say I'm waiting for him, and I want to hear the story he used to tell...\"",
+    "options": [
+      "Auntie Marlene",
+      "Uncle Carlin",
+      "Carrion Grubbage",
+      "Demon Dogs"
+    ],
+    "answer": 1,
+    "fact": "From the quest \"Uncle Carlin\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-1126",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"The hive needs to be addressed in Southwind Village, and I think I know a way to get at them.\"",
+    "options": [
+      "Deadly Desert Venom",
+      "Hive in the Tower",
+      "Vyral the Vile",
+      "Dukes of the Council"
+    ],
+    "answer": 1,
+    "fact": "From the quest \"Hive in the Tower\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-196",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"They are far more difficult to track down and kill than the other breeds you've been trying your luck at.\"",
+    "options": [
+      "Scaring Shaky",
+      "Bloodscalp Clan Heads",
+      "Raptor Mastery",
+      "Skullsplitter Tusks"
+    ],
+    "answer": 2,
+    "fact": "From the quest \"Raptor Mastery\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-890",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"I'm pretty sure that it must have been stolen by the Freebooters, but just to make sure, will you go down to the dockside and ask Dizzywig if my goods were already put into my warehouse without my knowledge?\"",
+    "options": [
+      "The Missing Shipment",
+      "The Swarm Grows",
+      "Samophlange Manual",
+      "Ride to Thunder Bluff"
+    ],
+    "answer": 0,
+    "fact": "From the quest \"The Missing Shipment\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-1138",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"There's crab salad, crab soup, crab stew, pepper crab, lemon crab, whipper root crab, and Ironforge surprise crab.\"",
+    "options": [
+      "The Tower of Althalaxx",
+      "The Fall of Ameth'Aran",
+      "Fruit of the Sea",
+      "Escape Through Stealth"
+    ],
+    "answer": 2,
+    "fact": "From the quest \"Fruit of the Sea\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-4297",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"Sprite darters are omnivores--that means they eat both meat and vegetation.\"",
+    "options": [
+      "Food for Baby",
+      "Find OOX-22/FE!",
+      "War on the Woodpaw",
+      "Zapped Giants"
+    ],
+    "answer": 0,
+    "fact": "From the quest \"Food for Baby\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-6462",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"I miss my brothers and sisters who were killed, but we will meet again in the afterlife.\"",
+    "options": [
+      "The Ashenvale Hunt",
+      "The Caravan Road",
+      "Troll Charm",
+      "Outrider Basic Care Package"
+    ],
+    "answer": 2,
+    "fact": "From the quest \"Troll Charm\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-7044",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"A dark satyr called Lord Vyletongue spread his evil through these twisting caves, poisoning the minds of all inside.\"",
+    "options": [
+      "The Scepter of Celebras",
+      "Vyletongue Corruption",
+      "Legends of Maraudon",
+      "The Pariah's Instructions"
+    ],
+    "answer": 2,
+    "fact": "From the quest \"Legends of Maraudon\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-6571",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"It'll take a trip to Booty Bay to pick up a crate of axes from Wharfmaster Lozgil.\"",
+    "options": [
+      "Warsong Supplies",
+      "Passage to Booty Bay",
+      "Warsong Scout Update",
+      "On Guard in Stonetalon"
+    ],
+    "answer": 0,
+    "fact": "From the quest \"Warsong Supplies\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-6122",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"Use this sampler to draw some water from the mouth of the cave; be careful, as dangerous naga now reside in a cave by the falls.\"",
+    "options": [
+      "The Principal Source",
+      "A Lesson to Learn",
+      "Aquatic Form",
+      "Body and Heart"
+    ],
+    "answer": 0,
+    "fact": "From the quest \"The Principal Source\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-6133",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"The high elves of the Quel'Lithien lodge possesses something that belongs to me, hero: A document detailing my life as a mortal.\"",
+    "options": [
+      "The Ranger Lord's Behest",
+      "Uncle Carlin",
+      "That's Asking A Lot",
+      "Lord Maxwell Tyrosus"
+    ],
+    "answer": 0,
+    "fact": "From the quest \"The Ranger Lord's Behest\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-877",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"Like the one you found at the Forgotten Pools, there may be fissures at the other oases in the Barrens.\"",
+    "options": [
+      "Letter to Jin'Zil",
+      "Fungal Spores",
+      "The Stagnant Oasis",
+      "Agamaggan's Strength"
+    ],
+    "answer": 2,
+    "fact": "From the quest \"The Stagnant Oasis\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-8447",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"The waters of Lake Elune'ara should dissolve the nightmares engulfing this object.\"",
+    "options": [
+      "Waking Legends",
+      "Gold Dust Exchange",
+      "Shrouded in Nightmare",
+      "Wild Leather Boots"
+    ],
+    "answer": 0,
+    "fact": "From the quest \"Waking Legends\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-5943",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"normally the demons ignore us but something has the kodos spooked this time.\"",
+    "options": [
+      "<nyi> <TXT> The Centaur Hoofprints",
+      "Ongeku",
+      "The Karnitol Shipwreck",
+      "Gizelton Caravan"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"Gizelton Caravan\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-8789",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"We have watched these beasts feast on their own when they have exhausted their utility.\"",
+    "options": [
+      "Imperial Qiraji Armaments",
+      "Doomcaller's Circlet",
+      "Scythe of the Unseen Path",
+      "Avenger's Pauldrons"
+    ],
+    "answer": 0,
+    "fact": "From the quest \"Imperial Qiraji Armaments\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-6042",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"You cannot take two steps off of this farm without running into one of those obnoxious bats.\"",
+    "options": [
+      "Villains of Darrowshire",
+      "The Lost Tablets of Mosh'aru",
+      "The Crimson Courier",
+      "Un-Life's Little Annoyances"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"Un-Life's Little Annoyances\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-4294",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"It is near the Tanaris desert, and it is a magnificent place: lush, vibrant, full of creatures and plant life.\"",
+    "options": [
+      "A Donation of Mageweave",
+      "Additional Runecloth",
+      "The Lich's Identity",
+      "... and a Batch of Ooze"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"... and a Batch of Ooze\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-5725",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"Many denizens of the Legion bestow gifts on their followers as you may well know.\"",
+    "options": [
+      "The Power to Destroy...",
+      "Searching for the Lost Satchel",
+      "Hidden Enemies",
+      "Slaying the Beast"
+    ],
+    "answer": 0,
+    "fact": "From the quest \"The Power to Destroy...\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-7507",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"It would appear as if someone or something has managed to shatter the seal of Athenaeum.\"",
+    "options": [
+      "The Light and How To Swing It",
+      "Codex of Defense",
+      "The Emerald Dream...",
+      "Foror's Compendium"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"Foror's Compendium\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-8701",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"The rings worn by the Qiraji lieutenants are rumored to grant them formidable abilities.\"",
+    "options": [
+      "Doomcaller's Robes",
+      "Genesis Vest",
+      "Band of Veiled Shadows",
+      "Deathdealer's Vest"
+    ],
+    "answer": 2,
+    "fact": "From the quest \"Band of Veiled Shadows\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-8556",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"The rings worn by the Qiraji lieutenants are rumored to grant them formidable abilities.\"",
+    "options": [
+      "Striker's Hauberk",
+      "Doomcaller's Trousers",
+      "Signet of Unyielding Strength",
+      "Mortal Champions"
+    ],
+    "answer": 2,
+    "fact": "From the quest \"Signet of Unyielding Strength\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-587",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"So you can imagine how heartbroken I was to find out the herbalist here in town has gone and sold out of the stuff.\"",
+    "options": [
+      "Enchanted Azsharite Fel Weaponry",
+      "Up to Snuff",
+      "The Mind's Eye",
+      "The Spy Revealed!"
+    ],
+    "answer": 1,
+    "fact": "From the quest \"Up to Snuff\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-4987",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"The image of Thunder Bluff in Mulgore enters your mind - Elder Rise specifically - and the words \"Cenarion Circle\" are on the tip of your tongue.\"",
+    "options": [
+      "The Last Barov",
+      "Locked Away",
+      "Counting Out Time",
+      "Glyphed Oaken Branch"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"Glyphed Oaken Branch\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-8602",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"It is said among us that the ornate shoulder armor worn by the mortal races started as an attempt to emulate the wings of a dragon.\"",
+    "options": [
+      "Band of Vaulted Secrets",
+      "Avenger's Breastplate",
+      "Drape of Vaulted Secrets",
+      "Stormcaller's Pauldrons"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"Stormcaller's Pauldrons\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-876",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"You did so well with the lieutenants and underlings that I'd like you to do one last thing for me.\"",
+    "options": [
+      "Consumed by Hatred",
+      "Southsea Freebooters",
+      "The Disruption Ends",
+      "Serena Bloodfeather"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"Serena Bloodfeather\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-629",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"Long ago, a great shudder of the earth sunk an old troll city beneath the waters of the Savage Coast to the northwest.\"",
+    "options": [
+      "The Vile Reef",
+      "Return to the Blasted Lands",
+      "Cortello's Riddle",
+      "The Captain's Chest"
+    ],
+    "answer": 0,
+    "fact": "From the quest \"The Vile Reef\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-351",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"You have uncovered some sort of strange, egg-shaped device made from metal.\"",
+    "options": [
+      "The Only Prescription",
+      "Noxious Lair Investigation",
+      "The Changing of Paths - Conqueror No More",
+      "Find OOX-17/TN!"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"Find OOX-17/TN!\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-558",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"I dunno how to ask her, and she'd probably be too busy for someone like me...\"",
+    "options": [
+      "Spooky Lighthouse",
+      "Cairne's Hoofprint",
+      "The Stonewrought Dam",
+      "Jaina's Autograph"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"Jaina's Autograph\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-3642",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"Gnome engineering is about engineering theory shaped to serve our needs!\"",
+    "options": [
+      "The Pledge of Secrecy",
+      "Membership Card Renewal",
+      "Flash Bomb Recipe",
+      "Goblin Engineering"
+    ],
+    "answer": 0,
+    "fact": "From the quest \"The Pledge of Secrecy\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-1861",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"This world has been victim to massive mystic struggles, which tore magic currents from once stable channels.\"",
+    "options": [
+      "The Infernal Orb",
+      "Mirror Lake",
+      "Power in Uldaman",
+      "Destroy Morphaz"
+    ],
+    "answer": 1,
+    "fact": "From the quest \"Mirror Lake\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-896",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"Being Wharfmaster of a busy port like Ratchet, I keep my finger on the pulse of information.\"",
+    "options": [
+      "Weapons of Choice",
+      "Agamaggan's Strength",
+      "Enraged Thunder Lizards",
+      "Miner's Fortune"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"Miner's Fortune\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-6341",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"The fishermen of Rut'theran village do very well, for the fish here are extremely large and abundant.\"",
+    "options": [
+      "Escape Through Force",
+      "The Bounty of Teldrassil",
+      "The Cliffspring River",
+      "For Love Eternal"
+    ],
+    "answer": 1,
+    "fact": "From the quest \"The Bounty of Teldrassil\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-364",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"We Forsaken are at war with the Lich King's army of the Scourge: necromantically raised armies of the undead, foul beasts of the north, and tormented spectres.\"",
+    "options": [
+      "The Scarlet Crusade",
+      "A Rogue's Deal",
+      "Welcome!",
+      "The Mindless Ones"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"The Mindless Ones\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-302",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"I sent the approval on ahead with a messenger to Jern Hornhelm in Thelsamar.\"",
+    "options": [
+      "A Hunter's Boast",
+      "Gathering Idols",
+      "Powder to Ironband",
+      "Mercenaries"
+    ],
+    "answer": 2,
+    "fact": "From the quest \"Powder to Ironband\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-45",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"Upon further searching the area, you find webbed footprints leading east along the shore of Stone Cairn Lake.\"",
+    "options": [
+      "Discover Rolf's Fate",
+      "Cloth and Leather Armor",
+      "Kobold Candles",
+      "Gold Dust Exchange"
+    ],
+    "answer": 0,
+    "fact": "From the quest \"Discover Rolf's Fate\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-8606",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"I'm going to fill a sack up with rocks and you're going to make the drop.\"",
+    "options": [
+      "Handle With Care",
+      "The Qiraji Conqueror",
+      "Decoy!",
+      "The Hand of Rastakhan"
+    ],
+    "answer": 2,
+    "fact": "From the quest \"Decoy!\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-8304",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"Truth be told, she had been acting strangely for weeks leading up to her disappearance.\"",
+    "options": [
+      "Target: Hive'Zora Waywatchers",
+      "Desert Survival Kits",
+      "Dearest Natalia",
+      "Twilight Ring of Lordship"
+    ],
+    "answer": 2,
+    "fact": "From the quest \"Dearest Natalia\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-837",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"When we arrived, the Razormane quilboars possessed much of the land, and proved a thorn in our sides.\"",
+    "options": [
+      "Encroachment",
+      "Securing the Lines",
+      "Ivory Raptor Replacement",
+      "A Solvent Spirit"
+    ],
+    "answer": 0,
+    "fact": "From the quest \"Encroachment\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-1440",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"I appreciate your efforts, and if the situation does not lend itself, then allow me to thank you now for everything you've done for me and my family.\"",
+    "options": [
+      "Catch of the Day",
+      "Return to Vahlarriel",
+      "Centaur Bounty",
+      "Gizmo for Warug"
+    ],
+    "answer": 1,
+    "fact": "From the quest \"Return to Vahlarriel\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-990",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"With your help, perhaps we can at least ease some of the corruption that's taken hold there.\"",
+    "options": [
+      "Raene's Cleansing",
+      "The Barrens Port",
+      "Bathran's Hair",
+      "Trek to Ashenvale"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"Trek to Ashenvale\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-516",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"I have received reports that a group of undead are holing up to prepare for an attack against us.\"",
+    "options": [
+      "A Recipe For Death",
+      "Dalar's Analysis",
+      "Beren's Peril",
+      "The Hidden Niche"
+    ],
+    "answer": 2,
+    "fact": "From the quest \"Beren's Peril\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-5693",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"Aelthalyste has asked you to return to the Undercity when you've finished your business here in Thunder Bluff.\"",
+    "options": [
+      "Returning Home",
+      "<NYI> Hex of Weakness",
+      "<NYI> In the Dark It was Created",
+      "Devouring Plague"
+    ],
+    "answer": 2,
+    "fact": "From the quest \"<NYI> In the Dark It was Created\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-5321",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"I was on my way to Maestra's Post to meet Liladris Moonriver, but I decided to stop here and take a short nap.\"",
+    "options": [
+      "Tools of the Highborne",
+      "Beached Sea Creature",
+      "The Sleeper Has Awakened",
+      "Escape Through Force"
+    ],
+    "answer": 2,
+    "fact": "From the quest \"The Sleeper Has Awakened\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-5086",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"However, the only way to know for sure is to gather some as a comparison.\"",
+    "options": [
+      "Shardtooth E'ko",
+      "Toxic Horrors",
+      "Wildkin E'ko",
+      "Guardians of the Altar"
+    ],
+    "answer": 1,
+    "fact": "From the quest \"Toxic Horrors\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-7733",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"I have a lead on an even BETTER source of hides, if that's even possible to believe!\"",
+    "options": [
+      "Becoming a Parent",
+      "Psychometric Reading",
+      "Zapped Giants",
+      "Improved Quality"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"Improved Quality\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-5861",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"Unfortunately, Taelan and his Scarlet Crusaders will attack you on sight.\"",
+    "options": [
+      "Scholomance",
+      "Unfinished Business",
+      "Soulbound Keepsake",
+      "Find Myranda"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"Find Myranda\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-1506",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"I hope your schedule isn't busy, because Gan'rul wants to see you right away.\"",
+    "options": [
+      "Gan'rul's Summons",
+      "In Search of Menara Voidrender",
+      "Rage of Blood",
+      "Trolls of a Feather"
+    ],
+    "answer": 0,
+    "fact": "From the quest \"Gan'rul's Summons\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-168",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"Many of my friends perished that horrible day when the mine tunnel caved in.\"",
+    "options": [
+      "Underground Assault",
+      "Red Silk Bandanas",
+      "Collecting Memories",
+      "The Defias Brotherhood"
+    ],
+    "answer": 2,
+    "fact": "From the quest \"Collecting Memories\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-942",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"This fossil bears a striking resemblance to one I once saw in Ironforge.\"",
+    "options": [
+      "Tharnariun's Hope",
+      "The Absent Minded Prospector",
+      "Buzzbox 323",
+      "The Blackwood Corrupted"
+    ],
+    "answer": 1,
+    "fact": "From the quest \"The Absent Minded Prospector\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-3112",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"Take a gander at it and go find him inside Anvilmar when you've a chance.\"",
+    "options": [
+      "Weapons of Elunite",
+      "Simple Memorandum",
+      "Orm Stonehoof and the Brutal Helm",
+      "Brutal Armor"
+    ],
+    "answer": 1,
+    "fact": "From the quest \"Simple Memorandum\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-3129",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"Now that I have all of the required materials and the muisek of the creatures that you captured, I may begin.\"",
+    "options": [
+      "Weapons of Spirit",
+      "Dark Heart",
+      "Freedom for All Creatures",
+      "The Gordunni Orb"
+    ],
+    "answer": 0,
+    "fact": "From the quest \"Weapons of Spirit\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-744",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"adventurer, my brother soon stands before Chief Bloodhoof, and it is my honor to make his headdress for him.\"",
+    "options": [
+      "Until Death Do Us Part",
+      "Preparation for Ceremony",
+      "The New Frontier",
+      "The Platinum Discs"
+    ],
+    "answer": 1,
+    "fact": "From the quest \"Preparation for Ceremony\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-5930",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"For all druids, it has served as a tutor and mentor into the first true natural understanding of the bear.\"",
+    "options": [
+      "Curing the Sick",
+      "Aquatic Form",
+      "Verdant Sigil",
+      "Great Bear Spirit"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"Great Bear Spirit\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-4903",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"You will also be required to return any important documents that you may find.\"",
+    "options": [
+      "Warlord's Command",
+      "Maxwell's Mission",
+      "The Left Piece of Lord Valthalak's Amulet",
+      "The Darkstone Tablet"
+    ],
+    "answer": 0,
+    "fact": "From the quest \"Warlord's Command\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-402",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"I'm sorry, but with the town in the state it's in I'm afraid have other duties to attend to.\"",
+    "options": [
+      "Blessed Arm",
+      "Finding the Shadowy Figure",
+      "Wolves at Our Heels",
+      "Sirra is Busy"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"Sirra is Busy\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-2864",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"He promised me a load of scarab shells weeks ago and he hasn't delivered.\"",
+    "options": [
+      "Scarab Shells",
+      "The Prophecy of Mosh'aru",
+      "Tran'rek",
+      "Nekrum's Medallion"
+    ],
+    "answer": 2,
+    "fact": "From the quest \"Tran'rek\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-6283",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"Go back into the Charred Vale and you will find her along the western hills.\"",
+    "options": [
+      "Devils in Westfall",
+      "Bloodfury Bloodline",
+      "An Old Colleague",
+      "A Scroll from Mauren"
+    ],
+    "answer": 1,
+    "fact": "From the quest \"Bloodfury Bloodline\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-2968",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"We know what we need - the Plates of Uldum - but we have no idea where they might be.\"",
+    "options": [
+      "Until Death Do Us Part",
+      "<nyi> The Shakedown",
+      "A Future Task",
+      "Un'Goro Soil"
+    ],
+    "answer": 2,
+    "fact": "From the quest \"A Future Task\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-317",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"So while Steelgrill is working on my tank, can you do some hunting for me?\"",
+    "options": [
+      "Stocking Jetsteam",
+      "The Lost Pilot",
+      "Frost Ram Exchange",
+      "Tundra MacGrann's Stolen Stash"
+    ],
+    "answer": 0,
+    "fact": "From the quest \"Stocking Jetsteam\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-8770",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"As the war effort mounts, the silithid presence in the area presents an ever increasing threat to our operations.\"",
+    "options": [
+      "Target: Hive'Ashi Defenders",
+      "Secrets of the Colossus - Ashi",
+      "Target: Hive'Regal Burrowers",
+      "Secret Communication"
+    ],
+    "answer": 0,
+    "fact": "From the quest \"Target: Hive'Ashi Defenders\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-6402",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"What Windsor is about to unveil will shake the very foundation of the kingdom!\"",
+    "options": [
+      "Stormpike's Delivery",
+      "Stormwind Rendezvous",
+      "Rethban Ore",
+      "Brother Paxton"
+    ],
+    "answer": 1,
+    "fact": "From the quest \"Stormwind Rendezvous\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-3100",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"I was asked to bring this to your attention as soon as you returned from the kobold camps, adventurer.\"",
+    "options": [
+      "Cyclonian",
+      "Simple Letter",
+      "Muren Stormpike",
+      "Vorlus Vilehoof"
+    ],
+    "answer": 1,
+    "fact": "From the quest \"Simple Letter\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-715",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"I'm thinking those items you acquired for Lotwil are going to be the least of our worries, adventurer.\"",
+    "options": [
+      "Liquid Stone",
+      "Murdaloc",
+      "<UNUSED>",
+      "An Ambassador of Evil"
+    ],
+    "answer": 0,
+    "fact": "From the quest \"Liquid Stone\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-5541",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"Riflemen and mortar teams spend a lot of time practicing out near his shop, and he's always needing fresh ammunition.\"",
+    "options": [
+      "Stout to Kadrell",
+      "Supplies to Tannok",
+      "Ammo for Rumbleshot",
+      "The Perfect Stout"
+    ],
+    "answer": 2,
+    "fact": "From the quest \"Ammo for Rumbleshot\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-693",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"I figured out where Trelane's first item ended up: Kor'gresh has it in Boulderfist Hall.\"",
+    "options": [
+      "Land Ho!",
+      "Wand over Fist",
+      "Guile of the Raptor",
+      "Sigil of Thoradin"
+    ],
+    "answer": 1,
+    "fact": "From the quest \"Wand over Fist\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-6625",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"I would give anything to be given a chance to study under the great doctor, Gustaf VanHowzen!\"",
+    "options": [
+      "Ram Riding Harnesses",
+      "Alliance Trauma",
+      "Horde Trauma",
+      "Triage"
+    ],
+    "answer": 1,
+    "fact": "From the quest \"Alliance Trauma\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-25",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"If you want to be useful, then why don't you do something about the situation near Talondeep Path?\"",
+    "options": [
+      "Warsong Runner Update",
+      "Stonetalon Standstill",
+      "The Branch of Cenarius",
+      "Freedom to Ruul"
+    ],
+    "answer": 1,
+    "fact": "From the quest \"Stonetalon Standstill\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-647",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"Longbraid would have my head if he knew that I passed out during my watch.\"",
+    "options": [
+      "Reclaiming Goods",
+      "Tramping Paws",
+      "Fiora Longears",
+      "MacKreel's Moonshine"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"MacKreel's Moonshine\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-8585",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"Now these chimaerok also have a daddy who, with proper preparation, may or may not look like a 500 pound chicken.\"",
+    "options": [
+      "Noggenfogger Elixir",
+      "The Might of Kalimdor",
+      "A Fine Egg",
+      "The Isle of Dread!"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"The Isle of Dread!\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-1102",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"Cairne is a noble leader for uniting our people here on Thunder Bluff.\"",
+    "options": [
+      "Mortality Wanes",
+      "Willix the Importer",
+      "Blueleaf Tubers",
+      "A Vengeful Fate"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"A Vengeful Fate\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-1579",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"I want to invent my inventions where it's quiet, because after a night of drinking I don't like all the noise of Ironforge!\"",
+    "options": [
+      "I Got Nothin' Left!",
+      "Rare Fish - Keefer's Angelfish",
+      "Could I get a Fishing Flier?",
+      "Gaffer Jacks"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"Gaffer Jacks\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-7828",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"Many brave trolls have been lost to the harsh wilds of the Hinterlands, traveler.\"",
+    "options": [
+      "Hunt the Savages",
+      "Oran's Gratitude",
+      "Stalking the Stalkers",
+      "The Final Message to the Wildhammer"
+    ],
+    "answer": 2,
+    "fact": "From the quest \"Stalking the Stalkers\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-5561",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"Bibbly thinks he is the only goblin in Desolace who knows how to make money.\"",
+    "options": [
+      "Gelkis Alliance",
+      "Kodo Roundup",
+      "Broken Tears",
+      "Magram Alliance"
+    ],
+    "answer": 1,
+    "fact": "From the quest \"Kodo Roundup\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-3063",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"I was out in the forest, sharpening my blade after a tough battle, when I was ambushed.\"",
+    "options": [
+      "Corrupted Songflower",
+      "Mountain Giant Muisek",
+      "Psychometric Reading",
+      "Vengeance on the Northspring"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"Vengeance on the Northspring\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-6621",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"They are not as many as the Thistlefur, but their ferocity poses a future threat.\"",
+    "options": [
+      "Velinde's Effects",
+      "King of the Foulweald",
+      "Sentinel Advanced Care Package",
+      "Elune's Tear"
+    ],
+    "answer": 1,
+    "fact": "From the quest \"King of the Foulweald\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-439",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"It is the hand of a woman, pockmarked from the plague but relatively fresh.\"",
+    "options": [
+      "Return to Quinn",
+      "Rot Hide Clues",
+      "The Hidden Niche",
+      "Journey to Hillsbrad Foothills"
+    ],
+    "answer": 1,
+    "fact": "From the quest \"Rot Hide Clues\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-2941",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"I have studied many subjects in my time, and my latest fascination is with the snapjaw that occupy the beach in the Hinterlands.\"",
+    "options": [
+      "Testing the Vessel",
+      "The Borrower",
+      "Return to Witch Doctor Uzer'i",
+      "Boat Wreckage"
+    ],
+    "answer": 1,
+    "fact": "From the quest \"The Borrower\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-88",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"The sow is HUGE, and she got that way from sneaking over here and eating my veggies!\"",
+    "options": [
+      "Collecting Kelp",
+      "Protect the Frontier",
+      "Discover Rolf's Fate",
+      "Princess Must Die!"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"Princess Must Die!\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-580",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"We was splicin' the mainbrace somethin' fierce off of the Overlook Cliffs, ol' Hinterlands just in the distance.\"",
+    "options": [
+      "Whiskey Slim's Lost Grog",
+      "Magical Analysis",
+      "Avast Ye, Scallywag",
+      "Ansirem's Key"
+    ],
+    "answer": 0,
+    "fact": "From the quest \"Whiskey Slim's Lost Grog\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-1363",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"As caretaker of the works here in the library of the Academy of Arcane Arts and Sciences, it is my responsibility to ensure all the magical tomes and scrolls are accounted for at all times.\"",
+    "options": [
+      "Harlan Needs a Resupply",
+      "Items of Some Consequence",
+      "Rethban Ore",
+      "Mazen's Behest"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"Mazen's Behest\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-82",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"Get five from the Centipaar there and bring them to Alchemist Pestlezugg for him to dink with.\"",
+    "options": [
+      "A Supernatural Device",
+      "More Wastewander Justice",
+      "Pirate Hats Ahoy!",
+      "Noxious Lair Investigation"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"Noxious Lair Investigation\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-3741",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"We've been fishing all day right here, and we looked around here already.\"",
+    "options": [
+      "Visit the Herbalist",
+      "Messenger to Stormwind",
+      "Hilary's Necklace",
+      "Selling Fish"
+    ],
+    "answer": 2,
+    "fact": "From the quest \"Hilary's Necklace\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-786",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"Last night while they were raiding, I snuck into their village and discovered that the dirty beasts have a three-tiered attack planned on the trolls and orcs of Durotar.\"",
+    "options": [
+      "The Demon Seed",
+      "Lost But Not Forgotten",
+      "Practical Prey",
+      "Thwarting Kolkar Aggression"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"Thwarting Kolkar Aggression\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-1940",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"I think, perhaps, it is time you had a finer garment, one more suiting your station as an adept mage.\"",
+    "options": [
+      "Rituals of Power",
+      "Investigate the Alchemist Shop",
+      "Mage-tastic Gizmonitor",
+      "Pristine Spider Silk"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"Pristine Spider Silk\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-750",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"A tauren skilled in the ways of the hunt knows that his prey is not for mere trophy.\"",
+    "options": [
+      "A Task Unfinished",
+      "The Hunt Continues",
+      "The Hunt Begins",
+      "Attack on Camp Narache"
+    ],
+    "answer": 1,
+    "fact": "From the quest \"The Hunt Continues\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-1044",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"This evil that your friend introduced to our woods will be contained, and I bear her no ill will for her actions.\"",
+    "options": [
+      "The Howling Vale",
+      "Answered Questions",
+      "Elune's Tear",
+      "The Scythe of Elune"
+    ],
+    "answer": 1,
+    "fact": "From the quest \"Answered Questions\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-1963",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"We build strength from the shadows and strike at the exposed, secretly laying our enemies low.\"",
+    "options": [
+      "Kingly Shakedown",
+      "Encrypted Parchment",
+      "The Shattered Hand",
+      "Mathias and the Defias"
+    ],
+    "answer": 2,
+    "fact": "From the quest \"The Shattered Hand\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-7845",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"My mate was taken by Vilebranch savages in a bold midnight raid on our village.\"",
+    "options": [
+      "Stalking the Stalkers",
+      "Thadius Grimshade",
+      "The Ancient Egg",
+      "Kidnapped Elder Torntusk!"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"Kidnapped Elder Torntusk!\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-8150",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"During the Harvest Festival of Azeroth, we give thanks to heroes for the sacrifices - in some cases ultimate sacrifices - they have given on our behalf.\"",
+    "options": [
+      "Flexing for Nougat",
+      "Honoring a Hero",
+      "Crashing the Wickerman Festival",
+      "Treats for Greatfather Winter"
+    ],
+    "answer": 1,
+    "fact": "From the quest \"Honoring a Hero\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-822",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"It won't take long to make, and it might be useful if you plan on adventuring some more.\"",
+    "options": [
+      "The Swarm Grows",
+      "Chen's Empty Keg",
+      "Ishamuhale",
+      "The Forgotten Pools"
+    ],
+    "answer": 1,
+    "fact": "From the quest \"Chen's Empty Keg\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-7067",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"Though exiled as a heretic, my beliefs still ring true--that alone drives me onward.\"",
+    "options": [
+      "Twisted Evils",
+      "Corruption of Earth and Seed",
+      "The Pariah's Instructions",
+      "Legends of Maraudon"
+    ],
+    "answer": 2,
+    "fact": "From the quest \"The Pariah's Instructions\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-133",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"I live so far from the protection of town, it's a wonder the ghouls and the walking dead haven't eaten me!\"",
+    "options": [
+      "Lightforge Iron",
+      "The Legend of Stalvan",
+      "Ogre Thieves",
+      "Ghoulish Effigy"
+    ],
+    "answer": 3,
+    "fact": "From the quest \"Ghoulish Effigy\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fqt-8985",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "This quest text is from which Forever quest?\n\n\"Now that we have the location of the last amulet piece, we still need another component to suffuse the brazier with; something that will provide a focus strong enough to entice the spirit of my deceased, former comrade.\"",
+    "options": [
+      "More Components of Importance",
+      "Return to Bodley",
+      "Disharmony of Flame",
+      "Bodley's Unfortunate Fate"
+    ],
+    "answer": 0,
+    "fact": "From the quest \"More Components of Importance\" in the World of Warcraft: Forever game data."
+  },
+  {
+    "id": "fnpc-357",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"The Lich's Identity\"?",
+    "options": [
+      "Genavie Callow",
+      "Apothecary Zinge",
+      "Apothecary Renferrel",
+      "Bethor Iceshard"
+    ],
+    "answer": 3,
+    "fact": "\"The Lich's Identity\" is offered by Bethor Iceshard."
+  },
+  {
+    "id": "fnpc-8265",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Defiler's Advanced Care Package\"?",
+    "options": [
+      "Rutherford Twing",
+      "Samuel Hawke",
+      "Field Marshal Oslight",
+      "Deathstalker Mortis"
+    ],
+    "answer": 0,
+    "fact": "\"Defiler's Advanced Care Package\" is offered by Rutherford Twing."
+  },
+  {
+    "id": "fnpc-8554",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Facing Negolash\"?",
+    "options": [
+      "Lieutenant Doren",
+      "\"Pretty Boy\" Duncan",
+      "Sprogger",
+      "Sir S. J. Erlgadin"
+    ],
+    "answer": 2,
+    "fact": "\"Facing Negolash\" is offered by Sprogger."
+  },
+  {
+    "id": "fnpc-8590",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"The Horde Needs Thick Leather!\"?",
+    "options": [
+      "Field Marshal Snowfall",
+      "Herbalist Proudfeather",
+      "Grunt Maug",
+      "Sergeant Umala"
+    ],
+    "answer": 3,
+    "fact": "\"The Horde Needs Thick Leather!\" is offered by Sergeant Umala."
+  },
+  {
+    "id": "fnpc-366",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Return the Book\"?",
+    "options": [
+      "Bethor Iceshard",
+      "Gretchen Dedmar",
+      "Coleman Farthing",
+      "Magistrate Sevren"
+    ],
+    "answer": 0,
+    "fact": "\"Return the Book\" is offered by Bethor Iceshard."
+  },
+  {
+    "id": "fnpc-1740",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"The Orb of Soran'ruk\"?",
+    "options": [
+      "Alamar Grimm",
+      "Zankaja",
+      "Ruzan",
+      "Doan Karhan"
+    ],
+    "answer": 3,
+    "fact": "\"The Orb of Soran'ruk\" is offered by Doan Karhan."
+  },
+  {
+    "id": "fnpc-1710",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Sunscorched Shells\"?",
+    "options": [
+      "Thun'grim Firegaze",
+      "Wu Shen",
+      "Lyria Du Lac",
+      "Mathiel"
+    ],
+    "answer": 3,
+    "fact": "\"Sunscorched Shells\" is offered by Mathiel."
+  },
+  {
+    "id": "fnpc-8689",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Shroud of Infinite Wisdom\"?",
+    "options": [
+      "Caelestrasz",
+      "Keyl Swiftclaw",
+      "Kandrostrasz",
+      "Vethsera"
+    ],
+    "answer": 1,
+    "fact": "\"Shroud of Infinite Wisdom\" is offered by Keyl Swiftclaw."
+  },
+  {
+    "id": "fnpc-3525",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Extinguishing the Idol\"?",
+    "options": [
+      "Varimathras",
+      "Myriam Moonsinger",
+      "Belnistrasz",
+      "Archbishop Benedictus"
+    ],
+    "answer": 2,
+    "fact": "\"Extinguishing the Idol\" is offered by Belnistrasz."
+  },
+  {
+    "id": "fnpc-1882",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"The Balnir Farmstead\"?",
+    "options": [
+      "Maginor Dumas",
+      "Zaldimar Wefhellt",
+      "Magus Tirth",
+      "Anastasia Hartwell"
+    ],
+    "answer": 3,
+    "fact": "\"The Balnir Farmstead\" is offered by Anastasia Hartwell."
+  },
+  {
+    "id": "fnpc-4505",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Well of Corruption\"?",
+    "options": [
+      "Greta Mosshoof",
+      "Captured Arko'narin",
+      "Maybess Riverbreeze",
+      "Winna Hazzard"
+    ],
+    "answer": 3,
+    "fact": "\"Well of Corruption\" is offered by Winna Hazzard."
+  },
+  {
+    "id": "fnpc-7660",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Wolf Swapping - Arctic Wolf\"?",
+    "options": [
+      "Ogunaro Wolfrunner",
+      "Mokvar",
+      "Malton Droffers",
+      "Keldran"
+    ],
+    "answer": 0,
+    "fact": "\"Wolf Swapping - Arctic Wolf\" is offered by Ogunaro Wolfrunner."
+  },
+  {
+    "id": "fnpc-1373",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Ongeku\"?",
+    "options": [
+      "Brother Crowley",
+      "Takata Steelblade",
+      "Smeed Scrabblescrew",
+      "Uthek the Wise"
+    ],
+    "answer": 3,
+    "fact": "\"Ongeku\" is offered by Uthek the Wise."
+  },
+  {
+    "id": "fnpc-8239",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Sandfury, Skullsplitter, and Bloodscalp Coins\"?",
+    "options": [
+      "Jin'rokh the Breaker",
+      "Prospector Ironboot",
+      "Vinchaxa",
+      "Rin'wosho the Trader"
+    ],
+    "answer": 2,
+    "fact": "\"Sandfury, Skullsplitter, and Bloodscalp Coins\" is offered by Vinchaxa."
+  },
+  {
+    "id": "fnpc-8612",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"The Horde Needs More Lean Wolf Steaks!\"?",
+    "options": [
+      "Herbalist Proudfeather",
+      "Sarah Sadwhistle",
+      "Corporal Carnes",
+      "Blood Guard Rawtar"
+    ],
+    "answer": 3,
+    "fact": "\"The Horde Needs More Lean Wolf Steaks!\" is offered by Blood Guard Rawtar."
+  },
+  {
+    "id": "fnpc-6581",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Warsong Saw Blades\"?",
+    "options": [
+      "Warsong Runner",
+      "Pixel",
+      "Shindrell Swiftfire",
+      "Kayneth Stillwind"
+    ],
+    "answer": 1,
+    "fact": "\"Warsong Saw Blades\" is offered by Pixel."
+  },
+  {
+    "id": "fnpc-209",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Skullsplitter Tusks\"?",
+    "options": [
+      "Corporal Kaleb",
+      "Princess Poobah",
+      "Kebok",
+      "Fleet Master Seahorn"
+    ],
+    "answer": 2,
+    "fact": "\"Skullsplitter Tusks\" is offered by Kebok."
+  },
+  {
+    "id": "fnpc-875",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Harpy Lieutenants\"?",
+    "options": [
+      "Darsok Swiftdagger",
+      "Regthar Deathgate",
+      "Tatternack Steelforge",
+      "Apothecary Helbrim"
+    ],
+    "answer": 0,
+    "fact": "\"Harpy Lieutenants\" is offered by Darsok Swiftdagger."
+  },
+  {
+    "id": "fnpc-8969",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"The Left Piece of Lord Valthalak's Amulet\"?",
+    "options": [
+      "Eva Sarkhoff",
+      "Betina Bigglezink",
+      "Bodley",
+      "Leonid Barthalomew the Revered"
+    ],
+    "answer": 2,
+    "fact": "\"The Left Piece of Lord Valthalak's Amulet\" is offered by Bodley."
+  },
+  {
+    "id": "fnpc-3091",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Simple Note\"?",
+    "options": [
+      "Tarshaw Jaggedscar",
+      "Baltus Fowler",
+      "Grull Hawkwind",
+      "Tormus Deepforge"
+    ],
+    "answer": 2,
+    "fact": "\"Simple Note\" is offered by Grull Hawkwind."
+  },
+  {
+    "id": "fnpc-8420",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Hot and Itchy\"?",
+    "options": [
+      "Marshal McBride",
+      "Impsy",
+      "Sten Stoutarm",
+      "Gornek"
+    ],
+    "answer": 1,
+    "fact": "\"Hot and Itchy\" is offered by Impsy."
+  },
+  {
+    "id": "fnpc-2962",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"The Only Cure is More Green Glow\"?",
+    "options": [
+      "High Tinker Mekkatorque",
+      "Ozzie Togglevolt",
+      "Kernobee",
+      "Scooty"
+    ],
+    "answer": 1,
+    "fact": "\"The Only Cure is More Green Glow\" is offered by Ozzie Togglevolt."
+  },
+  {
+    "id": "fnpc-4143",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Haze of Evil\"?",
+    "options": [
+      "Donova Snowden",
+      "Muigin",
+      "Gregan Brewspewer",
+      "Krakle"
+    ],
+    "answer": 2,
+    "fact": "\"Haze of Evil\" is offered by Gregan Brewspewer."
+  },
+  {
+    "id": "fnpc-911",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Gateway to the Frontier\"?",
+    "options": [
+      "Human Orphan",
+      "Chicken",
+      "Orphan Matron Nightingale",
+      "Orcish Orphan"
+    ],
+    "answer": 3,
+    "fact": "\"Gateway to the Frontier\" is offered by Orcish Orphan."
+  },
+  {
+    "id": "fnpc-8742",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"The Might of Kalimdor\"?",
+    "options": [
+      "Curgle Cranklehop",
+      "Anachronos",
+      "Deliana",
+      "Homing Robot OOX-17/TN"
+    ],
+    "answer": 1,
+    "fact": "\"The Might of Kalimdor\" is offered by Anachronos."
+  },
+  {
+    "id": "fnpc-6127",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"The Principal Source\"?",
+    "options": [
+      "Innkeeper Gryshka",
+      "Mathrengyl Bearwalker",
+      "Denatharion",
+      "Dendrite Starblaze"
+    ],
+    "answer": 3,
+    "fact": "\"The Principal Source\" is offered by Dendrite Starblaze."
+  },
+  {
+    "id": "fnpc-5216",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Target: Felstone Field\"?",
+    "options": [
+      "Jeziba",
+      "Jeremiah Payson",
+      "Ol' Emma",
+      "High Priestess MacDonnell"
+    ],
+    "answer": 3,
+    "fact": "\"Target: Felstone Field\" is offered by High Priestess MacDonnell."
+  },
+  {
+    "id": "fnpc-1717",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Gakin's Summons\"?",
+    "options": [
+      "Demisette Cloyce",
+      "Acolyte Magaz",
+      "Briarthorn",
+      "Lago Blackwrench"
+    ],
+    "answer": 3,
+    "fact": "\"Gakin's Summons\" is offered by Lago Blackwrench."
+  },
+  {
+    "id": "fnpc-8605",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"The Horde Needs More Wool Bandages!\"?",
+    "options": [
+      "Healer Longrunner",
+      "Grunt Maug",
+      "Sergeant Stonebrow",
+      "Master Sergeant Fizzlebolt"
+    ],
+    "answer": 0,
+    "fact": "\"The Horde Needs More Wool Bandages!\" is offered by Healer Longrunner."
+  },
+  {
+    "id": "fnpc-8503",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"The Alliance Needs Stranglekelp!\"?",
+    "options": [
+      "Bonnie Stoneflayer",
+      "Senior Sergeant Grimsford",
+      "Private Draxlegauge",
+      "Nurse Stonefield"
+    ],
+    "answer": 2,
+    "fact": "\"The Alliance Needs Stranglekelp!\" is offered by Private Draxlegauge."
+  },
+  {
+    "id": "fnpc-240",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Return to Jitters\"?",
+    "options": [
+      "Chef Grual",
+      "Marshal Haggard",
+      "Jitters",
+      "Innkeeper Farley"
+    ],
+    "answer": 0,
+    "fact": "\"Return to Jitters\" is offered by Chef Grual."
+  },
+  {
+    "id": "fnpc-4784",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Components for the Enchanted Gold Bloodrobe\"?",
+    "options": [
+      "Ken'zigla",
+      "Menara Voidrender",
+      "Gazrog",
+      "Mor'zul Bloodbringer"
+    ],
+    "answer": 1,
+    "fact": "\"Components for the Enchanted Gold Bloodrobe\" is offered by Menara Voidrender."
+  },
+  {
+    "id": "fnpc-4581",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Kayneth Stillwind\"?",
+    "options": [
+      "Senani Thunderheart",
+      "Shindrell Swiftfire",
+      "Warsong Outrider",
+      "Torek"
+    ],
+    "answer": 1,
+    "fact": "\"Kayneth Stillwind\" is offered by Shindrell Swiftfire."
+  },
+  {
+    "id": "fnpc-3114",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Glyphic Memorandum\"?",
+    "options": [
+      "Sten Stoutarm",
+      "Kil'hala",
+      "Maginor Dumas",
+      "Archmage Shymm"
+    ],
+    "answer": 0,
+    "fact": "\"Glyphic Memorandum\" is offered by Sten Stoutarm."
+  },
+  {
+    "id": "fnpc-8280",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Securing the Supply Lines\"?",
+    "options": [
+      "Colossus Researcher Nestor",
+      "Krug Skullsplit",
+      "Windcaller Proudhorn",
+      "Colossus Researcher Sophia"
+    ],
+    "answer": 2,
+    "fact": "\"Securing the Supply Lines\" is offered by Windcaller Proudhorn."
+  },
+  {
+    "id": "fnpc-8186",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Death's Embrace\"?",
+    "options": [
+      "Zanza the Restless",
+      "Maywiki of Zuldazar",
+      "Falthir the Sightless",
+      "Al'tabim the All-Seeing"
+    ],
+    "answer": 0,
+    "fact": "\"Death's Embrace\" is offered by Zanza the Restless."
+  },
+  {
+    "id": "fnpc-716",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Stone Is Better than Cloth\"?",
+    "options": [
+      "Gerrig Bonegrip",
+      "Neeka Bloodscar",
+      "Lucien Tosselwrench",
+      "Rigglefuzz"
+    ],
+    "answer": 2,
+    "fact": "\"Stone Is Better than Cloth\" is offered by Lucien Tosselwrench."
+  },
+  {
+    "id": "fnpc-1220",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Captain Vimes\"?",
+    "options": [
+      "Theramore Lieutenant",
+      "Emberstrife",
+      "Do'gol",
+      "Overlord Mok'Morokk"
+    ],
+    "answer": 0,
+    "fact": "\"Captain Vimes\" is offered by Theramore Lieutenant."
+  },
+  {
+    "id": "fnpc-8229",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Could I get a Fishing Flier?\"?",
+    "options": [
+      "Lumak",
+      "Wizbang Cranktoggle",
+      "Grinkle",
+      "Grimnur Stonebrand"
+    ],
+    "answer": 2,
+    "fact": "\"Could I get a Fishing Flier?\" is offered by Grinkle."
+  },
+  {
+    "id": "fnpc-1961",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Gathering Materials\"?",
+    "options": [
+      "Gornek",
+      "Ursyn Ghull",
+      "Tabetha",
+      "Anastasia Hartwell"
+    ],
+    "answer": 3,
+    "fact": "\"Gathering Materials\" is offered by Anastasia Hartwell."
+  },
+  {
+    "id": "fnpc-5153",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"A Strange Historian\"?",
+    "options": [
+      "Carlin Redpath",
+      "Marlene Redpath",
+      "Nathanos Blightcaller",
+      "Caretaker Alen"
+    ],
+    "answer": 1,
+    "fact": "\"A Strange Historian\" is offered by Marlene Redpath."
+  },
+  {
+    "id": "fnpc-959",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Trouble at the Docks\"?",
+    "options": [
+      "Crane Operator Bigglefuzz",
+      "Mebok Mizzyrix",
+      "Tonga Runetotem",
+      "Ebru"
+    ],
+    "answer": 0,
+    "fact": "\"Trouble at the Docks\" is offered by Crane Operator Bigglefuzz."
+  },
+  {
+    "id": "fnpc-4508",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Calm Before the Storm\"?",
+    "options": [
+      "Security Chief Bilgewhizzle",
+      "Alchemist Pestlezugg",
+      "Narain Soothfancy",
+      "Dirge Quikcleave"
+    ],
+    "answer": 1,
+    "fact": "\"Calm Before the Storm\" is offered by Alchemist Pestlezugg."
+  },
+  {
+    "id": "fnpc-1951",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Rituals of Power\"?",
+    "options": [
+      "Wynne Larson",
+      "Jennea Cannon",
+      "Zaldimar Wefhellt",
+      "Magus Tirth"
+    ],
+    "answer": 3,
+    "fact": "\"Rituals of Power\" is offered by Magus Tirth."
+  },
+  {
+    "id": "fnpc-6026",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"That's Asking A Lot\"?",
+    "options": [
+      "Lord Maxwell Tyrosus",
+      "Highlord Bolvar Fordragon",
+      "Smokey LaRue",
+      "Chromie"
+    ],
+    "answer": 2,
+    "fact": "\"That's Asking A Lot\" is offered by Smokey LaRue."
+  },
+  {
+    "id": "fnpc-5526",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Shards of the Felvine\"?",
+    "options": [
+      "Keeper Remulos",
+      "Umber",
+      "Lyria Du Lac",
+      "Rabine Saturna"
+    ],
+    "answer": 3,
+    "fact": "\"Shards of the Felvine\" is offered by Rabine Saturna."
+  },
+  {
+    "id": "fnpc-5535",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Spiritual Unrest\"?",
+    "options": [
+      "Loh'atu",
+      "Sanath Lim-yo",
+      "Lord Arkkoroc",
+      "Loramus Thalipedes"
+    ],
+    "answer": 0,
+    "fact": "\"Spiritual Unrest\" is offered by Loh'atu."
+  },
+  {
+    "id": "fnpc-7366",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"The Archbishop's Mercy\"?",
+    "options": [
+      "Frostwolf Stable Master",
+      "Field Marshal Teravaine",
+      "Mountaineer Boombellow",
+      "Commander Karl Philips"
+    ],
+    "answer": 3,
+    "fact": "\"The Archbishop's Mercy\" is offered by Commander Karl Philips."
+  },
+  {
+    "id": "fnpc-279",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Claws from the Deep\"?",
+    "options": [
+      "Karl Boran",
+      "Sida",
+      "Glorin Steelbrow",
+      "Ormer Ironbraid"
+    ],
+    "answer": 0,
+    "fact": "\"Claws from the Deep\" is offered by Karl Boran."
+  },
+  {
+    "id": "fnpc-6502",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Drakefire Amulet\"?",
+    "options": [
+      "Bodley",
+      "Warosh",
+      "Haleh",
+      "Acride"
+    ],
+    "answer": 2,
+    "fact": "\"Drakefire Amulet\" is offered by Haleh."
+  },
+  {
+    "id": "fnpc-6383",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"The Ashenvale Hunt\"?",
+    "options": [
+      "Senani Thunderheart",
+      "Sentinel Thenysil",
+      "Pixel",
+      "Krolg"
+    ],
+    "answer": 0,
+    "fact": "\"The Ashenvale Hunt\" is offered by Senani Thunderheart."
+  },
+  {
+    "id": "fnpc-783",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"A Threat Within\"?",
+    "options": [
+      "Eagan Peltskinner",
+      "Marshal McBride",
+      "Milly Osworth",
+      "Deputy Willem"
+    ],
+    "answer": 3,
+    "fact": "\"A Threat Within\" is offered by Deputy Willem."
+  },
+  {
+    "id": "fnpc-313",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"The Grizzled Den\"?",
+    "options": [
+      "Pilot Stonegear",
+      "Pilot Hammerfoot",
+      "Pilot Bellowfiz",
+      "Loslor Rudge"
+    ],
+    "answer": 0,
+    "fact": "\"The Grizzled Den\" is offered by Pilot Stonegear."
+  },
+  {
+    "id": "fnpc-8988",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"More Components of Importance\"?",
+    "options": [
+      "Bodley",
+      "Jalinda Sprig",
+      "Deliana",
+      "Thunderheart"
+    ],
+    "answer": 0,
+    "fact": "\"More Components of Importance\" is offered by Bodley."
+  },
+  {
+    "id": "fnpc-158",
+    "category": "quests",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which NPC gives the Forever quest \"Zombie Juice\"?",
+    "options": [
+      "Abercrombie",
+      "Clerk Daltry",
+      "Apothecary Faustin",
+      "Viktori Prism'Antras"
+    ],
+    "answer": 0,
+    "fact": "\"Zombie Juice\" is offered by Abercrombie."
   }
 ]

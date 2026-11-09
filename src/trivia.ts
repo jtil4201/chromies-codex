@@ -9,7 +9,7 @@ import {
   MessageFlags,
 } from 'discord.js';
 import { config, theme } from './config.js';
-import { Category, Question, pointsByDifficulty, randomQuestion } from './questions.js';
+import { Category, Version, Question, pointsByDifficulty, randomQuestion } from './questions.js';
 import { recordAnswer } from './store.js';
 
 const letters = ['A', 'B', 'C', 'D'];
@@ -68,7 +68,7 @@ function resultEmbed(question: Question, winners: string[]): EmbedBuilder {
   return embed;
 }
 
-export async function startTrivia(interaction: ChatInputCommandInteraction, category?: Category): Promise<void> {
+export async function startTrivia(interaction: ChatInputCommandInteraction, category?: Category, version?: Version): Promise<void> {
   const channelId = interaction.channelId;
   if (running.has(channelId)) {
     await interaction.reply({ content: 'A question is already running in this channel. Finish that one first.', flags: MessageFlags.Ephemeral });
@@ -82,7 +82,7 @@ export async function startTrivia(interaction: ChatInputCommandInteraction, cate
   }
 
   running.add(channelId);
-  const question = randomQuestion(category);
+  const question = randomQuestion(category, version);
   const points = pointsByDifficulty[question.difficulty];
   const picks = new Map<string, { name: string; index: number }>();
   const deadline = Math.floor(Date.now() / 1000) + config.questionSeconds;

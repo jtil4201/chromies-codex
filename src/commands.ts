@@ -1,6 +1,6 @@
 import { ChatInputCommandInteraction, EmbedBuilder, MessageFlags, PermissionFlagsBits, SlashCommandBuilder } from 'discord.js';
 import { theme } from './config.js';
-import { Category, categories, questionCount } from './questions.js';
+import { Category, Version, categories, versions, questionCount } from './questions.js';
 import { startTrivia } from './trivia.js';
 import { resetGuild, topPlayers } from './store.js';
 
@@ -8,6 +8,12 @@ export const commands = [
   new SlashCommandBuilder()
     .setName('trivia')
     .setDescription('Chromie asks a WoW Forever trivia question')
+    .addStringOption((option) =>
+      option
+        .setName('version')
+        .setDescription('Pick a WoW version')
+        .addChoices(...versions.map((v) => ({ name: v, value: v }))),
+    )
     .addStringOption((option) =>
       option
         .setName('category')
@@ -29,7 +35,8 @@ export const commands = [
 export async function handleCommand(interaction: ChatInputCommandInteraction): Promise<void> {
   if (interaction.commandName === 'trivia') {
     const category = (interaction.options.getString('category') as Category | null) ?? undefined;
-    await startTrivia(interaction, category);
+    const version = (interaction.options.getString('version') as Version | null) ?? undefined;
+    await startTrivia(interaction, category, version);
     return;
   }
 
