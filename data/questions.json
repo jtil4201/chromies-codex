@@ -4,7 +4,12 @@
     "category": "lore",
     "difficulty": "easy",
     "question": "Who leads the Horde as Warchief during Classic WoW?",
-    "options": ["Thrall", "Garrosh Hellscream", "Sylvanas Windrunner", "Vol'jin"],
+    "options": [
+      "Thrall",
+      "Garrosh Hellscream",
+      "Sylvanas Windrunner",
+      "Vol'jin"
+    ],
     "answer": 0,
     "fact": "Thrall, son of Durotan, founded the city of Orgrimmar and led the Horde through the Third War and into Kalimdor."
   },
@@ -13,7 +18,12 @@
     "category": "lore",
     "difficulty": "easy",
     "question": "Who rules the Forsaken from the Undercity?",
-    "options": ["Lady Vashj", "Sylvanas Windrunner", "Tyrande Whisperwind", "Jaina Proudmoore"],
+    "options": [
+      "Lady Vashj",
+      "Sylvanas Windrunner",
+      "Tyrande Whisperwind",
+      "Jaina Proudmoore"
+    ],
     "answer": 1,
     "fact": "Sylvanas was the Ranger-General of Silvermoon before Arthas raised her; she broke free and led the Forsaken."
   },
@@ -22,7 +32,12 @@
     "category": "lore",
     "difficulty": "medium",
     "question": "Onyxia is the daughter of which black dragon aspect?",
-    "options": ["Nefarian", "Malygos", "Deathwing", "Nozdormu"],
+    "options": [
+      "Nefarian",
+      "Malygos",
+      "Deathwing",
+      "Nozdormu"
+    ],
     "answer": 2,
     "fact": "Onyxia and Nefarian are both children of Deathwing the Destroyer, aspect of the black dragonflight."
   },
@@ -31,7 +46,12 @@
     "category": "lore",
     "difficulty": "medium",
     "question": "Chromie belongs to which dragonflight?",
-    "options": ["Bronze", "Red", "Blue", "Green"],
+    "options": [
+      "Bronze",
+      "Red",
+      "Blue",
+      "Green"
+    ],
     "answer": 0,
     "fact": "Chromie, short for Chronormu, serves the bronze dragonflight and the Aspect of Time, Nozdormu."
   },
@@ -40,7 +60,12 @@
     "category": "lore",
     "difficulty": "hard",
     "question": "Who is the Lich King during the Classic era, before Arthas claims the throne?",
-    "options": ["Kel'Thuzad", "Ner'zhul", "Anub'arak", "Bolvar Fordragon"],
+    "options": [
+      "Kel'Thuzad",
+      "Ner'zhul",
+      "Anub'arak",
+      "Bolvar Fordragon"
+    ],
     "answer": 1,
     "fact": "Ner'zhul's spirit was bound inside the Frozen Throne and ruled the Scourge as the Lich King until Arthas merged with him."
   },
@@ -49,7 +74,12 @@
     "category": "zones",
     "difficulty": "easy",
     "question": "Which zone do Tauren characters start in?",
-    "options": ["Durotar", "Mulgore", "Tirisfal Glades", "The Barrens"],
+    "options": [
+      "Durotar",
+      "Mulgore",
+      "Tirisfal Glades",
+      "The Barrens"
+    ],
     "answer": 1,
     "fact": "Tauren begin in Mulgore, home to the rising pillar city of Thunder Bluff."
   },
@@ -58,7 +88,12 @@
     "category": "zones",
     "difficulty": "easy",
     "question": "The Crossroads is a Horde hub located in which zone?",
-    "options": ["The Barrens", "Durotar", "Stonetalon Mountains", "Ashenvale"],
+    "options": [
+      "The Barrens",
+      "Durotar",
+      "Stonetalon Mountains",
+      "Ashenvale"
+    ],
     "answer": 0,
     "fact": "The Crossroads sits in the heart of the Barrens and was a favorite target of Alliance raids."
   },
@@ -67,7 +102,12 @@
     "category": "zones",
     "difficulty": "easy",
     "question": "The dwarven city of Ironforge is found in which zone?",
-    "options": ["Loch Modan", "Elwynn Forest", "Dun Morogh", "Wetlands"],
+    "options": [
+      "Loch Modan",
+      "Elwynn Forest",
+      "Dun Morogh",
+      "Wetlands"
+    ],
     "answer": 2,
     "fact": "Ironforge is carved into Ironforge Mountain in the snowy region of Dun Morogh."
   },
@@ -76,7 +116,12 @@
     "category": "zones",
     "difficulty": "medium",
     "question": "Where does the Dark Portal stand in Classic WoW?",
-    "options": ["Burning Steppes", "Blasted Lands", "Searing Gorge", "Swamp of Sorrows"],
+    "options": [
+      "Burning Steppes",
+      "Blasted Lands",
+      "Searing Gorge",
+      "Swamp of Sorrows"
+    ],
     "answer": 1,
     "fact": "The dormant Dark Portal sits in the Blasted Lands long before it reopens to the Outland invasion."
   },
@@ -85,7 +130,12 @@
     "category": "zones",
     "difficulty": "medium",
     "question": "The goblin town of Gadgetzan is located in which desert zone?",
-    "options": ["Tanaris", "Silithus", "Thousand Needles", "Desolace"],
+    "options": [
+      "Tanaris",
+      "Silithus",
+      "Thousand Needles",
+      "Desolace"
+    ],
     "answer": 0,
     "fact": "Gadgetzan sits in the sands of Tanaris, near the entrance to the Caverns of Time."
   },
@@ -94,7 +144,12 @@
     "category": "quests",
     "difficulty": "easy",
     "question": "In the Barrens, players are endlessly asked to help find whose wife?",
-    "options": ["Kreenig's", "Mankrik's", "Regthar's", "Gazlowe's"],
+    "options": [
+      "Kreenig's",
+      "Mankrik's",
+      "Regthar's",
+      "Gazlowe's"
+    ],
     "answer": 1,
     "fact": "Mankrik's Wife became the most repeated question in Barrens chat, a running joke across all of Classic."
   },
@@ -103,7 +158,12 @@
     "category": "quests",
     "difficulty": "hard",
     "question": "Players collect pages for which infamous Barrens book quest?",
-    "options": ["The Green Hills of Stranglethorn", "Tales of the Tauren", "A History of the Horde", "The Emerald Dream"],
+    "options": [
+      "The Green Hills of Stranglethorn",
+      "Tales of the Tauren",
+      "A History of the Horde",
+      "The Emerald Dream"
+    ],
     "answer": 0,
     "fact": "The Green Hills of Stranglethorn sends players hunting scattered chapter pages, often traded in Barrens chat."
   },
@@ -112,7 +172,12 @@
     "category": "quests",
     "difficulty": "hard",
     "question": "The legendary Sulfuras is forged using the Eye of Sulfuras, dropped by which boss?",
-    "options": ["Onyxia", "Ragnaros", "Nefarian", "Lucifron"],
+    "options": [
+      "Onyxia",
+      "Ragnaros",
+      "Nefarian",
+      "Lucifron"
+    ],
     "answer": 1,
     "fact": "Ragnaros the Firelord drops the Eye of Sulfuras in Molten Core, used to craft Sulfuras, Hand of Ragnaros."
   },
@@ -121,7 +186,12 @@
     "category": "items",
     "difficulty": "medium",
     "question": "Complete the legendary name: Thunderfury, Blessed Blade of the ___.",
-    "options": ["Windseeker", "Firelord", "Stormrage", "Highlord"],
+    "options": [
+      "Windseeker",
+      "Firelord",
+      "Stormrage",
+      "Highlord"
+    ],
     "answer": 0,
     "fact": "Thunderfury, Blessed Blade of the Windseeker is assembled from bindings dropped in Molten Core."
   },
@@ -130,7 +200,12 @@
     "category": "general",
     "difficulty": "easy",
     "question": "What is the maximum character level in Classic WoW?",
-    "options": ["50", "60", "70", "80"],
+    "options": [
+      "50",
+      "60",
+      "70",
+      "80"
+    ],
     "answer": 1,
     "fact": "Level 60 was the cap in the original game, reached after a long and deliberate grind."
   },
@@ -139,7 +214,12 @@
     "category": "items",
     "difficulty": "easy",
     "question": "Which item lets a player teleport back to their set inn?",
-    "options": ["Scroll of Recall", "Hearthstone", "Ring of Teleport", "Astral Recall"],
+    "options": [
+      "Scroll of Recall",
+      "Hearthstone",
+      "Ring of Teleport",
+      "Astral Recall"
+    ],
     "answer": 1,
     "fact": "The Hearthstone binds to an inn and returns you there on a cooldown, a staple of every adventurer's bag."
   },
@@ -148,7 +228,12 @@
     "category": "general",
     "difficulty": "medium",
     "question": "Which 40 player raid is home to Ragnaros the Firelord?",
-    "options": ["Blackwing Lair", "Molten Core", "Onyxia's Lair", "Zul'Gurub"],
+    "options": [
+      "Blackwing Lair",
+      "Molten Core",
+      "Onyxia's Lair",
+      "Zul'Gurub"
+    ],
     "answer": 1,
     "fact": "Molten Core, found deep in Blackrock Mountain, was the first 40 player raid most guilds cleared."
   },
@@ -157,7 +242,12 @@
     "category": "general",
     "difficulty": "medium",
     "question": "Nefarian is the final boss of which raid?",
-    "options": ["Blackwing Lair", "Ahn'Qiraj", "Naxxramas", "Molten Core"],
+    "options": [
+      "Blackwing Lair",
+      "Ahn'Qiraj",
+      "Naxxramas",
+      "Molten Core"
+    ],
     "answer": 0,
     "fact": "Nefarian, son of Deathwing, rules Blackwing Lair atop Blackrock Spire."
   },
@@ -166,7 +256,12 @@
     "category": "general",
     "difficulty": "medium",
     "question": "How many playable races were in the original Classic WoW?",
-    "options": ["6", "8", "10", "12"],
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
     "answer": 1,
     "fact": "Alliance had Human, Dwarf, Night Elf, and Gnome; Horde had Orc, Undead, Tauren, and Troll."
   },
@@ -175,7 +270,12 @@
     "category": "general",
     "difficulty": "easy",
     "question": "Which profession brews potions and elixirs?",
-    "options": ["Enchanting", "Alchemy", "Leatherworking", "Engineering"],
+    "options": [
+      "Enchanting",
+      "Alchemy",
+      "Leatherworking",
+      "Engineering"
+    ],
     "answer": 1,
     "fact": "Alchemy turns herbs gathered through Herbalism into potions, elixirs, and transmutes."
   },
@@ -184,7 +284,12 @@
     "category": "general",
     "difficulty": "easy",
     "question": "The two opposing factions in WoW are the Alliance and the ___.",
-    "options": ["Horde", "Scourge", "Legion", "Scarlet Crusade"],
+    "options": [
+      "Horde",
+      "Scourge",
+      "Legion",
+      "Scarlet Crusade"
+    ],
     "answer": 0,
     "fact": "The Alliance and the Horde have defined the conflict of Azeroth since the Warcraft wars."
   },
@@ -193,7 +298,12 @@
     "category": "lore",
     "difficulty": "medium",
     "question": "Who sits as the boy king of Stormwind during Classic?",
-    "options": ["Varian Wrynn", "Anduin Wrynn", "Bolvar Fordragon", "Highlord Bolvar"],
+    "options": [
+      "Varian Wrynn",
+      "Anduin Wrynn",
+      "Bolvar Fordragon",
+      "Highlord Bolvar"
+    ],
     "answer": 0,
     "fact": "Varian Wrynn is missing for much of Classic, and Highlord Bolvar Fordragon rules as regent in his absence."
   },
@@ -202,7 +312,12 @@
     "category": "zones",
     "difficulty": "medium",
     "question": "The Undercity lies beneath the ruins of which former human capital?",
-    "options": ["Stratholme", "Lordaeron", "Dalaran", "Andorhal"],
+    "options": [
+      "Stratholme",
+      "Lordaeron",
+      "Dalaran",
+      "Andorhal"
+    ],
     "answer": 1,
     "fact": "The Forsaken built the Undercity in the catacombs below the fallen capital of Lordaeron."
   },
@@ -211,7 +326,12 @@
     "category": "quests",
     "difficulty": "hard",
     "question": "Opening which raid requires a server wide war effort and ringing a gong?",
-    "options": ["Ahn'Qiraj", "Naxxramas", "Blackwing Lair", "Zul'Gurub"],
+    "options": [
+      "Ahn'Qiraj",
+      "Naxxramas",
+      "Blackwing Lair",
+      "Zul'Gurub"
+    ],
     "answer": 0,
     "fact": "The Gates of Ahn'Qiraj open only after players gather massive supplies and the Scarab Gong is struck."
   },
@@ -220,7 +340,12 @@
     "category": "general",
     "difficulty": "hard",
     "question": "The grueling Classic PvP system rewards players with what kind of titled ranks?",
-    "options": ["Honor ranks", "Arena ratings", "Conquest tiers", "Glory badges"],
+    "options": [
+      "Honor ranks",
+      "Arena ratings",
+      "Conquest tiers",
+      "Glory badges"
+    ],
     "answer": 0,
     "fact": "The original Honor system handed out ranks like Knight and Grand Marshal for relentless battleground play."
   },
@@ -229,7 +354,12 @@
     "category": "lore",
     "difficulty": "hard",
     "question": "Who is the Aspect of Time that Chromie answers to?",
-    "options": ["Nozdormu", "Malygos", "Alexstrasza", "Ysera"],
+    "options": [
+      "Nozdormu",
+      "Malygos",
+      "Alexstrasza",
+      "Ysera"
+    ],
     "answer": 0,
     "fact": "Nozdormu, the Timeless One, leads the bronze dragonflight and guards the timeways of Azeroth."
   },
@@ -238,7 +368,12 @@
     "category": "forever",
     "difficulty": "easy",
     "question": "When did World of Warcraft: Forever launch?",
-    "options": ["November 4, 2026", "November 23, 2004", "August 27, 2019", "May 15, 2025"],
+    "options": [
+      "November 4, 2026",
+      "November 23, 2004",
+      "August 27, 2019",
+      "May 15, 2025"
+    ],
     "answer": 0,
     "fact": "Forever launched on November 4, 2026, after being announced at BlizzCon 2026."
   },
@@ -247,7 +382,12 @@
     "category": "forever",
     "difficulty": "easy",
     "question": "What nickname does the community use for World of Warcraft: Forever?",
-    "options": ["Classic+", "Vanilla 2", "Classic Reborn", "WoW Remastered"],
+    "options": [
+      "Classic+",
+      "Vanilla 2",
+      "Classic Reborn",
+      "WoW Remastered"
+    ],
     "answer": 0,
     "fact": "Fans call it Classic+, the long-requested idea of new content built on the Classic foundation."
   },
@@ -256,7 +396,12 @@
     "category": "forever",
     "difficulty": "hard",
     "question": "What was Forever's internal codename during development?",
-    "options": ["Camelot", "Avalon", "Titan", "Excalibur"],
+    "options": [
+      "Camelot",
+      "Avalon",
+      "Titan",
+      "Excalibur"
+    ],
     "answer": 0,
     "fact": "Internally the project was known as Camelot before it was revealed as World of Warcraft: Forever."
   },
@@ -265,7 +410,12 @@
     "category": "forever",
     "difficulty": "easy",
     "question": "What brand new playable race debuts in Forever?",
-    "options": ["Skyborne", "Vulpera", "Worgen", "Pandaren"],
+    "options": [
+      "Skyborne",
+      "Vulpera",
+      "Worgen",
+      "Pandaren"
+    ],
     "answer": 0,
     "fact": "The Skyborne are the new playable race; races added in Burning Crusade onward are not in Forever."
   },
@@ -274,7 +424,12 @@
     "category": "forever",
     "difficulty": "easy",
     "question": "What is the level cap in Forever?",
-    "options": ["60", "70", "80", "There is no cap"],
+    "options": [
+      "60",
+      "70",
+      "80",
+      "There is no cap"
+    ],
     "answer": 0,
     "fact": "The cap stays at 60 indefinitely, keeping the focus on the year one journey."
   },
@@ -283,7 +438,12 @@
     "category": "forever",
     "difficulty": "medium",
     "question": "Forever is set in which period of WoW's history?",
-    "options": ["The first year of World of Warcraft", "The Wrath of the Lich King era", "After Cataclysm", "The War Within"],
+    "options": [
+      "The first year of World of Warcraft",
+      "The Wrath of the Lich King era",
+      "After Cataclysm",
+      "The War Within"
+    ],
     "answer": 0,
     "fact": "Forever occupies year one of WoW, after Forsaken Kingdom but before The Burning Crusade, and expands on it indefinitely."
   },
@@ -292,7 +452,12 @@
     "category": "forever",
     "difficulty": "hard",
     "question": "What does Chris Metzen nickname Forever's separate continuity?",
-    "options": ["A time bubble", "A dark mirror", "The split path", "The second thread"],
+    "options": [
+      "A time bubble",
+      "A dark mirror",
+      "The split path",
+      "The second thread"
+    ],
     "answer": 0,
     "fact": "Forever does not share continuity with retail WoW; Metzen calls it a little time bubble."
   },
@@ -301,7 +466,12 @@
     "category": "forever",
     "difficulty": "easy",
     "question": "Which new Forever system has players set up a campfire to hang out and share tradeskill buffs?",
-    "options": ["Camping", "Garrisons", "Guild Halls", "Barracks"],
+    "options": [
+      "Camping",
+      "Garrisons",
+      "Guild Halls",
+      "Barracks"
+    ],
     "answer": 0,
     "fact": "Camping builds on the Cooking Fire and is meant to help players make connections out in the world."
   },
@@ -310,7 +480,12 @@
     "category": "forever",
     "difficulty": "medium",
     "question": "What is Forever's version of achievements called?",
-    "options": ["The Legacy System", "Renown", "The Codex", "Honor Ranks"],
+    "options": [
+      "The Legacy System",
+      "Renown",
+      "The Codex",
+      "Honor Ranks"
+    ],
     "answer": 0,
     "fact": "Completing Legacy Challenges awards Legacy Points you spend on trees that smooth out leveling and tradeskills."
   },
@@ -319,7 +494,12 @@
     "category": "forever",
     "difficulty": "medium",
     "question": "At what level can players unlock Dual Talent Specialization in Forever?",
-    "options": ["40", "30", "50", "60"],
+    "options": [
+      "40",
+      "30",
+      "50",
+      "60"
+    ],
     "answer": 0,
     "fact": "Dual spec is bought from class trainers at level 40 for 50 gold."
   },
@@ -328,7 +508,12 @@
     "category": "forever",
     "difficulty": "medium",
     "question": "Forever launches with over how many new quests?",
-    "options": ["1,000", "100", "500", "10,000"],
+    "options": [
+      "1,000",
+      "100",
+      "500",
+      "10,000"
+    ],
     "answer": 0,
     "fact": "Over 1,000 new quests ship with Forever across all level ranges."
   },
@@ -337,7 +522,12 @@
     "category": "forever",
     "difficulty": "medium",
     "question": "Which ruleset was NOT available at Forever's launch and arrives later?",
-    "options": ["Hardcore", "PvP", "Roleplay", "Normal"],
+    "options": [
+      "Hardcore",
+      "PvP",
+      "Roleplay",
+      "Normal"
+    ],
     "answer": 0,
     "fact": "Players are split onto mega-realms by ruleset; Hardcore is coming at a later date."
   },
@@ -346,7 +536,12 @@
     "category": "forever",
     "difficulty": "medium",
     "question": "What new battleground debuts in Forever?",
-    "options": ["Darkspear Islands", "Warsong Gulch", "Arathi Basin", "Alterac Valley"],
+    "options": [
+      "Darkspear Islands",
+      "Warsong Gulch",
+      "Arathi Basin",
+      "Alterac Valley"
+    ],
     "answer": 0,
     "fact": "Darkspear Islands is the new battleground introduced in Forever."
   },
@@ -355,7 +550,12 @@
     "category": "forever",
     "difficulty": "hard",
     "question": "In Forever, the city of Dalaran sits in which region?",
-    "options": ["The Alterac Mountains", "Crystalsong Forest", "Hillsbrad Foothills", "Winterspring"],
+    "options": [
+      "The Alterac Mountains",
+      "Crystalsong Forest",
+      "Hillsbrad Foothills",
+      "Winterspring"
+    ],
     "answer": 0,
     "fact": "Forever places Dalaran in the Alterac Mountains, and it doubles as a new dungeon."
   },
@@ -364,7 +564,12 @@
     "category": "forever",
     "difficulty": "hard",
     "question": "Which new Forever dungeon is found in Ironforge?",
-    "options": ["The Hall of Thanes", "Gnomeregan", "Blackrock Depths", "The Deadmines"],
+    "options": [
+      "The Hall of Thanes",
+      "Gnomeregan",
+      "Blackrock Depths",
+      "The Deadmines"
+    ],
     "answer": 0,
     "fact": "The Hall of Thanes is a new low level dungeon set within Ironforge."
   },
@@ -373,7 +578,12 @@
     "category": "forever",
     "difficulty": "medium",
     "question": "Which new Forever zone is home to the Barrow Deeps and Hyjal Summit raids?",
-    "options": ["Mount Hyjal", "Zephras Isle", "Shen'dralas", "Riverglades"],
+    "options": [
+      "Mount Hyjal",
+      "Zephras Isle",
+      "Shen'dralas",
+      "Riverglades"
+    ],
     "answer": 0,
     "fact": "Mount Hyjal hosts two new raids; Onyxia's Lair rounds out the launch raid lineup."
   },
@@ -382,7 +592,12 @@
     "category": "forever",
     "difficulty": "easy",
     "question": "What character naming feature is new to Forever?",
-    "options": ["First and last names", "Account wide nicknames", "Guild surnames", "Clan tags"],
+    "options": [
+      "First and last names",
+      "Account wide nicknames",
+      "Guild surnames",
+      "Clan tags"
+    ],
     "answer": 0,
     "fact": "Forever lets characters have both a first and a last name."
   },
@@ -391,7 +606,12 @@
     "category": "forever",
     "difficulty": "hard",
     "question": "Which Season of Discovery item carried into Forever grants rested experience even while logged out?",
-    "options": ["Cozy Sleeping Bag", "Chronoboon Displacer", "Hearthstone", "Comprehension Charm"],
+    "options": [
+      "Cozy Sleeping Bag",
+      "Chronoboon Displacer",
+      "Hearthstone",
+      "Comprehension Charm"
+    ],
     "answer": 0,
     "fact": "The Cozy Sleeping Bag gives a stacking XP buff and acts as a portable rest area."
   },
@@ -400,7 +620,12 @@
     "category": "lore",
     "difficulty": "medium",
     "question": "Who leads the night elves as High Priestess of Elune?",
-    "options": ["Tyrande Whisperwind", "Jaina Proudmoore", "Maiev Shadowsong", "Vashj"],
+    "options": [
+      "Tyrande Whisperwind",
+      "Jaina Proudmoore",
+      "Maiev Shadowsong",
+      "Vashj"
+    ],
     "answer": 0,
     "fact": "Tyrande Whisperwind commands the Sentinels and serves Elune from the temple in Darnassus."
   },
@@ -409,7 +634,12 @@
     "category": "lore",
     "difficulty": "medium",
     "question": "Who is the chieftain of the tauren at Thunder Bluff?",
-    "options": ["Cairne Bloodhoof", "Baine Bloodhoof", "Magatha Grimtotem", "Hamuul Runetotem"],
+    "options": [
+      "Cairne Bloodhoof",
+      "Baine Bloodhoof",
+      "Magatha Grimtotem",
+      "Hamuul Runetotem"
+    ],
     "answer": 0,
     "fact": "Cairne Bloodhoof, a close ally of Thrall, leads the tauren from Thunder Bluff."
   },
@@ -418,7 +648,12 @@
     "category": "lore",
     "difficulty": "medium",
     "question": "Who is the dwarven king of Ironforge in Classic?",
-    "options": ["Magni Bronzebeard", "Muradin Bronzebeard", "Brann Bronzebeard", "Moira Thaurissan"],
+    "options": [
+      "Magni Bronzebeard",
+      "Muradin Bronzebeard",
+      "Brann Bronzebeard",
+      "Moira Thaurissan"
+    ],
     "answer": 0,
     "fact": "King Magni Bronzebeard rules Ironforge and the dwarves of Khaz Modan."
   },
@@ -427,7 +662,12 @@
     "category": "lore",
     "difficulty": "hard",
     "question": "Who is the High Tinker and leader of the gnomes?",
-    "options": ["Gelbin Mekkatorque", "Sicco Thermaplugg", "Millhouse Manastorm", "Gnomus"],
+    "options": [
+      "Gelbin Mekkatorque",
+      "Sicco Thermaplugg",
+      "Millhouse Manastorm",
+      "Gnomus"
+    ],
     "answer": 0,
     "fact": "High Tinker Gelbin Mekkatorque leads the gnomes in exile after Gnomeregan fell."
   },
@@ -436,7 +676,12 @@
     "category": "lore",
     "difficulty": "medium",
     "question": "Who leads the Darkspear trolls of the Horde?",
-    "options": ["Vol'jin", "Zul'jin", "Sen'jin", "Rokhan"],
+    "options": [
+      "Vol'jin",
+      "Zul'jin",
+      "Sen'jin",
+      "Rokhan"
+    ],
     "answer": 0,
     "fact": "Vol'jin leads the Darkspear tribe, allied with Thrall's Horde in Durotar."
   },
@@ -445,7 +690,12 @@
     "category": "lore",
     "difficulty": "hard",
     "question": "Which Old God lurks at the heart of Ahn'Qiraj?",
-    "options": ["C'Thun", "Yogg-Saron", "N'Zoth", "Y'Shaarj"],
+    "options": [
+      "C'Thun",
+      "Yogg-Saron",
+      "N'Zoth",
+      "Y'Shaarj"
+    ],
     "answer": 0,
     "fact": "C'Thun, the eye of terror, is the final boss of the Temple of Ahn'Qiraj."
   },
@@ -454,7 +704,12 @@
     "category": "lore",
     "difficulty": "hard",
     "question": "Orgrimmar is named after which former orc Warchief?",
-    "options": ["Orgrim Doomhammer", "Grommash Hellscream", "Blackhand", "Ner'zhul"],
+    "options": [
+      "Orgrim Doomhammer",
+      "Grommash Hellscream",
+      "Blackhand",
+      "Ner'zhul"
+    ],
     "answer": 0,
     "fact": "Thrall named the Horde capital Orgrimmar in honor of Orgrim Doomhammer, his mentor."
   },
@@ -463,7 +718,12 @@
     "category": "lore",
     "difficulty": "hard",
     "question": "Which Dark Iron emperor rules Blackrock Depths?",
-    "options": ["Emperor Dagran Thaurissan", "Ragnaros", "Nefarian", "General Angerforge"],
+    "options": [
+      "Emperor Dagran Thaurissan",
+      "Ragnaros",
+      "Nefarian",
+      "General Angerforge"
+    ],
     "answer": 0,
     "fact": "Emperor Dagran Thaurissan commands the Dark Iron dwarves deep within Blackrock Depths."
   },
@@ -472,7 +732,12 @@
     "category": "zones",
     "difficulty": "easy",
     "question": "Humans begin their adventures in which zone?",
-    "options": ["Elwynn Forest", "Westfall", "Dun Morogh", "Tirisfal Glades"],
+    "options": [
+      "Elwynn Forest",
+      "Westfall",
+      "Dun Morogh",
+      "Tirisfal Glades"
+    ],
     "answer": 0,
     "fact": "New humans start in Elwynn Forest, just outside Stormwind City."
   },
@@ -481,7 +746,12 @@
     "category": "zones",
     "difficulty": "easy",
     "question": "Orcs and trolls start their journey in which zone?",
-    "options": ["Durotar", "Mulgore", "The Barrens", "Tirisfal Glades"],
+    "options": [
+      "Durotar",
+      "Mulgore",
+      "The Barrens",
+      "Tirisfal Glades"
+    ],
     "answer": 0,
     "fact": "Durotar, home to Orgrimmar, is the starting zone for orcs and trolls."
   },
@@ -490,7 +760,12 @@
     "category": "zones",
     "difficulty": "easy",
     "question": "The undead begin in which zone?",
-    "options": ["Tirisfal Glades", "Silverpine Forest", "Western Plaguelands", "Durotar"],
+    "options": [
+      "Tirisfal Glades",
+      "Silverpine Forest",
+      "Western Plaguelands",
+      "Durotar"
+    ],
     "answer": 0,
     "fact": "The Forsaken rise in Tirisfal Glades, above their capital of Undercity."
   },
@@ -499,7 +774,12 @@
     "category": "zones",
     "difficulty": "medium",
     "question": "Night elves start on which great world tree?",
-    "options": ["Teldrassil", "Nordrassil", "Vordrassil", "Shaladrassil"],
+    "options": [
+      "Teldrassil",
+      "Nordrassil",
+      "Vordrassil",
+      "Shaladrassil"
+    ],
     "answer": 0,
     "fact": "Night elves begin in Shadowglen atop Teldrassil, home to the city of Darnassus."
   },
@@ -508,7 +788,12 @@
     "category": "zones",
     "difficulty": "medium",
     "question": "The Deadmines dungeon is located in which zone?",
-    "options": ["Westfall", "Elwynn Forest", "Duskwood", "Redridge Mountains"],
+    "options": [
+      "Westfall",
+      "Elwynn Forest",
+      "Duskwood",
+      "Redridge Mountains"
+    ],
     "answer": 0,
     "fact": "The Defias dig the Deadmines beneath the town of Moonbrook in Westfall."
   },
@@ -517,7 +802,12 @@
     "category": "zones",
     "difficulty": "medium",
     "question": "The goblin port of Booty Bay sits in which zone?",
-    "options": ["Stranglethorn Vale", "Tanaris", "The Cape of Stranglethorn", "Dustwallow Marsh"],
+    "options": [
+      "Stranglethorn Vale",
+      "Tanaris",
+      "The Cape of Stranglethorn",
+      "Dustwallow Marsh"
+    ],
     "answer": 0,
     "fact": "Booty Bay is the bustling neutral port at the southern tip of Stranglethorn Vale."
   },
@@ -526,7 +816,12 @@
     "category": "zones",
     "difficulty": "medium",
     "question": "Which zone is a prehistoric crater full of dinosaurs?",
-    "options": ["Un'Goro Crater", "Sholazar Basin", "The Barrens", "Feralas"],
+    "options": [
+      "Un'Goro Crater",
+      "Sholazar Basin",
+      "The Barrens",
+      "Feralas"
+    ],
     "answer": 0,
     "fact": "Un'Goro Crater teems with devilsaurs, pterrordax, and rare power crystals."
   },
@@ -535,7 +830,12 @@
     "category": "quests",
     "difficulty": "hard",
     "question": "Warlocks complete a lengthy quest in Dire Maul to summon which mount?",
-    "options": ["The Dreadsteed", "The Charger", "The Felsteed", "The Deathcharger"],
+    "options": [
+      "The Dreadsteed",
+      "The Charger",
+      "The Felsteed",
+      "The Deathcharger"
+    ],
     "answer": 0,
     "fact": "The Dreadsteed of Xoroth is the warlock epic mount, earned through a Dire Maul ritual."
   },
@@ -544,7 +844,12 @@
     "category": "quests",
     "difficulty": "hard",
     "question": "Rhok'delar is a legendary quest reward for which class?",
-    "options": ["Hunter", "Warrior", "Rogue", "Mage"],
+    "options": [
+      "Hunter",
+      "Warrior",
+      "Rogue",
+      "Mage"
+    ],
     "answer": 0,
     "fact": "Rhok'delar, Longbow of the Ancient Keepers, is the hunter legendary from a solo trial."
   },
@@ -553,7 +858,12 @@
     "category": "quests",
     "difficulty": "hard",
     "question": "The priest staff Benediction comes from the Eye of Divinity, which drops in which raid?",
-    "options": ["Molten Core", "Blackwing Lair", "Naxxramas", "Onyxia's Lair"],
+    "options": [
+      "Molten Core",
+      "Blackwing Lair",
+      "Naxxramas",
+      "Onyxia's Lair"
+    ],
     "answer": 0,
     "fact": "The Eye of Divinity drops from Majordomo Executus in Molten Core for the priest quest."
   },
@@ -562,7 +872,12 @@
     "category": "quests",
     "difficulty": "hard",
     "question": "The sword Quel'Serrar is tempered in whose fiery breath?",
-    "options": ["Onyxia", "Ragnaros", "Nefarian", "Deathwing"],
+    "options": [
+      "Onyxia",
+      "Ragnaros",
+      "Nefarian",
+      "Deathwing"
+    ],
     "answer": 0,
     "fact": "Players heat the unfired blade in Onyxia's breath to forge Quel'Serrar."
   },
@@ -571,7 +886,12 @@
     "category": "items",
     "difficulty": "medium",
     "question": "What is the highest level common cloth that drops in Classic?",
-    "options": ["Runecloth", "Mageweave", "Silk", "Wool"],
+    "options": [
+      "Runecloth",
+      "Mageweave",
+      "Silk",
+      "Wool"
+    ],
     "answer": 0,
     "fact": "Runecloth drops from high level humanoids and feeds endgame tailoring and First Aid."
   },
@@ -580,7 +900,12 @@
     "category": "items",
     "difficulty": "hard",
     "question": "The rare Deathcharger's Reins mount drops from which Stratholme boss?",
-    "options": ["Baron Rivendare", "Balnazzar", "Ramstein the Gorger", "Nerub'enkan"],
+    "options": [
+      "Baron Rivendare",
+      "Balnazzar",
+      "Ramstein the Gorger",
+      "Nerub'enkan"
+    ],
     "answer": 0,
     "fact": "Baron Rivendare has a tiny chance to drop his skeletal Deathcharger's Reins."
   },
@@ -589,7 +914,12 @@
     "category": "items",
     "difficulty": "hard",
     "question": "Ashkandi, Greatsword of the Brotherhood, drops in which raid?",
-    "options": ["Blackwing Lair", "Molten Core", "Ahn'Qiraj", "Zul'Gurub"],
+    "options": [
+      "Blackwing Lair",
+      "Molten Core",
+      "Ahn'Qiraj",
+      "Zul'Gurub"
+    ],
     "answer": 0,
     "fact": "The coveted two hander Ashkandi drops from Nefarian in Blackwing Lair."
   },
@@ -598,7 +928,12 @@
     "category": "items",
     "difficulty": "medium",
     "question": "What is the largest bag size available in Classic?",
-    "options": ["18 slots", "16 slots", "20 slots", "14 slots"],
+    "options": [
+      "18 slots",
+      "16 slots",
+      "20 slots",
+      "14 slots"
+    ],
     "answer": 0,
     "fact": "The 18 slot Bottomless Bag, crafted with Ahn'Qiraj materials, is the biggest bag in Classic."
   },
@@ -607,7 +942,12 @@
     "category": "items",
     "difficulty": "easy",
     "question": "What color is the name of a legendary quality item?",
-    "options": ["Orange", "Purple", "Blue", "Gold"],
+    "options": [
+      "Orange",
+      "Purple",
+      "Blue",
+      "Gold"
+    ],
     "answer": 0,
     "fact": "Legendary items like Thunderfury show their names in orange text."
   },
@@ -616,7 +956,12 @@
     "category": "items",
     "difficulty": "easy",
     "question": "Epic quality items display their name in which color?",
-    "options": ["Purple", "Blue", "Orange", "Green"],
+    "options": [
+      "Purple",
+      "Blue",
+      "Orange",
+      "Green"
+    ],
     "answer": 0,
     "fact": "Epic gear shows in purple, a tier below the orange of legendaries."
   },
@@ -625,7 +970,12 @@
     "category": "general",
     "difficulty": "easy",
     "question": "How many players fit in an endgame raid like Molten Core?",
-    "options": ["40", "25", "20", "10"],
+    "options": [
+      "40",
+      "25",
+      "20",
+      "10"
+    ],
     "answer": 0,
     "fact": "Classic endgame raids such as Molten Core and Blackwing Lair are built for 40 players."
   },
@@ -634,7 +984,12 @@
     "category": "general",
     "difficulty": "easy",
     "question": "Which profession crafts goggles, bombs, and gadgets?",
-    "options": ["Engineering", "Blacksmithing", "Alchemy", "Enchanting"],
+    "options": [
+      "Engineering",
+      "Blacksmithing",
+      "Alchemy",
+      "Enchanting"
+    ],
     "answer": 0,
     "fact": "Engineering builds explosives, trinkets, and devices, pairing well with Mining."
   },
@@ -643,7 +998,12 @@
     "category": "general",
     "difficulty": "easy",
     "question": "Which gathering profession harvests leather from beasts?",
-    "options": ["Skinning", "Herbalism", "Mining", "Fishing"],
+    "options": [
+      "Skinning",
+      "Herbalism",
+      "Mining",
+      "Fishing"
+    ],
     "answer": 0,
     "fact": "Skinning gathers leather and hides, feeding Leatherworking."
   },
@@ -652,7 +1012,12 @@
     "category": "general",
     "difficulty": "hard",
     "question": "What is the top Horde PvP rank in the Classic honor system?",
-    "options": ["High Warlord", "Grand Marshal", "Warlord", "General"],
+    "options": [
+      "High Warlord",
+      "Grand Marshal",
+      "Warlord",
+      "General"
+    ],
     "answer": 0,
     "fact": "High Warlord is rank 14 for the Horde; the Alliance equivalent is Grand Marshal."
   },
@@ -661,8 +1026,559 @@
     "category": "general",
     "difficulty": "hard",
     "question": "Besides Gadgetzan and Everlook, which town has a neutral auction house?",
-    "options": ["Booty Bay", "Ratchet", "Theramore", "Nighthaven"],
+    "options": [
+      "Booty Bay",
+      "Ratchet",
+      "Theramore",
+      "Nighthaven"
+    ],
     "answer": 0,
     "fact": "Classic's three neutral auction houses are in Gadgetzan, Everlook, and Booty Bay."
+  },
+  {
+    "id": "quests-spoken-q1787-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"Is Henze safe, adventurer? Were you successful? Between your skill with a weapon, and the power of the Light, I'd imagine Heroes' Vigil is safe from any Defias threat, but that's for the King and his advisors to say.\"",
+    "options": [
+      "The Tome of Divinity",
+      "The Forgotten Heirloom",
+      "Red Leather Bandanas",
+      "Underground Assault"
+    ],
+    "answer": 0,
+    "fact": "This is dialogue from the quest \"The Tome of Divinity\", spoken by Gazin Tenorm."
+  },
+  {
+    "id": "quests-spoken-q11-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"Hail, adventurer. Have you been killing Gnolls...?\"",
+    "options": [
+      "Riverpaw Gnoll Bounty",
+      "The Tome of Divinity",
+      "Blackrock Blockade",
+      "WANTED: Incinerator Gar'im"
+    ],
+    "answer": 0,
+    "fact": "This is dialogue from the quest \"Riverpaw Gnoll Bounty\", spoken by Deputy Rainer."
+  },
+  {
+    "id": "quests-spoken-q151-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"Old Blanchy is on her last leg. Did you happen to find any oats for her?\"",
+    "options": [
+      "An Unwelcome Guest",
+      "Poor Old Blanchy",
+      "Kobold Candles",
+      "A Free Lunch"
+    ],
+    "answer": 1,
+    "fact": "This is dialogue from the quest \"Poor Old Blanchy\", spoken by Verna Furlbrow."
+  },
+  {
+    "id": "quests-spoken-q36-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"I'm going to miss that Verna Furlbrow so much. I don't suppose you happened to see her on your way here?\"",
+    "options": [
+      "Blackrock Menace",
+      "Goretusk Liver Pie",
+      "An Unwelcome Guest",
+      "Westfall Stew"
+    ],
+    "answer": 3,
+    "fact": "This is dialogue from the quest \"Westfall Stew\", spoken by Salma Saldean."
+  },
+  {
+    "id": "quests-spoken-q6181-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"You look like you're in a hurry. Well, then you came to the right place!\"",
+    "options": [
+      "An Ancient Grudge",
+      "Riverpaw Gnoll Bounty",
+      "Explosive Consultation",
+      "A Swift Message"
+    ],
+    "answer": 3,
+    "fact": "This is dialogue from the quest \"A Swift Message\", spoken by Thor."
+  },
+  {
+    "id": "quests-spoken-q22-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"All I need for my famous meat pie are 8 Goretusk Livers!\"",
+    "options": [
+      "Shipment to Stormwind",
+      "Goretusk Liver Pie",
+      "Good Steel",
+      "Dry Times"
+    ],
+    "answer": 1,
+    "fact": "This is dialogue from the quest \"Goretusk Liver Pie\", spoken by Salma Saldean."
+  },
+  {
+    "id": "quests-spoken-q6281-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"You've been traveling, eh? Have you been anywhere interesting?\"",
+    "options": [
+      "Blackrock Blockade",
+      "An Ancient Grudge",
+      "Continue to Stormwind",
+      "The Unsent Letter"
+    ],
+    "answer": 2,
+    "fact": "This is dialogue from the quest \"Continue to Stormwind\", spoken by Osric Strang."
+  },
+  {
+    "id": "quests-spoken-q6261-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"Is that sweat on your brow, lad? You've been running too much. Next time, take a gryphon!\"",
+    "options": [
+      "Dungar Longdrink",
+      "Dry Times",
+      "The People's Militia",
+      "The Restless Dead"
+    ],
+    "answer": 0,
+    "fact": "This is dialogue from the quest \"Dungar Longdrink\", spoken by Dungar Longdrink."
+  },
+  {
+    "id": "quests-spoken-q6285-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"You're back from Stormwind? Did Osric send the armor?\"",
+    "options": [
+      "Underground Map",
+      "WANTED: Incinerator Gar'im",
+      "Red Linen Goods",
+      "Return to Lewis"
+    ],
+    "answer": 3,
+    "fact": "This is dialogue from the quest \"Return to Lewis\", spoken by Quartermaster Lewis."
+  },
+  {
+    "id": "quests-spoken-q12-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"Perhaps I did not make myself clear, pledge. In order to prove your worth as a servant to The People's Militia and to the Light you need to slay 15 Defias Trappers and 15 Defias Smugglers then return to me when the deed is done.\"",
+    "options": [
+      "Old Ironforge Incursion",
+      "Important Heirlooms",
+      "The People's Militia",
+      "Return to Lewis"
+    ],
+    "answer": 2,
+    "fact": "This is dialogue from the quest \"The People's Militia\", spoken by Gryan Stoutmantle."
+  },
+  {
+    "id": "quests-spoken-q96395-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"The... Thane... my mighty... Thane... he... needs to... rest. Please... help him... help him... rest... Consumed... by... ancient... grudge... No... rest...\"",
+    "options": [
+      "Report to Thomas",
+      "Underground Assault",
+      "Good Steel",
+      "An Ancient Grudge"
+    ],
+    "answer": 3,
+    "fact": "This is dialogue from the quest \"An Ancient Grudge\"."
+  },
+  {
+    "id": "quests-spoken-q96403-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"<Thom appears to absentmindedly rub his hands together as he looks at you.>\"",
+    "options": [
+      "Important Heirlooms",
+      "Collecting Memories",
+      "Explosive Consultation",
+      "Stolen Enchanting Supplies"
+    ],
+    "answer": 0,
+    "fact": "This is dialogue from the quest \"Important Heirlooms\", spoken by Thom Filch."
+  },
+  {
+    "id": "quests-spoken-q96394-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"Ah good, it's done then. I can't have the other keepers refusing to enter the hall to do their duties on account of \"ghosts\" and \"angry dead\", can I?\"",
+    "options": [
+      "Testing the Wells",
+      "The Restless Dead",
+      "Blackrock Menace",
+      "Red Linen Goods"
+    ],
+    "answer": 1,
+    "fact": "This is dialogue from the quest \"The Restless Dead\", spoken by Afadra Dunwall."
+  },
+  {
+    "id": "quests-spoken-q98423-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"What have you brought from the depths, adventurer.\"",
+    "options": [
+      "Old Ironforge Incursion",
+      "The Defias Brotherhood",
+      "Underground Map",
+      "The Treaty of Understanding"
+    ],
+    "answer": 3,
+    "fact": "This is dialogue from the quest \"The Treaty of Understanding\", spoken by King Magni Bronzebeard."
+  },
+  {
+    "id": "quests-spoken-q62-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"What do you have to report, adventurer? Have you been to the Fargodeep Mine?\"",
+    "options": [
+      "Explosive Consultation",
+      "The Fargodeep Mine",
+      "Riverpaw Gnoll Bounty",
+      "A Free Lunch"
+    ],
+    "answer": 1,
+    "fact": "This is dialogue from the quest \"The Fargodeep Mine\", spoken by Marshal Dughan."
+  },
+  {
+    "id": "quests-spoken-q102-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"Have you collected 8 paws from those treacherous Gnolls yet?\"",
+    "options": [
+      "Patrolling Westfall",
+      "Blackrock Menace",
+      "The People's Militia",
+      "Pie for Billy"
+    ],
+    "answer": 0,
+    "fact": "This is dialogue from the quest \"Patrolling Westfall\", spoken by Captain Danuvin."
+  },
+  {
+    "id": "quests-spoken-q92744-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"I hope the murlocs did not give you too much trouble?\"",
+    "options": [
+      "A Free Lunch",
+      "Murloc Gills",
+      "Goldtooth",
+      "An Enticing Offer"
+    ],
+    "answer": 1,
+    "fact": "This is dialogue from the quest \"Murloc Gills\", spoken by Alba Fairmoon."
+  },
+  {
+    "id": "quests-spoken-q153-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"Bring me 15 red leather bandanas and I'll pay you well.\"",
+    "options": [
+      "Hilary's Necklace",
+      "The Restless Dead",
+      "Patrolling Westfall",
+      "Red Leather Bandanas"
+    ],
+    "answer": 3,
+    "fact": "This is dialogue from the quest \"Red Leather Bandanas\", spoken by Scout Galiaan."
+  },
+  {
+    "id": "quests-spoken-q92745-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"Well done, adventurer. But I fear the source of the poison may lie somewhere else...\"",
+    "options": [
+      "Dungar Longdrink",
+      "The State of the Mines",
+      "Testing the Wells",
+      "Report to Thomas"
+    ],
+    "answer": 1,
+    "fact": "This is dialogue from the quest \"The State of the Mines\", spoken by Alba Fairmoon."
+  },
+  {
+    "id": "quests-spoken-q117-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"Hurry, my friend, move with haste In order for our rich lager to taste More like beer and less like stew, Hops are needed to make the brew.\"",
+    "options": [
+      "Hilary's Necklace",
+      "Return to Lewis",
+      "Thunderbrew",
+      "Explosive Consultation"
+    ],
+    "answer": 2,
+    "fact": "This is dialogue from the quest \"Thunderbrew\", spoken by Grimbooze Thunderbrew."
+  },
+  {
+    "id": "quests-spoken-q34-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"Is Bellygrub still at it or were you able to rid Lakeshire of the pest once and for all?\"",
+    "options": [
+      "An Unwelcome Guest",
+      "Continue to Stormwind",
+      "Good Steel",
+      "An Ancient Grudge"
+    ],
+    "answer": 0,
+    "fact": "This is dialogue from the quest \"An Unwelcome Guest\", spoken by Martie Jainrose."
+  },
+  {
+    "id": "quests-spoken-q132-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"Good to see you back, adventurer. What did Wiley have to say for himself?\"",
+    "options": [
+      "Underground Assault",
+      "The Restless Dead",
+      "The Defias Brotherhood",
+      "Downstream"
+    ],
+    "answer": 2,
+    "fact": "This is dialogue from the quest \"The Defias Brotherhood\", spoken by Gryan Stoutmantle."
+  },
+  {
+    "id": "quests-spoken-q92819-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"I don't know what to say, adventurer. To think that Stormwind would put their military ambitions over the livelihood of their people...\"",
+    "options": [
+      "Explosive Consultation",
+      "Destruction in Deadmines",
+      "Continue to Stormwind",
+      "The People's Militia"
+    ],
+    "answer": 1,
+    "fact": "This is dialogue from the quest \"Destruction in Deadmines\", spoken by Alba Fairmoon."
+  },
+  {
+    "id": "quests-spoken-q168-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"Were you able to retrieve any of my old co-worker's Miners' Union Cards?\"",
+    "options": [
+      "An Ancient Grudge",
+      "Collecting Memories",
+      "Downstream",
+      "The People's Militia"
+    ],
+    "answer": 1,
+    "fact": "This is dialogue from the quest \"Collecting Memories\", spoken by Wilder Thistlenettle."
+  },
+  {
+    "id": "quests-spoken-q167-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"Did you find any sign of my brother? Is there any hope after all this time?\"",
+    "options": [
+      "The Treaty of Understanding",
+      "Oh Brother...",
+      "A Net Disaster",
+      "Destruction in Deadmines"
+    ],
+    "answer": 1,
+    "fact": "This is dialogue from the quest \"Oh Brother...\", spoken by Wilder Thistlenettle."
+  },
+  {
+    "id": "quests-spoken-q2040-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"Have you found the Gnoam Sprecklesprocket, adventurer?\"",
+    "options": [
+      "Underground Assault",
+      "Continue to Stormwind",
+      "An Unwelcome Guest",
+      "A Net Disaster"
+    ],
+    "answer": 0,
+    "fact": "This is dialogue from the quest \"Underground Assault\", spoken by Shoni the Shilent."
+  },
+  {
+    "id": "quests-spoken-q86-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"I don't think it's right feeding the boy who stole my necklace in the first place, but if that's what it takes to get back what's mine, then so be it! Do you have that boar meat?\"",
+    "options": [
+      "Red Leather Bandanas",
+      "Pie for Billy",
+      "Riverpaw Gnoll Bounty",
+      "The Defias Brotherhood"
+    ],
+    "answer": 1,
+    "fact": "This is dialogue from the quest \"Pie for Billy\", spoken by \"Auntie\" Bernice Stonefield."
+  },
+  {
+    "id": "quests-spoken-q84-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"Ugh... I'm starving! Do you have that pie for me, adventurer?\"",
+    "options": [
+      "Downstream",
+      "A Swift Message",
+      "Back to Billy",
+      "Pie for Billy"
+    ],
+    "answer": 2,
+    "fact": "This is dialogue from the quest \"Back to Billy\", spoken by Billy Maclure."
+  },
+  {
+    "id": "quests-spoken-q47-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"Psst! You have that Gold Dust for me...for me?\"",
+    "options": [
+      "Gold Dust Exchange",
+      "The Treaty of Understanding",
+      "Thunderbrew",
+      "The People's Militia"
+    ],
+    "answer": 0,
+    "fact": "This is dialogue from the quest \"Gold Dust Exchange\", spoken by Remy \"Two Times\"."
+  },
+  {
+    "id": "quests-spoken-q87-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"Hello, adventurer. Have you found my necklace?\"",
+    "options": [
+      "A Net Disaster",
+      "Explosive Consultation",
+      "Goldtooth",
+      "Underground Map"
+    ],
+    "answer": 2,
+    "fact": "This is dialogue from the quest \"Goldtooth\", spoken by \"Auntie\" Bernice Stonefield."
+  },
+  {
+    "id": "quests-spoken-q6-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"Did you find Garrick's shack? Are we finally free of that villain?\"",
+    "options": [
+      "The State of the Mines",
+      "Bounty on Garrick Padfoot",
+      "WANTED: Incinerator Gar'im",
+      "Murloc Gills"
+    ],
+    "answer": 1,
+    "fact": "This is dialogue from the quest \"Bounty on Garrick Padfoot\", spoken by Deputy Willem."
+  },
+  {
+    "id": "quests-spoken-q61-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"Oh, a shipment from my brother? Splendid! Fortune truly shines on me today!\"",
+    "options": [
+      "Shipment to Stormwind",
+      "Blackrock Blockade",
+      "A Net Disaster",
+      "Bounty on Garrick Padfoot"
+    ],
+    "answer": 0,
+    "fact": "This is dialogue from the quest \"Shipment to Stormwind\", spoken by Morgan Pestle."
+  },
+  {
+    "id": "quests-spoken-q5545-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"That deadline isn't getting any further away, adventurer. Please hurry and collect those bundles of wood.\"",
+    "options": [
+      "A Bundle of Trouble",
+      "Bottles and Baubles",
+      "Moonbrook Espionage",
+      "Blackrock Blockade"
+    ],
+    "answer": 0,
+    "fact": "This is dialogue from the quest \"A Bundle of Trouble\", spoken by Supervisor Raelen."
+  },
+  {
+    "id": "quests-spoken-q83-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"I'm running low on linen, adventurer. Do you have any for me?\"",
+    "options": [
+      "Blackrock Menace",
+      "The Restless Dead",
+      "An Enticing Offer",
+      "Red Linen Goods"
+    ],
+    "answer": 3,
+    "fact": "This is dialogue from the quest \"Red Linen Goods\", spoken by Sara Timberlain."
+  },
+  {
+    "id": "quests-spoken-q3741-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"Thank you for finding my necklace mister adventurer... you are very kind! My kitty thanks you too - isn't that right Effsee?\"",
+    "options": [
+      "Underground Assault",
+      "Hilary's Necklace",
+      "The Tome of Divinity",
+      "Important Heirlooms"
+    ],
+    "answer": 1,
+    "fact": "This is dialogue from the quest \"Hilary's Necklace\", spoken by Hilary."
+  },
+  {
+    "id": "quests-spoken-q20-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"Have you been slaying orcs, adventurer? If so, then show me...\"",
+    "options": [
+      "Blackrock Menace",
+      "Thunderbrew",
+      "Red Leather Bandanas",
+      "Poor Old Blanchy"
+    ],
+    "answer": 0,
+    "fact": "This is dialogue from the quest \"Blackrock Menace\", spoken by Marshal Marris."
+  },
+  {
+    "id": "quests-spoken-q95999-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"Excellent work, adventurer! Incinerator Gar'im was preparing to bolster the defenses at Stonewatch Keep. With this victory, we may yet succeed in reclaiming the keep!\"",
+    "options": [
+      "Bottles and Baubles",
+      "The Defias Brotherhood",
+      "The Tome of Divinity",
+      "WANTED: Incinerator Gar'im"
+    ],
+    "answer": 3,
+    "fact": "This is dialogue from the quest \"WANTED: Incinerator Gar'im\", spoken by Magistrate Solomon."
+  },
+  {
+    "id": "quests-spoken-q71-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"Hello, adventurer. Have you discovered the fates of Rolf and Malakai?\"",
+    "options": [
+      "Blackrock Menace",
+      "Underground Map",
+      "Report to Thomas",
+      "Murloc Gills"
+    ],
+    "answer": 2,
+    "fact": "This is dialogue from the quest \"Report to Thomas\", spoken by Guard Thomas."
+  },
+  {
+    "id": "quests-spoken-q91753-line",
+    "category": "quests",
+    "difficulty": "hard",
+    "question": "In WoW Forever, which quest is this line of dialogue from?\n\n\"Theory and practice are two sides of a coin, adventurer. Remember this.\"",
+    "options": [
+      "Old Ironforge Incursion",
+      "An Enchanting Lesson",
+      "Goretusk Liver Pie",
+      "Oh Brother..."
+    ],
+    "answer": 1,
+    "fact": "This is dialogue from the quest \"An Enchanting Lesson\", spoken by Kitta Firewind."
   }
 ]
