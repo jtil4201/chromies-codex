@@ -6,10 +6,17 @@ const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
 async function registerCommands(): Promise<void> {
   const rest = new REST({ version: '10' }).setToken(config.token);
-  const route = config.guildId
-    ? Routes.applicationGuildCommands(config.clientId, config.guildId)
-    : Routes.applicationCommands(config.clientId);
-  await rest.put(route, { body: commands });
+  await rest.put(Routes.applicationCommands(config.clientId), { body: commands });
+
+  // A guild id gives the home server its commands instantly instead of waiting
+  // on global propagation. Skip quietly if the bot is not in that guild yet.
+  if (config.guildId) {
+    try {
+      await rest.put(Routes.applicationGuildCommands(config.clientId, config.guildId), { body: commands });
+    } catch (error) {
+      console.warn('Guild command registration skipped:', error instanceof Error ? error.message : error);
+    }
+  }
 }
 
 client.once('ready', async () => {
