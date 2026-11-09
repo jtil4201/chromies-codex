@@ -5,6 +5,7 @@ import {
   ChatInputCommandInteraction,
   ComponentType,
   EmbedBuilder,
+  GuildMember,
   MessageFlags,
 } from 'discord.js';
 import { config, theme } from './config.js';
@@ -100,7 +101,9 @@ export async function startTrivia(interaction: ChatInputCommandInteraction, cate
     }
 
     const index = Number(press.customId.split(':')[1]);
-    picks.set(press.user.id, { name: press.user.username, index });
+    const member = press.member instanceof GuildMember ? press.member : null;
+    const name = member?.displayName ?? press.user.username;
+    picks.set(press.user.id, { name, index });
     await press.reply({ content: `Locked in **${letters[index]}**.`, flags: MessageFlags.Ephemeral });
   });
 
