@@ -46,6 +46,19 @@ export function randomQuestion(category?: Category, version?: Version): Question
   return source[Math.floor(Math.random() * source.length)];
 }
 
+// Distinct questions for a round; falls back to the full bank if the filter is too narrow.
+export function randomQuestions(count: number, category?: Category, version?: Version): Question[] {
+  const pool = all.filter(
+    (q) => (!category || q.category === category) && (!version || questionVersion(q) === version),
+  );
+  const source = (pool.length > 0 ? pool : all).slice();
+  for (let i = source.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [source[i], source[j]] = [source[j], source[i]];
+  }
+  return source.slice(0, Math.min(count, source.length));
+}
+
 export function questionCount(): number {
   return all.length;
 }

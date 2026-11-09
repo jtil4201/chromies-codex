@@ -15,6 +15,7 @@ export const config = {
   guildId: process.env.DISCORD_GUILD_ID ?? '',
   dataDir: process.env.DATA_DIR ?? './data',
   questionSeconds: Math.max(5, Number(process.env.QUESTION_SECONDS ?? '30')),
+  questionsPerRound: Math.min(10, Math.max(1, Number(process.env.QUESTIONS_PER_ROUND ?? '5'))),
 };
 
 export const theme = {

@@ -1,5 +1,5 @@
 import { ChatInputCommandInteraction, EmbedBuilder, MessageFlags, PermissionFlagsBits, SlashCommandBuilder } from 'discord.js';
-import { theme } from './config.js';
+import { config, theme } from './config.js';
 import { Category, Version, categories, versions, questionCount } from './questions.js';
 import { startTrivia } from './trivia.js';
 import { resetGuild, topPlayers } from './store.js';
@@ -47,7 +47,7 @@ export async function handleCommand(interaction: ChatInputCommandInteraction): P
 
   if (interaction.commandName === 'codex') {
     await interaction.reply({
-      content: `Chromie’s Codex keeps ${questionCount()} questions on WoW Forever lore, quests, zones, items, and more. Run /trivia to play.`,
+      content: `Chromie’s Codex keeps ${questionCount()} questions on WoW Forever lore, quests, zones, items, and more. Run /trivia for a round of ${config.questionsPerRound} questions.`,
       flags: MessageFlags.Ephemeral,
     });
     return;
