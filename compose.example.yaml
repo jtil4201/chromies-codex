@@ -7,7 +7,7 @@ services:
       DISCORD_TOKEN: "your-bot-token"
       DISCORD_CLIENT_ID: "your-application-id"
       DISCORD_GUILD_ID: "your-server-id"
-      QUESTION_SECONDS: "20"
+      QUESTION_SECONDS: "10"
     volumes:
       - chromie-data:/data
 

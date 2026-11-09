@@ -37,16 +37,16 @@ function buildButtons(disabled: boolean, revealIndex?: number): ActionRowBuilder
   return row;
 }
 
-function questionEmbed(question: Question): EmbedBuilder {
+function questionEmbed(question: Question, deadline: number): EmbedBuilder {
   const lines = question.options.map((option, i) => `**${letters[i]})** ${option}`);
   const points = pointsByDifficulty[question.difficulty];
 
   return new EmbedBuilder()
     .setColor(theme.gold)
     .setTitle('✦ Chromie’s Codex')
-    .setDescription(`${question.question}\n\n${lines.join('\n')}`)
+    .setDescription(`${question.question}\n\n${lines.join('\n')}\n\n⏳ Answer closes <t:${deadline}:R>`)
     .setFooter({
-      text: `${question.category} • ${question.difficulty} • ${points} pts • ${config.questionSeconds}s to answer`,
+      text: `${question.category} • ${question.difficulty} • ${points} pts`,
     });
 }
 
@@ -85,8 +85,9 @@ export async function startTrivia(interaction: ChatInputCommandInteraction, cate
   const question = randomQuestion(category);
   const points = pointsByDifficulty[question.difficulty];
   const picks = new Map<string, { name: string; index: number }>();
+  const deadline = Math.floor(Date.now() / 1000) + config.questionSeconds;
 
-  await interaction.reply({ embeds: [questionEmbed(question)], components: [buildButtons(false)] });
+  await interaction.reply({ embeds: [questionEmbed(question, deadline)], components: [buildButtons(false)] });
   const message = await interaction.fetchReply();
 
   const collector = message.createMessageComponentCollector({

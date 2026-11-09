@@ -14,7 +14,7 @@ export const config = {
   clientId: required('DISCORD_CLIENT_ID'),
   guildId: process.env.DISCORD_GUILD_ID ?? '',
   dataDir: process.env.DATA_DIR ?? './data',
-  questionSeconds: Math.max(5, Number(process.env.QUESTION_SECONDS ?? '20')),
+  questionSeconds: Math.max(5, Number(process.env.QUESTION_SECONDS ?? '10')),
 };
 
 export const theme = {
