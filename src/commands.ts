@@ -2,7 +2,7 @@ import { ChatInputCommandInteraction, EmbedBuilder, MessageFlags, PermissionFlag
 import { config, theme } from './config.js';
 import { Category, Version, categories, versions, questionCount } from './questions.js';
 import { startTrivia } from './trivia.js';
-import { resetGuild, topPlayers } from './store.js';
+import { resetGuild, topPlayers, topSeason, playerStats } from './store.js';
 
 export const commands = [
   new SlashCommandBuilder()
@@ -24,6 +24,10 @@ export const commands = [
     .setName('leaderboard')
     .setDescription('Show the top trivia players on this server'),
   new SlashCommandBuilder()
+    .setName('stats')
+    .setDescription('Your trivia stats and rank')
+    .addUserOption((option) => option.setName('player').setDescription('Whose stats to show (defaults to you)')),
+  new SlashCommandBuilder()
     .setName('codex')
     .setDescription('About Chromie’s Codex'),
   new SlashCommandBuilder()
@@ -42,6 +46,11 @@ export async function handleCommand(interaction: ChatInputCommandInteraction): P
 
   if (interaction.commandName === 'leaderboard') {
     await showLeaderboard(interaction);
+    return;
+  }
+
+  if (interaction.commandName === 'stats') {
+    await showStats(interaction);
     return;
   }
 
@@ -73,28 +82,63 @@ async function resetLeaderboard(interaction: ChatInputCommandInteraction): Promi
   await interaction.reply('Leaderboard cleared. The Codex starts a fresh tally.');
 }
 
+function rankLines(players: { name: string; points: number; correct: number; answered: number }[]): string {
+  const medals = ['🥇', '🥈', '🥉'];
+  return players
+    .map((player, i) => `${medals[i] ?? `**${i + 1}.**`} ${player.name} — ${player.points} pts (${player.correct}/${player.answered})`)
+    .join('\n');
+}
+
 async function showLeaderboard(interaction: ChatInputCommandInteraction): Promise<void> {
   if (!interaction.guildId) {
     await interaction.reply({ content: 'Leaderboards only exist inside a server.', flags: MessageFlags.Ephemeral });
     return;
   }
 
-  const players = topPlayers(interaction.guildId);
-  if (players.length === 0) {
+  const allTime = topPlayers(interaction.guildId, 5);
+  const season = topSeason(interaction.guildId, 5);
+  if (allTime.length === 0) {
     await interaction.reply({ content: 'No scores yet. Run /trivia to get the Codex going.', flags: MessageFlags.Ephemeral });
     return;
   }
 
-  const medals = ['🥇', '🥈', '🥉'];
-  const rows = players.map((player, i) => {
-    const rank = medals[i] ?? `**${i + 1}.**`;
-    return `${rank} ${player.name} — ${player.points} pts (${player.correct}/${player.answered})`;
-  });
-
   const embed = new EmbedBuilder()
     .setColor(theme.gold)
     .setTitle('✦ Codex Leaderboard')
-    .setDescription(rows.join('\n'))
+    .addFields(
+      { name: '📅 This season', value: season.length ? rankLines(season) : 'No scores this season yet.' },
+      { name: '🏛️ All time', value: rankLines(allTime) },
+    )
+    .setFooter({ text: `${theme.footer} • seasons reset weekly` });
+
+  await interaction.reply({ embeds: [embed] });
+}
+
+async function showStats(interaction: ChatInputCommandInteraction): Promise<void> {
+  if (!interaction.guildId) {
+    await interaction.reply({ content: 'Stats only exist inside a server.', flags: MessageFlags.Ephemeral });
+    return;
+  }
+  const target = interaction.options.getUser('player') ?? interaction.user;
+  const stats = playerStats(interaction.guildId, target.id);
+  if (!stats.score) {
+    await interaction.reply({ content: `${target.username} hasn’t played a round yet. Run /trivia to start.`, flags: MessageFlags.Ephemeral });
+    return;
+  }
+
+  const acc = stats.score.answered > 0 ? Math.round((stats.score.correct / stats.score.answered) * 100) : 0;
+  const seasonLine = stats.seasonScore
+    ? `${stats.seasonScore.points} pts • rank #${stats.seasonRank} (${stats.seasonScore.correct}/${stats.seasonScore.answered})`
+    : 'No games this season yet.';
+
+  const embed = new EmbedBuilder()
+    .setColor(theme.gold)
+    .setTitle(`✦ ${target.username}’s Codex stats`)
+    .addFields(
+      { name: '🏛️ All time', value: `${stats.score.points} pts • rank #${stats.allTimeRank}`, inline: true },
+      { name: '🎯 Accuracy', value: `${acc}% (${stats.score.correct}/${stats.score.answered})`, inline: true },
+      { name: '📅 This season', value: seasonLine },
+    )
     .setFooter({ text: theme.footer });
 
   await interaction.reply({ embeds: [embed] });

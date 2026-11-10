@@ -5,13 +5,15 @@ import {
   ChatInputCommandInteraction,
   ComponentType,
   EmbedBuilder,
+  Guild,
   GuildMember,
+  GuildTextBasedChannel,
   Message,
   MessageFlags,
 } from 'discord.js';
 import { config, theme } from './config.js';
 import { Category, Version, Question, pointsByDifficulty, randomQuestions } from './questions.js';
-import { recordAnswer } from './store.js';
+import { recordAnswer, rolloverIfNeeded, championId } from './store.js';
 
 const letters = ['A', 'B', 'C', 'D'];
 const running = new Set<string>();
@@ -20,6 +22,15 @@ interface RoundScore {
   name: string;
   correct: number;
   points: number;
+  streak: number;
+  onFire: boolean;
+}
+
+interface RoundOptions {
+  category?: Category;
+  version?: Version;
+  intro?: string;
+  pingRoleId?: string;
 }
 
 const delay = (ms: number): Promise<void> => new Promise((resolve) => setTimeout(resolve, ms));
@@ -27,57 +38,36 @@ const delay = (ms: number): Promise<void> => new Promise((resolve) => setTimeout
 function buildButtons(disabled: boolean, revealIndex?: number): ActionRowBuilder<ButtonBuilder> {
   const row = new ActionRowBuilder<ButtonBuilder>();
   for (let i = 0; i < letters.length; i++) {
-    const button = new ButtonBuilder()
-      .setCustomId(`ans:${i}`)
-      .setLabel(letters[i])
-      .setDisabled(disabled);
-
-    if (revealIndex === undefined) {
-      button.setStyle(ButtonStyle.Primary);
-    } else if (i === revealIndex) {
-      button.setStyle(ButtonStyle.Success);
-    } else {
-      button.setStyle(ButtonStyle.Secondary);
-    }
-
+    const button = new ButtonBuilder().setCustomId(`ans:${i}`).setLabel(letters[i]).setDisabled(disabled);
+    if (revealIndex === undefined) button.setStyle(ButtonStyle.Primary);
+    else if (i === revealIndex) button.setStyle(ButtonStyle.Success);
+    else button.setStyle(ButtonStyle.Secondary);
     row.addComponents(button);
   }
-
   return row;
 }
 
-function progress(index: number, total: number): string {
-  return `Question ${index + 1} of ${total}`;
-}
+const progress = (index: number, total: number): string => `Question ${index + 1} of ${total}`;
 
 function questionEmbed(question: Question, deadline: number, index: number, total: number): EmbedBuilder {
   const lines = question.options.map((option, i) => `**${letters[i]})** ${option}`);
   const points = pointsByDifficulty[question.difficulty];
-
   return new EmbedBuilder()
     .setColor(theme.gold)
     .setTitle(`✦ Chromie’s Codex — ${progress(index, total)}`)
-    .setDescription(`${question.question}\n\n${lines.join('\n')}\n\n⏳ Answer closes <t:${deadline}:R>`)
-    .setFooter({
-      text: `${question.category} • ${question.difficulty} • ${points} pts`,
-    });
+    .setDescription(`${question.question}\n\n${lines.join('\n')}\n\n⏳ Answer closes <t:${deadline}:R> — faster correct answers score more.`)
+    .setFooter({ text: `${question.category} • ${question.difficulty} • ${points} base pts` });
 }
 
 function resultEmbed(question: Question, winners: string[], index: number, total: number): EmbedBuilder {
-  const points = pointsByDifficulty[question.difficulty];
   const correct = `**${letters[question.answer]})** ${question.options[question.answer]}`;
-  const roll = winners.length > 0 ? winners.join(', ') : 'Nobody this time.';
-
+  const roll = winners.length > 0 ? winners.join('\n') : 'Nobody this time.';
   const embed = new EmbedBuilder()
     .setColor(theme.bronze)
     .setTitle(`✦ ${progress(index, total)} — Time’s up`)
-    .setDescription(`${question.question}\n\nCorrect answer: ${correct}`)
-    .addFields({ name: `Scored ${points} pts`, value: roll });
-
-  if (question.fact) {
-    embed.addFields({ name: 'Lore', value: question.fact });
-  }
-
+    .setDescription(`Correct answer: ${correct}`)
+    .addFields({ name: 'Scored', value: roll });
+  if (question.fact) embed.addFields({ name: 'Lore', value: question.fact });
   return embed;
 }
 
@@ -87,10 +77,12 @@ function summaryEmbed(round: Map<string, RoundScore>, total: number): EmbedBuild
   const body =
     ranked.length > 0
       ? ranked
-          .map((r, i) => `${medals[i] ?? `**${i + 1}.**`} ${r.name} — ${r.points} pts (${r.correct}/${total})`)
+          .map((r, i) => {
+            const sweep = r.correct === total ? ' 🐉 **Flawless!**' : '';
+            return `${medals[i] ?? `**${i + 1}.**`} ${r.name} — ${r.points} pts (${r.correct}/${total})${sweep}`;
+          })
           .join('\n')
       : 'No answers locked in this round.';
-
   return new EmbedBuilder()
     .setColor(theme.gold)
     .setTitle(`✦ Round complete — ${total} questions`)
@@ -99,25 +91,21 @@ function summaryEmbed(round: Map<string, RoundScore>, total: number): EmbedBuild
 }
 
 async function runQuestion(
-  interaction: ChatInputCommandInteraction,
+  channel: GuildTextBasedChannel,
   question: Question,
   index: number,
   total: number,
   guildId: string,
   round: Map<string, RoundScore>,
 ): Promise<void> {
-  const points = pointsByDifficulty[question.difficulty];
-  const picks = new Map<string, { name: string; index: number }>();
+  const base = pointsByDifficulty[question.difficulty];
+  const picks = new Map<string, { name: string; index: number; remaining: number }>();
   const deadline = Math.floor(Date.now() / 1000) + config.questionSeconds;
-  const embed = questionEmbed(question, deadline, index, total);
 
-  let message: Message;
-  if (index === 0) {
-    await interaction.reply({ embeds: [embed], components: [buildButtons(false)] });
-    message = await interaction.fetchReply();
-  } else {
-    message = (await interaction.followUp({ embeds: [embed], components: [buildButtons(false)] })) as Message;
-  }
+  const message: Message = await channel.send({
+    embeds: [questionEmbed(question, deadline, index, total)],
+    components: [buildButtons(false)],
+  });
 
   const collector = message.createMessageComponentCollector({
     componentType: ComponentType.Button,
@@ -126,70 +114,128 @@ async function runQuestion(
 
   collector.on('collect', async (press) => {
     if (picks.has(press.user.id)) {
-      await press.reply({ content: 'You already locked in an answer.', flags: MessageFlags.Ephemeral });
+      await press.reply({ content: 'You already locked in an answer.', flags: MessageFlags.Ephemeral }).catch(() => undefined);
       return;
     }
-
     const pickIndex = Number(press.customId.split(':')[1]);
     const member = press.member instanceof GuildMember ? press.member : null;
     const name = member?.displayName ?? press.user.username;
-    picks.set(press.user.id, { name, index: pickIndex });
-    await press.reply({ content: `Locked in **${letters[pickIndex]}**.`, flags: MessageFlags.Ephemeral });
+    const remaining = Math.max(0, deadline - Math.floor(Date.now() / 1000));
+    picks.set(press.user.id, { name, index: pickIndex, remaining });
+    await press.reply({ content: `Locked in **${letters[pickIndex]}**.`, flags: MessageFlags.Ephemeral }).catch(() => undefined);
   });
 
   await new Promise<void>((resolve) => {
     collector.on('end', async () => {
       const winners: string[] = [];
-
       for (const [userId, pick] of picks) {
         const correct = pick.index === question.answer;
-        recordAnswer(guildId, userId, pick.name, correct, points);
-        const row = round.get(userId) ?? { name: pick.name, correct: 0, points: 0 };
+        const row = round.get(userId) ?? { name: pick.name, correct: 0, points: 0, streak: 0, onFire: false };
         row.name = pick.name;
+
+        let gained = 0;
         if (correct) {
+          const speedBonus = Math.round((pick.remaining / config.questionSeconds) * 2); // 0..2
+          row.streak += 1;
+          const streakBonus = row.streak >= 3 ? 1 : 0;
+          row.onFire = row.streak >= 3;
+          gained = base + speedBonus + streakBonus;
           row.correct += 1;
-          row.points += points;
-          winners.push(pick.name);
+          row.points += gained;
+          const extra = speedBonus + streakBonus;
+          const flames = row.onFire ? ' 🔥' : '';
+          winners.push(`${pick.name}${flames} — +${gained}${extra > 0 ? ` (bonus +${extra})` : ''}`);
+        } else {
+          row.streak = 0;
+          row.onFire = false;
         }
         round.set(userId, row);
+        recordAnswer(guildId, userId, pick.name, correct, gained);
       }
 
-      await message.edit({
-        embeds: [resultEmbed(question, winners, index, total)],
-        components: [buildButtons(true, question.answer)],
-      });
+      await message
+        .edit({ embeds: [resultEmbed(question, winners, index, total)], components: [buildButtons(true, question.answer)] })
+        .catch(() => undefined);
       resolve();
     });
   });
 }
 
+async function syncChampion(guild: Guild): Promise<void> {
+  if (!config.championRoleId) return;
+  try {
+    const role = await guild.roles.fetch(config.championRoleId);
+    if (!role) return;
+    const champ = championId(guild.id);
+    const holders = role.members;
+    for (const [memberId, member] of holders) {
+      if (memberId !== champ) await member.roles.remove(role).catch(() => undefined);
+    }
+    if (champ && !holders.has(champ)) {
+      const member = await guild.members.fetch(champ).catch(() => null);
+      if (member) await member.roles.add(role).catch(() => undefined);
+    }
+  } catch {
+    // role hierarchy / permission issues are non-fatal to the game
+  }
+}
+
+export async function runRound(channel: GuildTextBasedChannel, guildId: string, opts: RoundOptions = {}): Promise<boolean> {
+  if (running.has(channel.id)) return false;
+  running.add(channel.id);
+  try {
+    const ended = rolloverIfNeeded(guildId);
+    if (ended) {
+      const medals = ['🥇', '🥈', '🥉'];
+      const board = ended.top.map((p, i) => `${medals[i]} ${p.name} — ${p.points} pts`).join('\n');
+      await channel
+        .send({
+          embeds: [
+            new EmbedBuilder()
+              .setColor(theme.gold)
+              .setTitle(`🏆 Season ${ended.seasonId} results`)
+              .setDescription(`${board}\n\nA new season begins now — everyone starts fresh!`)
+              .setFooter({ text: theme.footer }),
+          ],
+        })
+        .catch(() => undefined);
+    }
+
+    if (opts.intro) {
+      await channel
+        .send({
+          content: opts.pingRoleId ? `<@&${opts.pingRoleId}>` : undefined,
+          embeds: [new EmbedBuilder().setColor(theme.gold).setTitle('🕰️ Chromie’s Daily Trivia').setDescription(opts.intro).setFooter({ text: theme.footer })],
+          allowedMentions: opts.pingRoleId ? { roles: [opts.pingRoleId] } : undefined,
+        })
+        .catch(() => undefined);
+      await delay(2500);
+    }
+
+    const questions = randomQuestions(config.questionsPerRound, opts.category, opts.version);
+    const round = new Map<string, RoundScore>();
+    for (let i = 0; i < questions.length; i++) {
+      await runQuestion(channel, questions[i], i, questions.length, guildId, round);
+      if (i < questions.length - 1) await delay(3000);
+    }
+    await channel.send({ embeds: [summaryEmbed(round, questions.length)] }).catch(() => undefined);
+    await syncChampion(channel.guild);
+    return true;
+  } finally {
+    running.delete(channel.id);
+  }
+}
+
 export async function startTrivia(interaction: ChatInputCommandInteraction, category?: Category, version?: Version): Promise<void> {
-  const channelId = interaction.channelId;
-  if (running.has(channelId)) {
+  const channel = interaction.channel;
+  if (!interaction.guildId || !channel || !channel.isTextBased() || channel.isDMBased()) {
+    await interaction.reply({ content: 'Chromie only runs trivia inside a server channel.', flags: MessageFlags.Ephemeral });
+    return;
+  }
+  if (running.has(channel.id)) {
     await interaction.reply({ content: 'A round is already running in this channel. Finish that one first.', flags: MessageFlags.Ephemeral });
     return;
   }
-
-  const guildId = interaction.guildId;
-  if (!guildId) {
-    await interaction.reply({ content: 'Chromie only runs trivia inside a server.', flags: MessageFlags.Ephemeral });
-    return;
-  }
-
-  running.add(channelId);
-  try {
-    const questions = randomQuestions(config.questionsPerRound, category, version);
-    const round = new Map<string, RoundScore>();
-
-    for (let i = 0; i < questions.length; i++) {
-      await runQuestion(interaction, questions[i], i, questions.length, guildId, round);
-      if (i < questions.length - 1) {
-        await delay(3000);
-      }
-    }
-
-    await interaction.followUp({ embeds: [summaryEmbed(round, questions.length)] });
-  } finally {
-    running.delete(channelId);
-  }
+  await interaction.reply({ content: `Starting a ${config.questionsPerRound}-question round — good luck!`, flags: MessageFlags.Ephemeral });
+  await runRound(channel as GuildTextBasedChannel, interaction.guildId, { category, version });
 }

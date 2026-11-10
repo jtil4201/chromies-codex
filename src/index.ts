@@ -1,6 +1,7 @@
 import { Client, GatewayIntentBits, MessageFlags, REST, Routes } from 'discord.js';
 import { config } from './config.js';
 import { commands, handleCommand } from './commands.js';
+import { startScheduler } from './scheduler.js';
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
@@ -27,6 +28,7 @@ client.once('ready', async () => {
   }
 
   console.log(`Chromie is awake as ${client.user?.tag}.`);
+  startScheduler(client);
 });
 
 client.on('interactionCreate', async (interaction) => {
