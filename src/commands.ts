@@ -2,7 +2,16 @@ import { ChatInputCommandInteraction, EmbedBuilder, MessageFlags, PermissionFlag
 import { config, theme } from './config.js';
 import { Category, Version, categories, versions, questionCount } from './questions.js';
 import { startTrivia } from './trivia.js';
-import { resetGuild, topPlayers, topSeason, playerStats } from './store.js';
+import { resetGuild, topPlayers, topSeason, playerStats, getSettings, setFeature, featureKeys, FeatureKey } from './store.js';
+
+const featureLabels: Record<FeatureKey, string> = {
+  speedBonus: 'Speed bonus (faster answers score more)',
+  streaks: 'Streak bonus (3+ in a row = 🔥 +pts)',
+  sweep: 'Flawless sweep callout (5/5)',
+  seasons: 'Weekly seasons (leaderboard resets Mondays)',
+  daily: 'Daily auto-trivia',
+  champion: 'Champion role for #1',
+};
 
 export const commands = [
   new SlashCommandBuilder()
@@ -34,6 +43,22 @@ export const commands = [
     .setName('reset')
     .setDescription('Clear this server’s trivia leaderboard')
     .setDefaultMemberPermissions(PermissionFlagsBits.ManageGuild),
+  new SlashCommandBuilder()
+    .setName('settings')
+    .setDescription('View or toggle Chromie features (admin)')
+    .setDefaultMemberPermissions(PermissionFlagsBits.ManageGuild)
+    .addStringOption((option) =>
+      option
+        .setName('feature')
+        .setDescription('Which feature to change')
+        .addChoices(...featureKeys.map((k) => ({ name: k, value: k }))),
+    )
+    .addStringOption((option) =>
+      option
+        .setName('state')
+        .setDescription('Turn it on or off')
+        .addChoices({ name: 'on', value: 'on' }, { name: 'off', value: 'off' }),
+    ),
 ].map((command) => command.toJSON());
 
 export async function handleCommand(interaction: ChatInputCommandInteraction): Promise<void> {
@@ -64,7 +89,44 @@ export async function handleCommand(interaction: ChatInputCommandInteraction): P
 
   if (interaction.commandName === 'reset') {
     await resetLeaderboard(interaction);
+    return;
   }
+
+  if (interaction.commandName === 'settings') {
+    await handleSettings(interaction);
+  }
+}
+
+async function handleSettings(interaction: ChatInputCommandInteraction): Promise<void> {
+  if (!interaction.guildId) {
+    await interaction.reply({ content: 'Settings only exist inside a server.', flags: MessageFlags.Ephemeral });
+    return;
+  }
+  if (!interaction.memberPermissions?.has(PermissionFlagsBits.ManageGuild)) {
+    await interaction.reply({ content: 'You need the Manage Server permission to change settings.', flags: MessageFlags.Ephemeral });
+    return;
+  }
+
+  const feature = interaction.options.getString('feature') as FeatureKey | null;
+  const state = interaction.options.getString('state');
+
+  if (feature && state) {
+    setFeature(interaction.guildId, feature, state === 'on');
+  } else if (feature || state) {
+    await interaction.reply({ content: 'Pass **both** a feature and a state (on/off) to change something, or neither to view current settings.', flags: MessageFlags.Ephemeral });
+    return;
+  }
+
+  const settings = getSettings(interaction.guildId);
+  const lines = featureKeys.map((k) => `${settings[k] ? '🟢 On ' : '🔴 Off'} — ${featureLabels[k]}`);
+  const embed = new EmbedBuilder()
+    .setColor(theme.gold)
+    .setTitle('✦ Chromie settings')
+    .setDescription(lines.join('\n'))
+    .setFooter({ text: 'Toggle with /settings feature:<name> state:<on|off>' });
+
+  const note = feature && state ? `Set **${feature}** to **${state}**.\n\n` : '';
+  await interaction.reply({ content: note || undefined, embeds: [embed], flags: MessageFlags.Ephemeral });
 }
 
 async function resetLeaderboard(interaction: ChatInputCommandInteraction): Promise<void> {
@@ -96,20 +158,23 @@ async function showLeaderboard(interaction: ChatInputCommandInteraction): Promis
   }
 
   const allTime = topPlayers(interaction.guildId, 5);
-  const season = topSeason(interaction.guildId, 5);
   if (allTime.length === 0) {
     await interaction.reply({ content: 'No scores yet. Run /trivia to get the Codex going.', flags: MessageFlags.Ephemeral });
     return;
   }
 
-  const embed = new EmbedBuilder()
-    .setColor(theme.gold)
-    .setTitle('✦ Codex Leaderboard')
-    .addFields(
+  const seasonsOn = getSettings(interaction.guildId).seasons;
+  const season = topSeason(interaction.guildId, 5);
+  const embed = new EmbedBuilder().setColor(theme.gold).setTitle('✦ Codex Leaderboard');
+  if (seasonsOn) {
+    embed.addFields(
       { name: '📅 This season', value: season.length ? rankLines(season) : 'No scores this season yet.' },
       { name: '🏛️ All time', value: rankLines(allTime) },
-    )
-    .setFooter({ text: `${theme.footer} • seasons reset weekly` });
+    );
+    embed.setFooter({ text: `${theme.footer} • seasons reset weekly` });
+  } else {
+    embed.setDescription(rankLines(allTime)).setFooter({ text: theme.footer });
+  }
 
   await interaction.reply({ embeds: [embed] });
 }

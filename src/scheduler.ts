@@ -1,6 +1,7 @@
 import { Client, GuildTextBasedChannel } from 'discord.js';
 import { config } from './config.js';
 import { runRound } from './trivia.js';
+import { getSettings } from './store.js';
 
 // Seconds past local midnight in the configured timezone.
 function secondsOfDay(): number {
@@ -33,6 +34,10 @@ async function fire(client: Client): Promise<void> {
       return;
     }
     const guildChannel = channel as GuildTextBasedChannel;
+    if (!getSettings(guildChannel.guild.id).daily) {
+      console.log('Daily auto-trivia skipped (disabled in /settings for this server).');
+      return;
+    }
     await runRound(guildChannel, guildChannel.guild.id, {
       intro: 'A fresh round of 5 Forever questions. Tap in — speed and streaks earn bonus points!',
       pingRoleId: config.dailyPingRoleId || undefined,

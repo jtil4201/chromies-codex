@@ -13,7 +13,7 @@ import {
 } from 'discord.js';
 import { config, theme } from './config.js';
 import { Category, Version, Question, pointsByDifficulty, randomQuestions } from './questions.js';
-import { recordAnswer, rolloverIfNeeded, championId } from './store.js';
+import { recordAnswer, rolloverIfNeeded, championId, getSettings } from './store.js';
 
 const letters = ['A', 'B', 'C', 'D'];
 const running = new Set<string>();
@@ -71,14 +71,14 @@ function resultEmbed(question: Question, winners: string[], index: number, total
   return embed;
 }
 
-function summaryEmbed(round: Map<string, RoundScore>, total: number): EmbedBuilder {
+function summaryEmbed(round: Map<string, RoundScore>, total: number, showSweep: boolean): EmbedBuilder {
   const ranked = [...round.values()].sort((a, b) => b.points - a.points || b.correct - a.correct);
   const medals = ['🥇', '🥈', '🥉'];
   const body =
     ranked.length > 0
       ? ranked
           .map((r, i) => {
-            const sweep = r.correct === total ? ' 🐉 **Flawless!**' : '';
+            const sweep = showSweep && r.correct === total ? ' 🐉 **Flawless!**' : '';
             return `${medals[i] ?? `**${i + 1}.**`} ${r.name} — ${r.points} pts (${r.correct}/${total})${sweep}`;
           })
           .join('\n')
@@ -97,6 +97,7 @@ async function runQuestion(
   total: number,
   guildId: string,
   round: Map<string, RoundScore>,
+  flags: { speedBonus: boolean; streaks: boolean },
 ): Promise<void> {
   const base = pointsByDifficulty[question.difficulty];
   const picks = new Map<string, { name: string; index: number; remaining: number }>();
@@ -135,10 +136,13 @@ async function runQuestion(
 
         let gained = 0;
         if (correct) {
-          const speedBonus = Math.round((pick.remaining / config.questionSeconds) * 2); // 0..2
-          row.streak += 1;
-          const streakBonus = row.streak >= 3 ? 1 : 0;
-          row.onFire = row.streak >= 3;
+          const speedBonus = flags.speedBonus ? Math.round((pick.remaining / config.questionSeconds) * 2) : 0; // 0..2
+          let streakBonus = 0;
+          if (flags.streaks) {
+            row.streak += 1;
+            streakBonus = row.streak >= 3 ? 1 : 0;
+            row.onFire = row.streak >= 3;
+          }
           gained = base + speedBonus + streakBonus;
           row.correct += 1;
           row.points += gained;
@@ -184,7 +188,8 @@ export async function runRound(channel: GuildTextBasedChannel, guildId: string, 
   if (running.has(channel.id)) return false;
   running.add(channel.id);
   try {
-    const ended = rolloverIfNeeded(guildId);
+    const settings = getSettings(guildId);
+    const ended = settings.seasons ? rolloverIfNeeded(guildId) : null;
     if (ended) {
       const medals = ['🥇', '🥈', '🥉'];
       const board = ended.top.map((p, i) => `${medals[i]} ${p.name} — ${p.points} pts`).join('\n');
@@ -214,12 +219,13 @@ export async function runRound(channel: GuildTextBasedChannel, guildId: string, 
 
     const questions = randomQuestions(config.questionsPerRound, opts.category, opts.version);
     const round = new Map<string, RoundScore>();
+    const flags = { speedBonus: settings.speedBonus, streaks: settings.streaks };
     for (let i = 0; i < questions.length; i++) {
-      await runQuestion(channel, questions[i], i, questions.length, guildId, round);
+      await runQuestion(channel, questions[i], i, questions.length, guildId, round, flags);
       if (i < questions.length - 1) await delay(3000);
     }
-    await channel.send({ embeds: [summaryEmbed(round, questions.length)] }).catch(() => undefined);
-    await syncChampion(channel.guild);
+    await channel.send({ embeds: [summaryEmbed(round, questions.length, settings.sweep)] }).catch(() => undefined);
+    if (settings.champion) await syncChampion(channel.guild);
     return true;
   } finally {
     running.delete(channel.id);

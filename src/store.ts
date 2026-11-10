@@ -16,9 +16,22 @@ interface SeasonState {
   scores: Book;
 }
 
+export const featureDefaults = {
+  speedBonus: true,
+  streaks: true,
+  sweep: true,
+  seasons: true,
+  daily: true,
+  champion: true,
+};
+export type FeatureKey = keyof typeof featureDefaults;
+export const featureKeys = Object.keys(featureDefaults) as FeatureKey[];
+export type FeatureSettings = Record<FeatureKey, boolean>;
+
 interface Database {
   allTime: Record<string, Book>;
   season: Record<string, SeasonState>;
+  settings: Record<string, Partial<FeatureSettings>>;
 }
 
 const file = join(config.dataDir, 'scores.json');
@@ -43,7 +56,7 @@ export function currentSeasonId(date = new Date()): string {
 
 function load(): Database {
   if (!existsSync(file)) {
-    return { allTime: {}, season: {} };
+    return { allTime: {}, season: {}, settings: {} };
   }
 
   try {
@@ -52,12 +65,13 @@ function load(): Database {
       const db = raw as Database;
       db.allTime ??= {};
       db.season ??= {};
+      db.settings ??= {};
       return db;
     }
     // migrate legacy flat shape: { [guildId]: Book } -> all-time
-    return { allTime: (raw as Record<string, Book>) ?? {}, season: {} };
+    return { allTime: (raw as Record<string, Book>) ?? {}, season: {}, settings: {} };
   } catch {
-    return { allTime: {}, season: {} };
+    return { allTime: {}, season: {}, settings: {} };
   }
 }
 
@@ -154,5 +168,14 @@ export function playerStats(guildId: string, userId: string): PlayerStats {
 export function resetGuild(guildId: string): void {
   delete cache.allTime[guildId];
   delete cache.season[guildId];
+  save(cache);
+}
+
+export function getSettings(guildId: string): FeatureSettings {
+  return { ...featureDefaults, ...(cache.settings[guildId] ?? {}) };
+}
+
+export function setFeature(guildId: string, key: FeatureKey, value: boolean): void {
+  (cache.settings[guildId] ??= {})[key] = value;
   save(cache);
 }
