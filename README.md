@@ -14,6 +14,30 @@ Chromie is open source under the MIT license, so you are free to host your own c
 
 Your instance is completely separate from everyone else's and keeps its own scores. You can also lift just the question bank (`data/questions.json`) or the round and scoring code into an existing bot of your own, the MIT license only asks that you keep the copyright notice.
 
+## Add the trivia to your existing bot
+
+Already run your own Discord bot? You can drop the trivia in as a feature instead of hosting the whole project.
+
+**Easiest: just take the questions.** `data/questions.json` is a plain array of `{ id, category, difficulty, question, options, answer, fact }` objects (schema under Adding questions below). Load it into whatever quiz logic your bot already has, no other code required.
+
+**Full feature (discord.js v14).** Copy these modules into your project:
+
+- `data/questions.json` - the question bank
+- `src/questions.ts` - loads the bank and exposes `randomQuestions()`, `categories`, and `versions`
+- `src/trivia.ts` - `startTrivia()` and `runRound()`: the buttons, timer, bonuses, scoring, and round summary
+- `src/store.ts` - per-server scores, weekly seasons, and feature settings (persists to `DATA_DIR`)
+- `src/config.ts` - reads the timer and round-size env vars
+- `src/commands.ts` - the slash-command definitions and the `handleCommand()` router
+
+Then wire it in:
+
+1. Make sure you are on `discord.js` ^14 and your client has the `Guilds` intent.
+2. Register the commands: merge the exported `commands` array from `src/commands.ts` into your own command registration, or just the `/trivia` entry.
+3. In your `interactionCreate` listener, forward chat-input commands to `handleCommand(interaction)`, or call `startTrivia(interaction)` directly if you only want `/trivia`.
+4. Set `DATA_DIR` to a writable folder so scores persist.
+
+The trivia then runs inside your bot with its own leaderboard stored alongside your data.
+
 ## Commands
 
 - `/trivia` runs a round of questions (5 by default), one at a time. Options:
