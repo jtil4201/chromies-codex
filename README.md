@@ -2,7 +2,7 @@
 
 A WoW Forever trivia bot for Discord. Chromie runs rounds of multiple-choice questions about Forever's lore, quests, zones, items, and NPCs. Everyone in the channel answers with buttons, faster and streakier answers score more, and the server keeps both a weekly season board and an all-time board.
 
-The question bank ships with 4,300+ questions, most of them generated straight from the Forever game database (quote the quest text, name the quest; or name the NPC who gives a quest).
+The question bank ships with 4,400+ questions. Most are generated straight from the Forever game database (quote the quest text, name the quest; or name the NPC who gives a quest), alongside a hand-curated set of lore and hard-knowledge questions covering Warcraft history, factions and leaders, cities and zones, dungeons and raid bosses, world bosses, legendary items, and class and race lore.
 
 ## Commands
 
