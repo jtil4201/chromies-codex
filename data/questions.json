@@ -64648,5 +64648,2360 @@
     ],
     "answer": 1,
     "fact": "\"A Sacred Burial\" is offered by Lorekeeper Raintotem."
+  },
+  {
+    "id": "hk-001",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "easy",
+    "question": "Who is the Warchief of the Horde during the Classic era?",
+    "options": [
+      "Thrall",
+      "Grommash Hellscream",
+      "Orgrim Doomhammer",
+      "Vol'jin"
+    ],
+    "answer": 0,
+    "fact": "Thrall, son of Durotan, leads the Horde from Orgrimmar, the city he founded in Durotar."
+  },
+  {
+    "id": "hk-002",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "easy",
+    "question": "Which leader rules Thunder Bluff in Classic?",
+    "options": [
+      "Baine Bloodhoof",
+      "Cairne Bloodhoof",
+      "Magatha Grimtotem",
+      "Hamuul Runetotem"
+    ],
+    "answer": 1,
+    "fact": "Cairne Bloodhoof, high chieftain of the tauren, leads from Thunder Bluff in Mulgore."
+  },
+  {
+    "id": "hk-003",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Who leads the Forsaken from the Undercity?",
+    "options": [
+      "Lady Vashj",
+      "Sylvanas Windrunner",
+      "Lady Liadrin",
+      "Lilian Voss"
+    ],
+    "answer": 1,
+    "fact": "Sylvanas Windrunner, the banshee queen, rules the Forsaken beneath the ruins of Lordaeron."
+  },
+  {
+    "id": "hk-004",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which dwarf king rules Ironforge in Classic?",
+    "options": [
+      "Muradin Bronzebeard",
+      "Magni Bronzebeard",
+      "Brann Bronzebeard",
+      "Moira Thaurissan"
+    ],
+    "answer": 1,
+    "fact": "King Magni Bronzebeard rules Ironforge and the Bronzebeard dwarves."
+  },
+  {
+    "id": "hk-005",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Who is the high priestess leading the night elves from Darnassus?",
+    "options": [
+      "Tyrande Whisperwind",
+      "Maiev Shadowsong",
+      "Shandris Feathermoon",
+      "Vereesa Windrunner"
+    ],
+    "answer": 0,
+    "fact": "Tyrande Whisperwind, high priestess of Elune, leads the night elves alongside the awakened druids."
+  },
+  {
+    "id": "hk-006",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Who is the High Tinker and leader of the gnomes in Classic?",
+    "options": [
+      "Gelbin Mekkatorque",
+      "Sicco Thermaplugg",
+      "Millhouse Manastorm",
+      "Wilfred Fizzlebang"
+    ],
+    "answer": 0,
+    "fact": "High Tinker Gelbin Mekkatorque leads the gnomes in exile among the dwarves after the fall of Gnomeregan."
+  },
+  {
+    "id": "hk-007",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "easy",
+    "question": "What is the capital city of the orcs in Durotar?",
+    "options": [
+      "Ogrimmar",
+      "Orgrimmar",
+      "Durotar Keep",
+      "Razor Hill"
+    ],
+    "answer": 1,
+    "fact": "Orgrimmar is named after Orgrim Doomhammer, the former Warchief."
+  },
+  {
+    "id": "hk-008",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "After whom is the Horde capital Orgrimmar named?",
+    "options": [
+      "Orgrim Doomhammer",
+      "Grommash Hellscream",
+      "Ner'zhul",
+      "Blackhand"
+    ],
+    "answer": 0,
+    "fact": "Thrall named the city for Orgrim Doomhammer, the Warchief who freed the orcs and died in his arms."
+  },
+  {
+    "id": "hk-009",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Who serves as regent of Stormwind while King Varian Wrynn is missing?",
+    "options": [
+      "Highlord Bolvar Fordragon",
+      "Lady Katrana Prestor",
+      "Marshal Windsor",
+      "Mathias Shaw"
+    ],
+    "answer": 0,
+    "fact": "Highlord Bolvar Fordragon rules as regent, unaware that the dragon Onyxia, disguised as Lady Katrana Prestor, manipulates the court."
+  },
+  {
+    "id": "hk-010",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which black dragon secretly poses as the human noble Lady Katrana Prestor in Stormwind?",
+    "options": [
+      "Nefarian",
+      "Onyxia",
+      "Sinestra",
+      "Nalice"
+    ],
+    "answer": 1,
+    "fact": "Onyxia, daughter of Deathwing, infiltrates Stormwind's court to sow chaos."
+  },
+  {
+    "id": "hk-011",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "easy",
+    "question": "Which raid boss is the Firelord bound within the Molten Core?",
+    "options": [
+      "Ragnaros",
+      "Nefarian",
+      "Kael'thas",
+      "Magmadar"
+    ],
+    "answer": 0,
+    "fact": "Ragnaros the Firelord was summoned by the Dark Iron dwarves and dwells in the Molten Core beneath Blackrock Mountain."
+  },
+  {
+    "id": "hk-012",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Who is the final boss of Blackwing Lair?",
+    "options": [
+      "Nefarian",
+      "Vaelastrasz",
+      "Razorgore",
+      "Chromaggus"
+    ],
+    "answer": 0,
+    "fact": "Nefarian, son of Deathwing, breeds the chromatic dragonflight in Blackwing Lair atop Blackrock Mountain."
+  },
+  {
+    "id": "hk-013",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which blood god is the final boss of Zul'Gurub?",
+    "options": [
+      "Hakkar the Soulflayer",
+      "Hex Lord Malacrass",
+      "Jin'do the Hexxer",
+      "Bloodlord Mandokir"
+    ],
+    "answer": 0,
+    "fact": "Hakkar the Soulflayer is summoned by the Atal'ai priests in the troll city of Zul'Gurub."
+  },
+  {
+    "id": "hk-014",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Who is the Old God at the heart of the Temple of Ahn'Qiraj?",
+    "options": [
+      "C'Thun",
+      "Yogg-Saron",
+      "N'Zoth",
+      "Y'Shaarj"
+    ],
+    "answer": 0,
+    "fact": "C'Thun, the Old God, lies at the center of the Temple of Ahn'Qiraj in Silithus."
+  },
+  {
+    "id": "hk-015",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Who is the final boss of the original Naxxramas raid?",
+    "options": [
+      "Kel'Thuzad",
+      "Heigan the Unclean",
+      "Instructor Razuvious",
+      "Sapphiron"
+    ],
+    "answer": 0,
+    "fact": "Kel'Thuzad, the lich who founded the Cult of the Damned, commands Naxxramas, the floating necropolis over the Eastern Plaguelands."
+  },
+  {
+    "id": "hk-016",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "easy",
+    "question": "Which black dragon, a daughter of Deathwing, is the lone boss of her lair in Dustwallow Marsh?",
+    "options": [
+      "Onyxia",
+      "Nefarian",
+      "Ysera",
+      "Alexstrasza"
+    ],
+    "answer": 0,
+    "fact": "Onyxia's Lair sits in the Wyrmbog of Dustwallow Marsh."
+  },
+  {
+    "id": "hk-017",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Who is the final boss of the Deadmines?",
+    "options": [
+      "Edwin VanCleef",
+      "Mr. Smite",
+      "Captain Greenskin",
+      "Cookie"
+    ],
+    "answer": 0,
+    "fact": "Edwin VanCleef leads the Defias Brotherhood from a ship hidden inside the Deadmines of Westfall."
+  },
+  {
+    "id": "hk-018",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which criminal organization operates out of the Deadmines in Westfall?",
+    "options": [
+      "The Defias Brotherhood",
+      "The Syndicate",
+      "The Shadow Council",
+      "The Burning Blade"
+    ],
+    "answer": 0,
+    "fact": "The Defias Brotherhood formed from the stonemasons who rebuilt Stormwind and were never paid."
+  },
+  {
+    "id": "hk-019",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Who is the banshee final boss of the Scarlet Monastery Graveyard?",
+    "options": [
+      "Bloodmage Thalnos",
+      "High Inquisitor Whitemane",
+      "Herod",
+      "Interrogator Vishas"
+    ],
+    "answer": 0,
+    "fact": "Bloodmage Thalnos haunts the Scarlet Monastery Graveyard; Whitemane and Mograine lead the Cathedral."
+  },
+  {
+    "id": "hk-020",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Who resurrects Scarlet Commander Mograine during the Scarlet Monastery Cathedral fight?",
+    "options": [
+      "High Inquisitor Whitemane",
+      "Sally Whitemane's apprentice",
+      "Interrogator Vishas",
+      "Houndmaster Loksey"
+    ],
+    "answer": 0,
+    "fact": "High Inquisitor Whitemane revives Mograine when he falls, making the Cathedral a two-stage encounter."
+  },
+  {
+    "id": "hk-021",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Who is the undead final boss of Stratholme's Scarlet (Live) side?",
+    "options": [
+      "Balnazzar",
+      "Baron Rivendare",
+      "Timmy the Cruel",
+      "Ramstein the Gorger"
+    ],
+    "answer": 0,
+    "fact": "Balnazzar, a dreadlord disguised as Grand Crusader Dathrohan, rules the Scarlet side of Stratholme."
+  },
+  {
+    "id": "hk-022",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which death knight is the final boss of the Undead side of Stratholme?",
+    "options": [
+      "Baron Rivendare",
+      "Baroness Anastari",
+      "Nerub'enkan",
+      "Maleki the Pallid"
+    ],
+    "answer": 0,
+    "fact": "Baron Rivendare commands the Undead side of Stratholme and can drop the rare mount Deathcharger's Reins."
+  },
+  {
+    "id": "hk-023",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Who runs Scholomance, the necromancy school in Caer Darrow?",
+    "options": [
+      "Darkmaster Gandling",
+      "Ras Frostwhisper",
+      "Kirtonos the Herald",
+      "Lorekeeper Polkelt"
+    ],
+    "answer": 0,
+    "fact": "Darkmaster Gandling, headmaster of Scholomance, is the dungeon's final boss."
+  },
+  {
+    "id": "hk-024",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Who is the emperor at the end of Blackrock Depths?",
+    "options": [
+      "Emperor Dagran Thaurissan",
+      "Ambassador Flamelash",
+      "General Angerforge",
+      "Lord Incendius"
+    ],
+    "answer": 0,
+    "fact": "Emperor Dagran Thaurissan rules the Dark Iron dwarves; his wife is Princess Moira Bronzebeard."
+  },
+  {
+    "id": "hk-025",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which black dragon is the final boss of Upper Blackrock Spire?",
+    "options": [
+      "General Drakkisath",
+      "Warchief Rend Blackhand",
+      "Pyroguard Emberseer",
+      "The Beast"
+    ],
+    "answer": 0,
+    "fact": "General Drakkisath guards the orb that opens the way to Blackwing Lair."
+  },
+  {
+    "id": "hk-026",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which fallen hero is the final boss of the Sunken Temple (Temple of Atal'Hakkar)?",
+    "options": [
+      "Shade of Eranikus",
+      "Jammal'an the Prophet",
+      "Atal'alarion",
+      "Dreamscythe"
+    ],
+    "answer": 0,
+    "fact": "The Shade of Eranikus, a corrupted green dragon, is trapped within the Sunken Temple in the Swamp of Sorrows."
+  },
+  {
+    "id": "hk-027",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which titan-forged keeper is found deep within Uldaman?",
+    "options": [
+      "Archaedas",
+      "Ironaya",
+      "Grimlok",
+      "Baelog"
+    ],
+    "answer": 0,
+    "fact": "Archaedas, a stone keeper, guards the ancient titan vault of Uldaman in the Badlands."
+  },
+  {
+    "id": "hk-028",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Who is the earth-elemental princess corrupting the depths of Maraudon in Desolace?",
+    "options": [
+      "Princess Theradras",
+      "Landslide",
+      "Noxxion",
+      "Celebras the Cursed"
+    ],
+    "answer": 0,
+    "fact": "Princess Theradras, a princess of the earth elementals, corrupts the depths of Maraudon in Desolace."
+  },
+  {
+    "id": "hk-029",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which troll god is invoked in the dungeon Zul'Farrak?",
+    "options": [
+      "Gahz'rilla",
+      "Hakkar",
+      "Bethekk",
+      "Shadra"
+    ],
+    "answer": 0,
+    "fact": "The Sandfury trolls summon the hydra Gahz'rilla in Zul'Farrak, deep in Tanaris."
+  },
+  {
+    "id": "hk-030",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which king is pulled from his throne in Dire Maul North (King's tribute run)?",
+    "options": [
+      "King Gordok",
+      "Prince Tortheldrin",
+      "Immol'thar",
+      "Tendris Warpwood"
+    ],
+    "answer": 0,
+    "fact": "King Gordok rules the ogres of Dire Maul; defeating him lets a player become the new ogre king for a buff."
+  },
+  {
+    "id": "hk-031",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Lord Kazzak, the demon world boss, haunts which zone in Classic?",
+    "options": [
+      "Blasted Lands",
+      "Winterspring",
+      "Azshara",
+      "Felwood"
+    ],
+    "answer": 0,
+    "fact": "Lord Kazzak stalks the Blasted Lands near the Dark Portal."
+  },
+  {
+    "id": "hk-032",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "The blue dragon world boss Azuregos roams which zone?",
+    "options": [
+      "Azshara",
+      "Feralas",
+      "Duskwood",
+      "The Hinterlands"
+    ],
+    "answer": 0,
+    "fact": "Azuregos, an agent of the blue dragonflight, guards magical secrets in Azshara."
+  },
+  {
+    "id": "hk-033",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "How many Dragons of Nightmare (green dragon world bosses) roam Classic's forests?",
+    "options": [
+      "Four",
+      "Two",
+      "Three",
+      "Six"
+    ],
+    "answer": 0,
+    "fact": "Ysondre, Lethon, Emeriss, and Taerar are the four corrupted green dragons that spawn at forest portals."
+  },
+  {
+    "id": "hk-034",
+    "category": "items",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which legendary mace is forged from the Eye of Sulfuras and the Sulfuron Hammer?",
+    "options": [
+      "Sulfuras, Hand of Ragnaros",
+      "Thunderfury",
+      "Sulfuron Hammer",
+      "Hammer of Ragnaros"
+    ],
+    "answer": 0,
+    "fact": "Sulfuras, Hand of Ragnaros is crafted after the Eye of Sulfuras drops from Ragnaros himself."
+  },
+  {
+    "id": "hk-035",
+    "category": "items",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Thunderfury, Blessed Blade of the Windseeker requires binding two elemental items dropped by which Molten Core bosses?",
+    "options": [
+      "Baron Geddon and Garr",
+      "Ragnaros and Golemagg",
+      "Magmadar and Gehennas",
+      "Sulfuron and Shazzrah"
+    ],
+    "answer": 0,
+    "fact": "The two Bindings of the Windseeker drop from Baron Geddon and Garr in the Molten Core."
+  },
+  {
+    "id": "hk-036",
+    "category": "items",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which profession crafts the powerful early weapon the Arcanite Reaper?",
+    "options": [
+      "Blacksmithing",
+      "Engineering",
+      "Enchanting",
+      "Leatherworking"
+    ],
+    "answer": 0,
+    "fact": "The Arcanite Reaper, a two-handed axe, is a famous blacksmithing craft requiring arcanite bars."
+  },
+  {
+    "id": "hk-037",
+    "category": "items",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Arcanite Bars are transmuted from Thorium and which rare reagent?",
+    "options": [
+      "Arcane Crystal",
+      "Star Ruby",
+      "Mooncloth",
+      "Elemental Fire"
+    ],
+    "answer": 0,
+    "fact": "Alchemists transmute an Arcane Crystal and a Thorium Bar into an Arcanite Bar, once per cooldown."
+  },
+  {
+    "id": "hk-038",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which hero class can both Horde and Alliance play in Classic that uses mana, melee, and totems?",
+    "options": [
+      "Shaman",
+      "Paladin",
+      "Death Knight",
+      "Monk"
+    ],
+    "answer": 0,
+    "fact": "In Classic the shaman is Horde-only and the paladin is Alliance-only; both are hybrid classes."
+  },
+  {
+    "id": "hk-039",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "In Classic WoW, which class is available only to the Horde?",
+    "options": [
+      "Shaman",
+      "Paladin",
+      "Druid",
+      "Mage"
+    ],
+    "answer": 0,
+    "fact": "Shaman is Horde-only and Paladin is Alliance-only in Classic; this was changed in later expansions."
+  },
+  {
+    "id": "hk-040",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "In Classic WoW, which class is available only to the Alliance?",
+    "options": [
+      "Paladin",
+      "Shaman",
+      "Warlock",
+      "Rogue"
+    ],
+    "answer": 0,
+    "fact": "Paladin is Alliance-only in Classic, mirroring the Horde-only shaman."
+  },
+  {
+    "id": "hk-041",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which two races can play druids in Classic WoW?",
+    "options": [
+      "Night Elf and Tauren",
+      "Human and Orc",
+      "Troll and Gnome",
+      "Dwarf and Undead"
+    ],
+    "answer": 0,
+    "fact": "Only night elves (Alliance) and tauren (Horde) can be druids in Classic."
+  },
+  {
+    "id": "hk-042",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which race can play a mage, warrior, rogue, priest, hunter, and shaman but not a warlock or paladin in Classic?",
+    "options": [
+      "Troll",
+      "Human",
+      "Gnome",
+      "Undead"
+    ],
+    "answer": 0,
+    "fact": "Trolls have a wide class selection in Classic, including the Horde-exclusive shaman."
+  },
+  {
+    "id": "hk-043",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which racial ability lets undead players break fear, sleep, and charm effects?",
+    "options": [
+      "Will of the Forsaken",
+      "Cannibalize",
+      "Shadowmeld",
+      "Stoneform"
+    ],
+    "answer": 0,
+    "fact": "Will of the Forsaken is a signature Forsaken racial, highly valued in PvP."
+  },
+  {
+    "id": "hk-044",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which racial lets dwarves remove poison, disease, and bleed effects and boosts armor?",
+    "options": [
+      "Stoneform",
+      "Gift of the Naaru",
+      "Find Treasure",
+      "Frost Resistance"
+    ],
+    "answer": 0,
+    "fact": "Stoneform is the Dwarf racial that clears poisons, diseases, and bleeds while adding armor."
+  },
+  {
+    "id": "hk-045",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which night elf racial grants invisibility while stationary?",
+    "options": [
+      "Shadowmeld",
+      "Quickness",
+      "Wisp Spirit",
+      "Elusiveness"
+    ],
+    "answer": 0,
+    "fact": "Shadowmeld lets night elves fade from sight when they stand still and out of combat."
+  },
+  {
+    "id": "hk-046",
+    "category": "zones",
+    "version": "forever",
+    "difficulty": "easy",
+    "question": "Which zone is the starting area for orcs and trolls?",
+    "options": [
+      "Durotar",
+      "Mulgore",
+      "Tirisfal Glades",
+      "Teldrassil"
+    ],
+    "answer": 0,
+    "fact": "Durotar, the harsh red land east of the Barrens, is home to Orgrimmar and the orc and troll starting experience."
+  },
+  {
+    "id": "hk-047",
+    "category": "zones",
+    "version": "forever",
+    "difficulty": "easy",
+    "question": "Which zone do tauren begin their journey in?",
+    "options": [
+      "Mulgore",
+      "Durotar",
+      "The Barrens",
+      "Thousand Needles"
+    ],
+    "answer": 0,
+    "fact": "Mulgore, a peaceful plateau, cradles Thunder Bluff and the tauren starting zone."
+  },
+  {
+    "id": "hk-048",
+    "category": "zones",
+    "version": "forever",
+    "difficulty": "easy",
+    "question": "What is the name of the great world tree that serves as the night elf starting area?",
+    "options": [
+      "Teldrassil",
+      "Darkshore",
+      "Ashenvale",
+      "Eversong Woods"
+    ],
+    "answer": 0,
+    "fact": "Night elves begin on Teldrassil, the great world tree, near the city of Darnassus."
+  },
+  {
+    "id": "hk-049",
+    "category": "zones",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which zone is the shared starting area for humans?",
+    "options": [
+      "Elwynn Forest",
+      "Tirisfal Glades",
+      "Dun Morogh",
+      "Westfall"
+    ],
+    "answer": 0,
+    "fact": "Humans start in Elwynn Forest, just outside the gates of Stormwind."
+  },
+  {
+    "id": "hk-050",
+    "category": "zones",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Dun Morogh is the snowy starting zone shared by which two Alliance races?",
+    "options": [
+      "Dwarves and Gnomes",
+      "Humans and Night Elves",
+      "Dwarves and Humans",
+      "Gnomes and Night Elves"
+    ],
+    "answer": 0,
+    "fact": "Dwarves and gnomes both begin in Dun Morogh, near Ironforge, after the fall of Gnomeregan."
+  },
+  {
+    "id": "hk-051",
+    "category": "zones",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which zone serves as the Forsaken starting area, containing the ruins of Lordaeron?",
+    "options": [
+      "Tirisfal Glades",
+      "Silverpine Forest",
+      "Western Plaguelands",
+      "Hillsbrad Foothills"
+    ],
+    "answer": 0,
+    "fact": "Tirisfal Glades holds the Undercity beneath the ruined capital of Lordaeron."
+  },
+  {
+    "id": "hk-052",
+    "category": "zones",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "The infamous 'Chuck Norris' and 'Mankrik's wife' jokes come from the chat of which leveling zone?",
+    "options": [
+      "The Barrens",
+      "Westfall",
+      "Elwynn Forest",
+      "Durotar"
+    ],
+    "answer": 0,
+    "fact": "Barrens chat became legendary for its endless off-topic banter and the hunt for Mankrik's wife."
+  },
+  {
+    "id": "hk-053",
+    "category": "zones",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which contested zone contains the raid entrance to the Temple of Ahn'Qiraj?",
+    "options": [
+      "Silithus",
+      "Tanaris",
+      "Un'Goro Crater",
+      "Feralas"
+    ],
+    "answer": 0,
+    "fact": "Silithus, overrun by the silithid, holds the gates of Ahn'Qiraj."
+  },
+  {
+    "id": "hk-054",
+    "category": "zones",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which lush, dinosaur-filled crater zone is known for Devilsaurs and a volcano?",
+    "options": [
+      "Un'Goro Crater",
+      "Sholazar Basin",
+      "Feralas",
+      "The Hinterlands"
+    ],
+    "answer": 0,
+    "fact": "Un'Goro Crater teems with dinosaurs and is a prime hunting ground for Devilsaur Leather."
+  },
+  {
+    "id": "hk-055",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Opening the Gates of Ahn'Qiraj requires ringing which artifact?",
+    "options": [
+      "The Scepter of the Shifting Sands",
+      "The Scarab Gong",
+      "The Horn of Cenarius",
+      "The Hammer of the Naaru"
+    ],
+    "answer": 0,
+    "fact": "A single server hero rings the Scarab Gong with the Scepter of the Shifting Sands to open the gates and start the war effort."
+  },
+  {
+    "id": "hk-056",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which bronze dragon aids heroes in the War of the Shifting Sands and the AQ war effort?",
+    "options": [
+      "Anachronos",
+      "Nozdormu",
+      "Chromie",
+      "Soridormi"
+    ],
+    "answer": 0,
+    "fact": "Anachronos, a bronze dragon at the Caverns of Time, guides the effort to reopen Ahn'Qiraj."
+  },
+  {
+    "id": "hk-057",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which Dragon Aspect leads the red dragonflight and is called the Life-Binder?",
+    "options": [
+      "Alexstrasza",
+      "Ysera",
+      "Malygos",
+      "Nozdormu"
+    ],
+    "answer": 0,
+    "fact": "Alexstrasza the Life-Binder is the red Aspect, charged with safeguarding life on Azeroth."
+  },
+  {
+    "id": "hk-058",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which green Dragon Aspect is known as the Dreamer and tied to the Emerald Dream?",
+    "options": [
+      "Ysera",
+      "Alexstrasza",
+      "Malygos",
+      "Deathwing"
+    ],
+    "answer": 0,
+    "fact": "Ysera the Dreamer watches over the Emerald Dream; her corruption spawns the Nightmare dragons."
+  },
+  {
+    "id": "hk-059",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which Dragon Aspect, once called Neltharion, became the corrupted Deathwing?",
+    "options": [
+      "The black Aspect",
+      "The bronze Aspect",
+      "The blue Aspect",
+      "The green Aspect"
+    ],
+    "answer": 0,
+    "fact": "Neltharion the Earth-Warder was driven mad by the Old Gods and became Deathwing, father of Onyxia and Nefarian."
+  },
+  {
+    "id": "hk-060",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which blue Dragon Aspect is the Spell-Weaver, guardian of magic?",
+    "options": [
+      "Malygos",
+      "Kalecgos",
+      "Arygos",
+      "Sapphiron"
+    ],
+    "answer": 0,
+    "fact": "Malygos the Spell-Weaver leads the blue dragonflight and guards the world's arcane magic."
+  },
+  {
+    "id": "hk-061",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "What is the maximum character level in Classic WoW?",
+    "options": [
+      "60",
+      "70",
+      "80",
+      "50"
+    ],
+    "answer": 0,
+    "fact": "Level 60 is the cap in Classic, requiring a long grind through the world's zones and dungeons."
+  },
+  {
+    "id": "hk-062",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "How many talent points does a level 60 character have to spend in Classic?",
+    "options": [
+      "51",
+      "61",
+      "71",
+      "41"
+    ],
+    "answer": 0,
+    "fact": "Characters earn one talent point per level from 10 to 60, for 51 points total in Classic."
+  },
+  {
+    "id": "hk-063",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "In Classic, which mount tier is unlocked at level 40 for most classes?",
+    "options": [
+      "The basic (60%) ground mount",
+      "Epic (100%) ground mount",
+      "Flying mount",
+      "Dragonriding"
+    ],
+    "answer": 0,
+    "fact": "At level 40 players train riding and buy their first mount; the epic 100% mount comes at level 60."
+  },
+  {
+    "id": "hk-064",
+    "category": "items",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which rare bag has 16 slots and is crafted by tailors using Mooncloth in Classic?",
+    "options": [
+      "Mooncloth Bag",
+      "Felcloth Bag",
+      "Core Felcloth Bag",
+      "Bottomless Bag"
+    ],
+    "answer": 0,
+    "fact": "The Mooncloth Bag is a prized 16-slot tailoring bag made from Mooncloth, which has its own cooldown."
+  },
+  {
+    "id": "hk-065",
+    "category": "items",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which consumable flask grants the strongest raid buff and persists through death in Classic?",
+    "options": [
+      "Flask of the Titans",
+      "Elixir of the Mongoose",
+      "Juju Power",
+      "Elixir of Fortitude"
+    ],
+    "answer": 0,
+    "fact": "Flasks like Flask of the Titans are brewed at the Alchemy Lab in Scholomance and survive death."
+  },
+  {
+    "id": "hk-066",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Who leads the Argent Dawn against the Scourge of the Plaguelands?",
+    "options": [
+      "The Argent Dawn commanders at Light's Hope Chapel",
+      "The Knights of the Silver Hand",
+      "The Scarlet Crusade",
+      "The Cenarion Circle"
+    ],
+    "answer": 0,
+    "fact": "The Argent Dawn operates from Light's Hope Chapel in the Eastern Plaguelands, fighting the undead."
+  },
+  {
+    "id": "hk-067",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "The Cenarion Circle, a druid organization, is most active in which silithid-infested zone?",
+    "options": [
+      "Silithus",
+      "Moonglade",
+      "Un'Goro Crater",
+      "Felwood"
+    ],
+    "answer": 0,
+    "fact": "The Cenarion Circle rallies at Cenarion Hold in Silithus to battle the Qiraji and silithid."
+  },
+  {
+    "id": "hk-068",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which snowy zone contains Moonglade, the neutral druid sanctuary?",
+    "options": [
+      "It borders Felwood and Winterspring",
+      "Dun Morogh",
+      "Alterac Mountains",
+      "Northrend"
+    ],
+    "answer": 0,
+    "fact": "Moonglade, reachable by the druid Teleport spell, sits between Felwood and Winterspring and holds Nighthaven."
+  },
+  {
+    "id": "hk-069",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which 40v40 battleground pits the Stormpike dwarves against the Frostwolf orcs?",
+    "options": [
+      "Alterac Valley",
+      "Warsong Gulch",
+      "Arathi Basin",
+      "Eye of the Storm"
+    ],
+    "answer": 0,
+    "fact": "Alterac Valley pits the Stormpike dwarves against the Frostwolf orcs in a massive 40v40 battle."
+  },
+  {
+    "id": "hk-070",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Warsong Gulch is a battleground of what type?",
+    "options": [
+      "Capture the flag",
+      "Resource control",
+      "Arena deathmatch",
+      "King of the hill"
+    ],
+    "answer": 0,
+    "fact": "Warsong Gulch is a 10v10 capture-the-flag battleground between the Warsong orcs and Silverwing night elves."
+  },
+  {
+    "id": "hk-071",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Arathi Basin is a battleground focused on what objective?",
+    "options": [
+      "Capturing and holding resource nodes",
+      "Capturing an enemy flag",
+      "Escorting a boss",
+      "Destroying towers"
+    ],
+    "answer": 0,
+    "fact": "Arathi Basin is a 15v15 resource race to control bases like the Blacksmith, Farm, and Gold Mine."
+  },
+  {
+    "id": "hk-072",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which Old God's prison lies beneath the raid of Ahn'Qiraj, served by the Qiraji and silithid?",
+    "options": [
+      "C'Thun",
+      "Yogg-Saron",
+      "N'Zoth",
+      "Ragnaros"
+    ],
+    "answer": 0,
+    "fact": "C'Thun directs the Qiraji empire; the insectoid silithid serve as its endless army."
+  },
+  {
+    "id": "hk-073",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Who was the paladin that became the Lich King's champion before the events of Classic?",
+    "options": [
+      "Arthas Menethil",
+      "Uther the Lightbringer",
+      "Tirion Fordring",
+      "Bolvar Fordragon"
+    ],
+    "answer": 0,
+    "fact": "Prince Arthas Menethil took up Frostmourne and became a death knight, later merging with the Lich King."
+  },
+  {
+    "id": "hk-074",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "What is the name of the cursed runeblade Arthas claimed in Northrend?",
+    "options": [
+      "Frostmourne",
+      "Ashbringer",
+      "Shalamayne",
+      "Gorehowl"
+    ],
+    "answer": 0,
+    "fact": "Frostmourne, forged by the Lich King, consumed Arthas's soul and the lives it took."
+  },
+  {
+    "id": "hk-075",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "The legendary sword Ashbringer is tied to which fallen paladin of the Mograine line?",
+    "options": [
+      "Alexandros Mograine",
+      "Renault Mograine",
+      "Darion Mograine",
+      "Tirion Fordring"
+    ],
+    "answer": 0,
+    "fact": "Highlord Alexandros Mograine wielded the Ashbringer before being betrayed; the Corrupted Ashbringer appears in Classic Naxxramas."
+  },
+  {
+    "id": "hk-076",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which orc shattered his chains by drinking demon blood and is honored at the Valley of Trials?",
+    "options": [
+      "Grommash Hellscream",
+      "Thrall",
+      "Durotan",
+      "Kargath Bladefist"
+    ],
+    "answer": 0,
+    "fact": "Grommash Hellscream was the first to drink the Blood of Mannoroth and later the last to free the orcs of its curse."
+  },
+  {
+    "id": "hk-077",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Durotar is named after which orc, Thrall's father?",
+    "options": [
+      "Durotan",
+      "Orgrim",
+      "Grommash",
+      "Ner'zhul"
+    ],
+    "answer": 0,
+    "fact": "Durotan, chieftain of the Frostwolf clan and Thrall's father, lends his name to the orc homeland."
+  },
+  {
+    "id": "hk-078",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which profession can craft goblin or gnomish gadgets, bombs, and trinkets?",
+    "options": [
+      "Engineering",
+      "Blacksmithing",
+      "Alchemy",
+      "Jewelcrafting"
+    ],
+    "answer": 0,
+    "fact": "Engineering splits into Goblin and Gnomish specializations, each with unique devices."
+  },
+  {
+    "id": "hk-079",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which gathering profession skins beasts for leather and hides?",
+    "options": [
+      "Skinning",
+      "Herbalism",
+      "Mining",
+      "Fishing"
+    ],
+    "answer": 0,
+    "fact": "Skinning harvests leather and hides from slain beasts, feeding the Leatherworking profession."
+  },
+  {
+    "id": "hk-080",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "easy",
+    "question": "Which profession gathers ore from mineral veins?",
+    "options": [
+      "Mining",
+      "Herbalism",
+      "Skinning",
+      "Enchanting"
+    ],
+    "answer": 0,
+    "fact": "Mining supplies ore and bars to Blacksmithing and Engineering."
+  },
+  {
+    "id": "hk-081",
+    "category": "items",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which world-drop epic leather chest is famously crafted from Devilsaur Leather?",
+    "options": [
+      "Devilsaur armor set",
+      "Bloodvine Vest",
+      "Volcanic armor",
+      "Wildheart set"
+    ],
+    "answer": 0,
+    "fact": "The Devilsaur Set (Leggings and Gauntlets) is a sought-after leatherworking set crafted from Un'Goro's Devilsaurs."
+  },
+  {
+    "id": "hk-082",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "What was the capital of Lordaeron before it fell and became the Undercity?",
+    "options": [
+      "The city of Lordaeron",
+      "Stratholme",
+      "Andorhal",
+      "Dalaran"
+    ],
+    "answer": 0,
+    "fact": "The kingdom of Lordaeron's capital was razed by Arthas; its ruins now shelter the Forsaken's Undercity."
+  },
+  {
+    "id": "hk-083",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Prince Arthas purged which city to stop the spread of the plague of undeath?",
+    "options": [
+      "Stratholme",
+      "Andorhal",
+      "Hearthglen",
+      "Tyr's Hand"
+    ],
+    "answer": 0,
+    "fact": "The culling of Stratholme marked Arthas's fall toward darkness."
+  },
+  {
+    "id": "hk-084",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which neutral goblin city in Tanaris is a hub for travel and trade?",
+    "options": [
+      "Gadgetzan",
+      "Booty Bay",
+      "Everlook",
+      "Ratchet"
+    ],
+    "answer": 0,
+    "fact": "Gadgetzan, run by the Steamwheedle Cartel, offers flight paths and the entrance to Zul'Farrak nearby."
+  },
+  {
+    "id": "hk-085",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which goblin port town sits at the southern tip of Stranglethorn Vale?",
+    "options": [
+      "Booty Bay",
+      "Ratchet",
+      "Gadgetzan",
+      "Everlook"
+    ],
+    "answer": 0,
+    "fact": "Booty Bay is a bustling neutral port and the site of the famous Stranglethorn Fishing Extravaganza."
+  },
+  {
+    "id": "hk-086",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which neutral goblin town serves as a hub in frozen Winterspring?",
+    "options": [
+      "Everlook",
+      "Gadgetzan",
+      "Ratchet",
+      "Booty Bay"
+    ],
+    "answer": 0,
+    "fact": "Everlook, run by the Steamwheedle Cartel, is the only town in icy Winterspring."
+  },
+  {
+    "id": "hk-087",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which ancient night elf queen's name marks the zone Azshara and a drowned city?",
+    "options": [
+      "Queen Azshara",
+      "Tyrande",
+      "Vashj",
+      "Shandris"
+    ],
+    "answer": 0,
+    "fact": "Queen Azshara ruled the Highborne before the Sundering; she became the naga queen beneath the sea."
+  },
+  {
+    "id": "hk-088",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "The Sundering of Azeroth was caused by the first invasion of which force?",
+    "options": [
+      "The Burning Legion",
+      "The Scourge",
+      "The Old Gods",
+      "The Naga"
+    ],
+    "answer": 0,
+    "fact": "The War of the Ancients and the Well of Eternity's implosion shattered the single continent of Kalimdor."
+  },
+  {
+    "id": "hk-089",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which fallen titan commands the Burning Legion?",
+    "options": [
+      "Sargeras",
+      "Kil'jaeden",
+      "Archimonde",
+      "Mannoroth"
+    ],
+    "answer": 0,
+    "fact": "Sargeras, once the titans' champion, turned to darkness and founded the Burning Legion to unmake creation."
+  },
+  {
+    "id": "hk-090",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which guardian of Tirisfal was possessed by Sargeras and opened the first Dark Portal?",
+    "options": [
+      "Medivh",
+      "Aegwynn",
+      "Khadgar",
+      "Antonidas"
+    ],
+    "answer": 0,
+    "fact": "Medivh, the last Guardian, was corrupted by Sargeras and helped bring the orcs to Azeroth."
+  },
+  {
+    "id": "hk-091",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "The Dark Portal in the Blasted Lands links Azeroth to which world?",
+    "options": [
+      "Draenor (Outland)",
+      "Argus",
+      "Northrend",
+      "The Emerald Dream"
+    ],
+    "answer": 0,
+    "fact": "The Dark Portal connects the Blasted Lands to the orc homeworld of Draenor."
+  },
+  {
+    "id": "hk-092",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which warlock opened the Dark Portal from the Draenor side, allied with Medivh?",
+    "options": [
+      "Gul'dan",
+      "Ner'zhul",
+      "Teron Gorefiend",
+      "Cho'gall"
+    ],
+    "answer": 0,
+    "fact": "Gul'dan, leader of the Shadow Council, conspired with Medivh to open the Dark Portal."
+  },
+  {
+    "id": "hk-093",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which elven people are NOT yet playable in Classic, only joining the Horde in a later expansion?",
+    "options": [
+      "Blood elves",
+      "Night elves",
+      "Furbolgs",
+      "Tauren"
+    ],
+    "answer": 0,
+    "fact": "Blood elves join the Horde in The Burning Crusade; in Classic the only playable elves are the Alliance night elves."
+  },
+  {
+    "id": "hk-094",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "The Stockade, a dungeon beneath Stormwind, is a prison full of what kind of enemy?",
+    "options": [
+      "Defias rebels and convicts",
+      "Undead Scourge",
+      "Dark Iron dwarves",
+      "Murlocs"
+    ],
+    "answer": 0,
+    "fact": "The Stormwind Stockade holds rioting prisoners, many tied to the Defias Brotherhood."
+  },
+  {
+    "id": "hk-095",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which low-level dungeon lies within the night elf starting zone region, haunted by the satyr Lord Cobrahn and naga?",
+    "options": [
+      "Blackfathom Deeps",
+      "Ragefire Chasm",
+      "Wailing Caverns",
+      "The Deadmines"
+    ],
+    "answer": 0,
+    "fact": "Blackfathom Deeps lies in Ashenvale; the Wailing Caverns is the Barrens druid dungeon with Lord Cobrahn."
+  },
+  {
+    "id": "hk-096",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Ragefire Chasm, the lowest-level Horde dungeon, is located beneath which city?",
+    "options": [
+      "Orgrimmar",
+      "Thunder Bluff",
+      "Undercity",
+      "Stormwind"
+    ],
+    "answer": 0,
+    "fact": "Ragefire Chasm sits directly beneath Orgrimmar, home to the Burning Blade cultists."
+  },
+  {
+    "id": "hk-097",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "The Wailing Caverns dungeon centers on restoring which druid who fell to nightmare?",
+    "options": [
+      "Naralex",
+      "Cobrahn",
+      "Mutanus",
+      "Ebonlocke"
+    ],
+    "answer": 0,
+    "fact": "Players aid the Disciples of Naralex to awaken the druid Naralex from his corrupted slumber."
+  },
+  {
+    "id": "hk-098",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which murloc devours the druid Naralex's would-be rescuer at the end of Wailing Caverns?",
+    "options": [
+      "Mutanus the Devourer",
+      "Lord Pythas",
+      "Lady Anacondra",
+      "Skum"
+    ],
+    "answer": 0,
+    "fact": "Mutanus the Devourer is the final boss escorting Naralex out of the Wailing Caverns."
+  },
+  {
+    "id": "hk-099",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which profession applies permanent magical bonuses to weapons and armor using dusts and essences?",
+    "options": [
+      "Enchanting",
+      "Tailoring",
+      "Alchemy",
+      "Inscription"
+    ],
+    "answer": 0,
+    "fact": "Enchanters disenchant gear into reagents and apply permanent enchants to weapons and armor."
+  },
+  {
+    "id": "hk-100",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which secondary skill lets players cook food that grants buffs, like Dirge's Kickin' Chimaerok Chops?",
+    "options": [
+      "Cooking",
+      "First Aid",
+      "Fishing",
+      "Herbalism"
+    ],
+    "answer": 0,
+    "fact": "Cooking produces stat-food; the Chimaerok Chops grant a large Stamina buff in Classic."
+  },
+  {
+    "id": "hk-101",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which secondary skill crafts bandages to heal out of combat?",
+    "options": [
+      "First Aid",
+      "Cooking",
+      "Fishing",
+      "Alchemy"
+    ],
+    "answer": 0,
+    "fact": "First Aid turns cloth into bandages, a vital self-heal for non-healing classes."
+  },
+  {
+    "id": "hk-102",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Who is the goblin leader of the Venture Company that despoils Stranglethorn and the Barrens?",
+    "options": [
+      "The Venture Co. trade cartel",
+      "The Bloodsail Buccaneers",
+      "The Steamwheedle Cartel",
+      "The Blackwater Raiders"
+    ],
+    "answer": 0,
+    "fact": "The Venture Company is a ruthless goblin trading cartel clear-cutting forests for profit."
+  },
+  {
+    "id": "hk-103",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "The Bloodsail Buccaneers are pirates hostile to which neutral goblin town?",
+    "options": [
+      "Booty Bay",
+      "Gadgetzan",
+      "Everlook",
+      "Ratchet"
+    ],
+    "answer": 0,
+    "fact": "The Bloodsail Buccaneers war with the Blackwater Raiders of Booty Bay; players can earn reputation with either side."
+  },
+  {
+    "id": "hk-104",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which reputation is earned primarily inside the Temple of Ahn'Qiraj (AQ40)?",
+    "options": [
+      "Brood of Nozdormu",
+      "Cenarion Circle",
+      "Argent Dawn",
+      "Timbermaw Hold"
+    ],
+    "answer": 0,
+    "fact": "Brood of Nozdormu reputation comes from Qiraji tokens, scarabs, and idols turned in inside AQ40."
+  },
+  {
+    "id": "hk-105",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Timbermaw Hold reputation is earned with which type of creatures bridging Felwood and Winterspring?",
+    "options": [
+      "Furbolgs",
+      "Satyrs",
+      "Harpies",
+      "Yeti"
+    ],
+    "answer": 0,
+    "fact": "The Timbermaw furbolgs guard the tunnel between Felwood, Winterspring, and Moonglade."
+  },
+  {
+    "id": "hk-106",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which corrupted satyr-infested forest requires cleansing to gain Timbermaw trust?",
+    "options": [
+      "Felwood",
+      "Ashenvale",
+      "Duskwood",
+      "Teldrassil"
+    ],
+    "answer": 0,
+    "fact": "Felwood is tainted by the Legion's corruption, home to satyrs and corrupted ancients."
+  },
+  {
+    "id": "hk-107",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "What is the name of the auction house and bank hub city for the Horde in the Barrens' north?",
+    "options": [
+      "The Crossroads",
+      "Camp Taurajo",
+      "Ratchet",
+      "Razor Hill"
+    ],
+    "answer": 0,
+    "fact": "The Crossroads is the central Horde outpost in the Barrens, frequently raided by the Alliance."
+  },
+  {
+    "id": "hk-108",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which rare spawn raptor in the Barrens drops a coveted blue item and is hunted endlessly?",
+    "options": [
+      "Takk the Leaper",
+      "King Bangalash",
+      "Lord Condar",
+      "Aurius"
+    ],
+    "answer": 0,
+    "fact": "Barrens rare spawns like Takk the Leaper are camped for their blue-quality loot."
+  },
+  {
+    "id": "hk-109",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which ogre mage is the final boss atop Lower Blackrock Spire, not counting UBRS?",
+    "options": [
+      "Overlord Wyrmthalak",
+      "War Master Voone",
+      "Highlord Omokk",
+      "Mother Smolderweb"
+    ],
+    "answer": 0,
+    "fact": "Overlord Wyrmthalak commands the end of Lower Blackrock Spire."
+  },
+  {
+    "id": "hk-110",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "To enter Upper Blackrock Spire in Classic you need a key crafted from which drop?",
+    "options": [
+      "The Seal of Ascension",
+      "The Shadowforge Key",
+      "The Prison Key",
+      "The Crystal Key"
+    ],
+    "answer": 0,
+    "fact": "The Seal of Ascension, made from three gemstones and a drop from UBRS bosses, unlocks the orb to UBRS."
+  },
+  {
+    "id": "hk-111",
+    "category": "items",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which item dropped by Majordomo Executus in the Molten Core begins the priest Benediction questline?",
+    "options": [
+      "Eye of Divinity",
+      "Eye of Sulfuras",
+      "Eye of Shadow",
+      "Head of Nefarian"
+    ],
+    "answer": 0,
+    "fact": "The Eye of Divinity drops from Majordomo Executus and starts the priest's legendary Benediction staff chain."
+  },
+  {
+    "id": "hk-112",
+    "category": "items",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "The priest legendary staff questline in Classic ends with which transforming weapon?",
+    "options": [
+      "Benediction / Anathema",
+      "Hand of Edward the Odd",
+      "The Nightblade",
+      "Shadowfang"
+    ],
+    "answer": 0,
+    "fact": "The Eye of Divinity and Eye of Shadow create Benediction, which toggles into its shadow form Anathema."
+  },
+  {
+    "id": "hk-113",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Who is the majordomo that summons Ragnaros in the Molten Core?",
+    "options": [
+      "Majordomo Executus",
+      "Garr",
+      "Golemagg the Incinerator",
+      "Sulfuron Harbinger"
+    ],
+    "answer": 0,
+    "fact": "Majordomo Executus must be defeated first; he then summons his master Ragnaros."
+  },
+  {
+    "id": "hk-114",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which Blackwing Lair boss forces raiders to fight under a 'friendly fire' mind-control mechanic?",
+    "options": [
+      "Nefarian",
+      "Razorgore the Untamed",
+      "Broodlord Lashlayer",
+      "Firemaw"
+    ],
+    "answer": 0,
+    "fact": "In Nefarian's final phase he randomly forces classes to cast odd spells; Razorgore must be controlled to destroy eggs earlier."
+  },
+  {
+    "id": "hk-115",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "The Chromaggus fight in Blackwing Lair revolves around avoiding a buildup of what?",
+    "options": [
+      "Brood Affliction debuffs",
+      "Stacking enrage",
+      "Fire pools",
+      "Adds"
+    ],
+    "answer": 0,
+    "fact": "Chromaggus applies random Brood Afflictions; getting two matching ones triggers the deadly Chromatic Mutation."
+  },
+  {
+    "id": "hk-116",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Who is the dragon that Nefarian corrupts to attack the raid upon entering Blackwing Lair?",
+    "options": [
+      "Vaelastrasz the Corrupt",
+      "Firemaw",
+      "Ebonroc",
+      "Flamegor"
+    ],
+    "answer": 0,
+    "fact": "Vaelastrasz, a red dragon, is corrupted by Nefarian and fights the raid while begging them to kill him quickly."
+  },
+  {
+    "id": "hk-117",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "What color are the dragonkin bred by Nefarian, combining all five flights?",
+    "options": [
+      "Chromatic",
+      "Black",
+      "Twilight",
+      "Infinite"
+    ],
+    "answer": 0,
+    "fact": "Nefarian's experiments create the chromatic dragonflight, blending the powers of all five flights."
+  },
+  {
+    "id": "hk-118",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which ancient wing of the Emerald Dream corruption sends the four Nightmare dragons into the world?",
+    "options": [
+      "The Emerald Nightmare",
+      "The Rift",
+      "The Shadowlands",
+      "The Twisting Nether"
+    ],
+    "answer": 0,
+    "fact": "The Emerald Nightmare corrupts Ysera's realm, unleashing Ysondre, Lethon, Emeriss, and Taerar."
+  },
+  {
+    "id": "hk-119",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which seasonal in-game event features the Headless Horseman and takes place in fall?",
+    "options": [
+      "Hallow's End",
+      "Winter Veil",
+      "Midsummer Fire Festival",
+      "Noblegarden"
+    ],
+    "answer": 0,
+    "fact": "Hallow's End brings tricks, treats, and (in later patches) the Headless Horseman to Azeroth."
+  },
+  {
+    "id": "hk-120",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which winter holiday event has players meet Greatfather Winter in the capitals?",
+    "options": [
+      "Feast of Winter Veil",
+      "Hallow's End",
+      "Lunar Festival",
+      "Children's Week"
+    ],
+    "answer": 0,
+    "fact": "The Feast of Winter Veil decorates Ironforge and Orgrimmar and offers holiday quests."
+  },
+  {
+    "id": "hk-121",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "The Lunar Festival event sends players to honor Elders and gather what currency?",
+    "options": [
+      "Coins of Ancestry",
+      "Burning Blossoms",
+      "Tricky Treats",
+      "Spring Flowers"
+    ],
+    "answer": 0,
+    "fact": "During the Lunar Festival players collect Coins of Ancestry from Elders across the world."
+  },
+  {
+    "id": "hk-122",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Who is the night elf Archdruid, keeper of the druids, often opposed for his zealotry in Classic quests?",
+    "options": [
+      "Fandral Staghelm",
+      "Hamuul Runetotem",
+      "Malfurion Stormrage",
+      "Broll Bearmantle"
+    ],
+    "answer": 0,
+    "fact": "Fandral Staghelm leads the Cenarion Circle in Malfurion's absence and planted Teldrassil."
+  },
+  {
+    "id": "hk-123",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which arch-druid lies sleeping in the Emerald Dream throughout Classic, absent from the world?",
+    "options": [
+      "Malfurion Stormrage",
+      "Fandral Staghelm",
+      "Hamuul Runetotem",
+      "Cenarius"
+    ],
+    "answer": 0,
+    "fact": "Malfurion Stormrage, the first mortal druid, is trapped in the Emerald Dream during the Classic era."
+  },
+  {
+    "id": "hk-124",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Cenarius, the demigod patron of druids, is the son of which wild god and Elune?",
+    "options": [
+      "Malorne",
+      "Goldrinn",
+      "Aviana",
+      "Ursoc"
+    ],
+    "answer": 0,
+    "fact": "Cenarius is born of Malorne the White Stag and the moon goddess Elune in night elf myth."
+  },
+  {
+    "id": "hk-125",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "What is the resource that warriors build and spend to use abilities?",
+    "options": [
+      "Rage",
+      "Energy",
+      "Mana",
+      "Focus"
+    ],
+    "answer": 0,
+    "fact": "Warriors generate Rage from dealing and taking damage, spending it on strikes and shouts."
+  },
+  {
+    "id": "hk-126",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which class uses Energy and combo points in Classic?",
+    "options": [
+      "Rogue",
+      "Warrior",
+      "Mage",
+      "Priest"
+    ],
+    "answer": 0,
+    "fact": "Rogues (and cat-form druids) use Energy and build combo points for finishing moves."
+  },
+  {
+    "id": "hk-127",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which hunter mechanic in Classic requires carrying ammo and managing a dead zone?",
+    "options": [
+      "Ranged attacks with bows/guns",
+      "Mana shields",
+      "Totems",
+      "Soul shards"
+    ],
+    "answer": 0,
+    "fact": "Classic hunters must buy arrows or bullets and cannot shoot targets in melee range (the dead zone)."
+  },
+  {
+    "id": "hk-128",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which resource do warlocks collect by sacrificing defeated enemies for summons and spells?",
+    "options": [
+      "Soul Shards",
+      "Mana Gems",
+      "Runes",
+      "Totems"
+    ],
+    "answer": 0,
+    "fact": "Warlocks use Drain Soul to gather Soul Shards, each occupying a bag slot in Classic."
+  },
+  {
+    "id": "hk-129",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which Dark Iron boss in Blackrock Depths is fought in a drinking-hall event, the Grim Guzzler?",
+    "options": [
+      "Plugger Spazzring",
+      "Coren Direbrew",
+      "Hurley Blackbreath",
+      "Ribbly Screwspigot"
+    ],
+    "answer": 0,
+    "fact": "The Grim Guzzler tavern in BRD features Plugger Spazzring and the bar event that can turn the whole room hostile."
+  },
+  {
+    "id": "hk-130",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "To reach the Molten Core, players traditionally use a summon from which item or NPC in BRD?",
+    "options": [
+      "Lothos Riftwaker / the raid summon stone",
+      "The Shadowforge Key alone",
+      "A warlock ritual only",
+      "The Dark Portal"
+    ],
+    "answer": 0,
+    "fact": "Lothos Riftwaker near the MC entrance in Blackrock Depths offers a teleport to the raid."
+  },
+  {
+    "id": "hk-131",
+    "category": "zones",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which spooky zone is home to Darkshire and the worgen-haunted woods?",
+    "options": [
+      "Duskwood",
+      "Silverpine Forest",
+      "Tirisfal Glades",
+      "Elwynn Forest"
+    ],
+    "answer": 0,
+    "fact": "Duskwood's town of Darkshire battles worgen, the Nightbane, and the skeletal Stitches."
+  },
+  {
+    "id": "hk-132",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which abomination terrorizes the roads of Duskwood and must be stopped before it reaches Darkshire?",
+    "options": [
+      "Stitches",
+      "Mor'Ladim",
+      "Eliza",
+      "Abercrombie"
+    ],
+    "answer": 0,
+    "fact": "Stitches, the giant abomination, lurches toward Darkshire in a famous Duskwood elite quest."
+  },
+  {
+    "id": "hk-133",
+    "category": "zones",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which arid canyon zone of towering mesas is reached from the Barrens via the Great Lift?",
+    "options": [
+      "Thousand Needles",
+      "Desolace",
+      "Tanaris",
+      "Feralas"
+    ],
+    "answer": 0,
+    "fact": "Thousand Needles is a maze of mesas and the home of the Mirage Raceway."
+  },
+  {
+    "id": "hk-134",
+    "category": "zones",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which desolate zone contains the Valley of Bones and Kodo Graveyard?",
+    "options": [
+      "Desolace",
+      "Tanaris",
+      "Silithus",
+      "Badlands"
+    ],
+    "answer": 0,
+    "fact": "Desolace is a barren zone with centaur clans and the neutral Shady Rest and Cenarion outposts."
+  },
+  {
+    "id": "hk-136",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which class can resurrect fallen players and wear plate armor in Classic (Alliance only)?",
+    "options": [
+      "Paladin",
+      "Priest",
+      "Warrior",
+      "Druid"
+    ],
+    "answer": 0,
+    "fact": "Paladins can resurrect, wear plate, and bless allies; they are Alliance-exclusive in Classic."
+  },
+  {
+    "id": "hk-137",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which paladin blessing increases a raid's attack power and is a signature buff in Classic?",
+    "options": [
+      "Blessing of Might",
+      "Blessing of Kings",
+      "Blessing of Salvation",
+      "Blessing of Wisdom"
+    ],
+    "answer": 0,
+    "fact": "Blessing of Might grants attack power; Classic paladins juggle many single-target blessings across the raid."
+  },
+  {
+    "id": "hk-138",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which shaman totem grants a burst of haste to the party, prized in Classic raids?",
+    "options": [
+      "Grace of Air / Windfury Totem",
+      "Searing Totem",
+      "Stoneskin Totem",
+      "Healing Stream Totem"
+    ],
+    "answer": 0,
+    "fact": "Windfury Totem's extra attacks make shaman invaluable to melee groups in Classic raids."
+  },
+  {
+    "id": "hk-139",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which troll tribe, led by Jin'do and Mandokir, holds the city of Zul'Gurub?",
+    "options": [
+      "The Gurubashi",
+      "The Amani",
+      "The Sandfury",
+      "The Frostmane"
+    ],
+    "answer": 0,
+    "fact": "The Gurubashi trolls of Zul'Gurub seek to resurrect their blood god Hakkar."
+  },
+  {
+    "id": "hk-140",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "The Amani troll empire is associated with which forest region bordering the Hinterlands?",
+    "options": [
+      "Quel'Thalas / the Hinterlands trolls",
+      "Stranglethorn",
+      "Zul'Farrak",
+      "Dustwallow"
+    ],
+    "answer": 0,
+    "fact": "The forest trolls of the Hinterlands and Quel'Thalas descend from the ancient Amani empire."
+  },
+  {
+    "id": "hk-141",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "What is the name of the Horde-side flight master network animal in most zones?",
+    "options": [
+      "Wyverns",
+      "Gryphons",
+      "Hippogryphs",
+      "Dragonhawks"
+    ],
+    "answer": 0,
+    "fact": "Horde players ride wyverns between flight paths, while the Alliance use gryphons."
+  },
+  {
+    "id": "hk-142",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which flying mount do Alliance flight masters use across the world?",
+    "options": [
+      "Gryphons",
+      "Wyverns",
+      "Hippogryphs",
+      "Bats"
+    ],
+    "answer": 0,
+    "fact": "Alliance flight paths use gryphons; night elves also travel by hippogryph in their lands."
+  },
+  {
+    "id": "hk-143",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which Scarlet Crusade inquisitor is famous for the line as she revives the fallen commander in SM?",
+    "options": [
+      "High Inquisitor Whitemane",
+      "Sally Whitemane the Elder",
+      "Interrogator Vishas",
+      "Confessor Paletress"
+    ],
+    "answer": 0,
+    "fact": "High Inquisitor Whitemane shouts as she resurrects Scarlet Commander Mograine in the Cathedral."
+  },
+  {
+    "id": "hk-144",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which rare world-boss-level elite roams Stranglethorn as a legendary tiger hunted for a quest?",
+    "options": [
+      "King Bangalash",
+      "Sin'Dall",
+      "Bloodlord Mandokir",
+      "Tethis"
+    ],
+    "answer": 0,
+    "fact": "King Bangalash is the great jungle tiger in Hemet Nesingwary's Stranglethorn hunting questline."
+  },
+  {
+    "id": "hk-145",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Hemet Nesingwary, the famous big-game hunter, runs his safari camp in which zone?",
+    "options": [
+      "Stranglethorn Vale",
+      "Un'Goro Crater",
+      "Feralas",
+      "Nagrand"
+    ],
+    "answer": 0,
+    "fact": "Hemet Nesingwary's camp in Stranglethorn Vale tasks players with culling panthers, tigers, and raptors."
+  },
+  {
+    "id": "hk-146",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which capital city is built into the side of a snowy mountain and houses the Great Forge?",
+    "options": [
+      "Ironforge",
+      "Stormwind",
+      "Orgrimmar",
+      "Undercity"
+    ],
+    "answer": 0,
+    "fact": "Ironforge is carved into Dun Morogh's Khaz Modan mountains, centered on the Great Forge."
+  },
+  {
+    "id": "hk-147",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "The Deeprun Tram connects Ironforge to which other Alliance city?",
+    "options": [
+      "Stormwind",
+      "Darnassus",
+      "Exodar",
+      "Theramore"
+    ],
+    "answer": 0,
+    "fact": "The Deeprun Tram is a subway beneath the sea linking Ironforge and Stormwind."
+  },
+  {
+    "id": "hk-149",
+    "category": "forever",
+    "version": "forever",
+    "difficulty": "easy",
+    "question": "What type of game is World of Warcraft: Forever?",
+    "options": [
+      "An official Blizzard Classic+ experience",
+      "A third-party private server",
+      "A mobile spinoff",
+      "A card game"
+    ],
+    "answer": 0,
+    "fact": "Forever is Blizzard's official Classic+ project, expanding the vanilla world with new content."
+  },
+  {
+    "id": "hk-150",
+    "category": "forever",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Forever builds upon which era of World of Warcraft as its foundation?",
+    "options": [
+      "Classic (vanilla)",
+      "The Burning Crusade",
+      "Wrath of the Lich King",
+      "Dragonflight"
+    ],
+    "answer": 0,
+    "fact": "Forever uses the original Classic world of Azeroth as its base, in the spirit of a 'Classic+'."
+  },
+  {
+    "id": "hk-151",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which reagent, dropped by elementals, is used in high-end fire-resistance crafting for Molten Core?",
+    "options": [
+      "Core Leather / Fiery Core and Lava Core",
+      "Essence of Water",
+      "Breath of Wind",
+      "Heart of Fire"
+    ],
+    "answer": 0,
+    "fact": "Fiery Cores and Lava Cores from Molten Core bosses craft fire-resist gear needed for Ragnaros."
+  },
+  {
+    "id": "hk-152",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which city is the main capital of the human kingdom of Stormwind?",
+    "options": [
+      "Stormwind City",
+      "Lordaeron",
+      "Theramore",
+      "Dalaran"
+    ],
+    "answer": 0,
+    "fact": "Stormwind City, with its Cathedral of Light and Trade District, anchors the Alliance in the Eastern Kingdoms."
+  },
+  {
+    "id": "hk-153",
+    "category": "items",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which amulet is the attunement required to enter Onyxia's Lair?",
+    "options": [
+      "Drakefire Amulet",
+      "Seal of Ascension",
+      "Amulet of the Fallen God",
+      "Mark of Tyranny"
+    ],
+    "answer": 0,
+    "fact": "Both factions complete a long quest chain to earn the Drakefire Amulet, the key into Onyxia's Lair."
+  },
+  {
+    "id": "hk-154",
+    "category": "items",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which 18-slot herb bag or soul bag can hold only specific items in Classic?",
+    "options": [
+      "Soul bags hold shards; herb bags hold herbs",
+      "All bags hold anything",
+      "Only quivers are restricted",
+      "Only mining bags exist"
+    ],
+    "answer": 0,
+    "fact": "Specialty bags like soul bags, herb bags, and enchanting bags only carry their matching item type but offer more slots."
+  },
+  {
+    "id": "hk-155",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Hunters and rogues can carry which special container to increase attack speed with ranged or hold ammo?",
+    "options": [
+      "Quivers and ammo pouches",
+      "Soul bags",
+      "Herb bags",
+      "Enchanting bags"
+    ],
+    "answer": 0,
+    "fact": "Quivers (bows) and ammo pouches (guns) hold ammunition and give hunters a ranged attack-speed bonus in Classic."
+  },
+  {
+    "id": "hk-156",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Which Old-God-touched zone in Classic is slowly consumed by the silithid hive and sandstorms?",
+    "options": [
+      "Silithus",
+      "Tanaris",
+      "Desolace",
+      "Durotar"
+    ],
+    "answer": 0,
+    "fact": "Silithus, scarred by the War of the Shifting Sands, swarms with silithid and Twilight's Hammer cultists."
+  },
+  {
+    "id": "hk-157",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "The Twilight's Hammer cult in Classic worships which kind of beings?",
+    "options": [
+      "The Old Gods",
+      "The Burning Legion",
+      "The Lich King",
+      "The titans"
+    ],
+    "answer": 0,
+    "fact": "The Twilight's Hammer seeks to end the world in service to the imprisoned Old Gods, active in Silithus."
+  },
+  {
+    "id": "hk-158",
+    "category": "general",
+    "version": "forever",
+    "difficulty": "medium",
+    "question": "Which profession in Classic is used to make bags, robes, and spellthread from cloth?",
+    "options": [
+      "Tailoring",
+      "Leatherworking",
+      "Blacksmithing",
+      "Engineering"
+    ],
+    "answer": 0,
+    "fact": "Tailoring turns cloth into bags and cloth armor, including the powerful Bloodvine and Mooncloth sets."
+  },
+  {
+    "id": "hk-160",
+    "category": "lore",
+    "version": "forever",
+    "difficulty": "hard",
+    "question": "Chromie, the friendly bronze dragon, usually takes the form of which race?",
+    "options": [
+      "A gnome",
+      "A human",
+      "A dwarf",
+      "A goblin"
+    ],
+    "answer": 0,
+    "fact": "Chromie, full name Chronormu, famously appears as a cheerful gnome throughout Azeroth."
   }
 ]
