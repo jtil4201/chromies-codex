@@ -29,6 +29,7 @@ interface RoundScore {
 interface RoundOptions {
   category?: Category;
   version?: Version;
+  count?: number;
   intro?: string;
   pingRoleId?: string;
 }
@@ -217,7 +218,8 @@ export async function runRound(channel: GuildTextBasedChannel, guildId: string, 
       await delay(2500);
     }
 
-    const questions = randomQuestions(config.questionsPerRound, opts.category, opts.version);
+    const total = Math.min(10, Math.max(1, opts.count ?? config.questionsPerRound));
+    const questions = randomQuestions(total, opts.category, opts.version);
     const round = new Map<string, RoundScore>();
     const flags = { speedBonus: settings.speedBonus, streaks: settings.streaks };
     for (let i = 0; i < questions.length; i++) {
@@ -232,7 +234,7 @@ export async function runRound(channel: GuildTextBasedChannel, guildId: string, 
   }
 }
 
-export async function startTrivia(interaction: ChatInputCommandInteraction, category?: Category, version?: Version): Promise<void> {
+export async function startTrivia(interaction: ChatInputCommandInteraction, category?: Category, version?: Version, count?: number): Promise<void> {
   const channel = interaction.channel;
   if (!interaction.guildId || !channel || !channel.isTextBased() || channel.isDMBased()) {
     await interaction.reply({ content: 'Chromie only runs trivia inside a server channel.', flags: MessageFlags.Ephemeral });
@@ -242,6 +244,7 @@ export async function startTrivia(interaction: ChatInputCommandInteraction, cate
     await interaction.reply({ content: 'A round is already running in this channel. Finish that one first.', flags: MessageFlags.Ephemeral });
     return;
   }
-  await interaction.reply({ content: `Starting a ${config.questionsPerRound}-question round — good luck!`, flags: MessageFlags.Ephemeral });
-  await runRound(channel as GuildTextBasedChannel, interaction.guildId, { category, version });
+  const roundSize = Math.min(10, Math.max(1, count ?? config.questionsPerRound));
+  await interaction.reply({ content: `Starting a ${roundSize}-question round — good luck!`, flags: MessageFlags.Ephemeral });
+  await runRound(channel as GuildTextBasedChannel, interaction.guildId, { category, version, count });
 }

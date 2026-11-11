@@ -28,6 +28,12 @@ export const commands = [
         .setName('category')
         .setDescription('Pick a category, or leave it to chance')
         .addChoices(...categories.map((c) => ({ name: c, value: c }))),
+    )
+    .addIntegerOption((option) =>
+      option
+        .setName('count')
+        .setDescription('How many questions this round (default 5)')
+        .addChoices({ name: '1', value: 1 }, { name: '5', value: 5 }, { name: '10', value: 10 }),
     ),
   new SlashCommandBuilder()
     .setName('leaderboard')
@@ -65,7 +71,8 @@ export async function handleCommand(interaction: ChatInputCommandInteraction): P
   if (interaction.commandName === 'trivia') {
     const category = (interaction.options.getString('category') as Category | null) ?? undefined;
     const version = (interaction.options.getString('version') as Version | null) ?? undefined;
-    await startTrivia(interaction, category, version);
+    const count = interaction.options.getInteger('count') ?? undefined;
+    await startTrivia(interaction, category, version, count);
     return;
   }
 

@@ -9,6 +9,7 @@ The question bank ships with 4,400+ questions. Most are generated straight from 
 - `/trivia` runs a round of questions (5 by default), one at a time. Options:
   - `version` picks a WoW version. Only versions that have questions show up, so the list grows on its own as content is added.
   - `category` narrows to lore, quests, zones, items, general, or forever.
+  - `count` sets how many questions this round: 1, 5, or 10 (defaults to 5).
 - `/leaderboard` shows this season's top players and the all-time top players.
 - `/stats [player]` shows a player's points, rank, and accuracy for all-time and the current season.
 - `/codex` shows a short about message with the current question count.
