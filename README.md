@@ -4,6 +4,16 @@ A WoW Forever trivia bot for Discord. Chromie runs rounds of multiple-choice que
 
 The question bank ships with 4,400+ questions. Most are generated straight from the Forever game database (quote the quest text, name the quest; or name the NPC who gives a quest), alongside a hand-curated set of lore and hard-knowledge questions covering Warcraft history, factions and leaders, cities and zones, dungeons and raid bosses, world bosses, legendary items, and class and race lore.
 
+## Don't want to use the public bot? Run your own
+
+Chromie is open source under the MIT license, so you are free to host your own copy with your own name, branding, and separate leaderboards:
+
+1. Clone this repo.
+2. Create your own Discord application and bot, then copy its token and client id.
+3. Follow the Setup and run steps below (local with `npm run dev`, or Docker).
+
+Your instance is completely separate from everyone else's and keeps its own scores. You can also lift just the question bank (`data/questions.json`) or the round and scoring code into an existing bot of your own, the MIT license only asks that you keep the copyright notice.
+
 ## Commands
 
 - `/trivia` runs a round of questions (5 by default), one at a time. Options:
@@ -109,3 +119,7 @@ Questions live in `data/questions.json`. Each entry looks like:
 ```
 
 `answer` is the zero based index of the correct option. `version` is optional and defaults to `forever`. Add as many as you like and rebuild.
+
+## License
+
+MIT. See [LICENSE](LICENSE). Use it, modify it, build it into your own bot, just keep the copyright notice.
